@@ -1,0 +1,75 @@
+PRE ISO
+
+    *EXTRAP*
+    │ 2 < pT < 5 │ SF: 0.9627 ± 0.0123
+    │ 5 < pT < 7 │ SF: 0.9666 ± 0.0123
+
+    *FLAT EXTRAP*
+    │ 2 < pT < 5 │ SF: 0.9895 ± 0.0073
+    │ 5 < pT < 7 │ SF: 0.9892 ± 0.0073
+
+    │ 10 < pT < 15 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9265 ± 0.0079 │ MC: 0.9384 ± 0.0031 │ SF: 0.98739 ± 0.00904
+    │ 15 < pT < 20 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9138 ± 0.0047 │ MC: 0.9319 ± 0.0019 │ SF: 0.98053 ± 0.00549
+    │ 20 < pT < 25 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9205 ± 0.0029 │ MC: 0.9293 ± 0.0017 │ SF: 0.99055 ± 0.00364
+    │ 25 < pT < 30 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9174 ± 0.0022 │ MC: 0.9357 ± 0.0017 │ SF: 0.98046 ± 0.00298
+    │ 30 < pT < 35 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9261 ± 0.0017 │ MC: 0.9442 ± 0.0008 │ SF: 0.98075 ± 0.00195
+    │ 35 < pT < 40 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9371 ± 0.0011 │ MC: 0.9469 ± 0.0006 │ SF: 0.98968 ± 0.00134
+    │ 40 < pT < 45 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9428 ± 0.0009 │ MC: 0.9546 ± 0.0004 │ SF: 0.98765 ± 0.00104
+    │ 45 < pT < 50 │     DATA: DATA_2022_ISO_pre_bar2 fit passed │     MC: MC_2022_ISO_pre_bar2 fit passed │ DATA: 0.9384 ± 0.0009 │ MC: 0.9563 ± 0.0005 │ SF: 0.98137 ± 0.00111
+
+POST ISO
+  
+    *EXTRAP*
+    │ 2 < pT < 5 │ SF: 0.9856 ± 0.0075
+    │ 5 < pT < 7 │ SF: 0.9859 ± 0.0075
+
+    *FLAT EXTRAP*
+    │ 2 < pT < 5 │ SF: 0.9904 ± 0.0052
+    │ 5 < pT < 7 │ SF: 0.9900 ± 0.0052
+
+    │ 10 < pT < 15 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9284 ± 0.0058 │ MC: 0.9340 ± 0.0036 │ SF: 0.99397 ± 0.00729
+    │ 15 < pT < 20 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9161 ± 0.0039 │ MC: 0.9256 ± 0.0022 │ SF: 0.98982 ± 0.00481
+    │ 20 < pT < 25 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9091 ± 0.0029 │ MC: 0.9291 ± 0.0016 │ SF: 0.97847 ± 0.00352
+    │ 25 < pT < 30 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9209 ± 0.0020 │ MC: 0.9345 ± 0.0013 │ SF: 0.98546 ± 0.00252
+    │ 30 < pT < 35 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9308 ± 0.0012 │ MC: 0.9439 ± 0.0009 │ SF: 0.98610 ± 0.00164
+    │ 35 < pT < 40 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9309 ± 0.0008 │ MC: 0.9445 ± 0.0006 │ SF: 0.98559 ± 0.00106
+    │ 40 < pT < 45 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9391 ± 0.0006 │ MC: 0.9556 ± 0.0005 │ SF: 0.98267 ± 0.00086
+    │ 45 < pT < 50 │    DATA: DATA_2022_ISO_post_bar2 fit passed │    MC: MC_2022_ISO_post_bar2 fit passed │ DATA: 0.9398 ± 0.0009 │ MC: 0.9567 ± 0.0007 │ SF: 0.98228 ± 0.00118
+
+PRE PROMPT
+  
+    *EXTRAP*
+    │ 2 < pT < 5 │ SF: 1.0544 ± 0.0156
+    │ 5 < pT < 7 │ SF: 1.0511 ± 0.0156
+
+    *FLAT EXTRAP*
+    │ 2 < pT < 5 │ SF: 1.0394 ± 0.0085
+    │ 5 < pT < 7 │ SF: 1.0386 ± 0.0085
+
+    │ 10 < pT < 15 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9732 ± 0.0069 │ MC: 0.9470 ± 0.0040 │ SF: 1.02771 ± 0.00849
+    │ 15 < pT < 20 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9739 ± 0.0028 │ MC: 0.9350 ± 0.0019 │ SF: 1.04168 ± 0.00363
+    │ 20 < pT < 25 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9662 ± 0.0000 │ MC: 0.9345 ± 0.0014 │ SF: 1.03398 ± 0.00160
+    │ 25 < pT < 30 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9623 ± 0.0015 │ MC: 0.9325 ± 0.0010 │ SF: 1.03198 ± 0.00196
+    │ 30 < pT < 35 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9591 ± 0.0010 │ MC: 0.9332 ± 0.0008 │ SF: 1.02769 ± 0.00137
+    │ 35 < pT < 40 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9587 ± 0.0007 │ MC: 0.9332 ± 0.0005 │ SF: 1.02731 ± 0.00096
+    │ 40 < pT < 45 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9561 ± 0.0006 │ MC: 0.9330 ± 0.0000 │ SF: 1.02485 ± 0.00067
+    │ 45 < pT < 50 │  DATA: DATA_2022_PROMPT_pre_bar2 fit passed │  MC: MC_2022_PROMPT_pre_bar2 fit passed │ DATA: 0.9557 ± 0.0008 │ MC: 0.9311 ± 0.0005 │ SF: 1.02647 ± 0.00102
+
+POST PROMPT
+  
+    *EXTRAP*
+    │ 2 < pT < 5 │ SF: 1.0272 ± 0.0106
+    │ 5 < pT < 7 │ SF: 1.0250 ± 0.0106
+
+    *FLAT EXTRAP*
+    │ 2 < pT < 5 │ SF: 1.0155 ± 0.0107
+    │ 5 < pT < 7 │ SF: 1.0151 ± 0.0107
+
+    │ 10 < pT < 15 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9552 ± 0.0046 │ MC: 0.9464 ± 0.0042 │ SF: 1.00935 ± 0.00654
+    │ 15 < pT < 20 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9581 ± 0.0035 │ MC: 0.9358 ± 0.0023 │ SF: 1.02381 ± 0.00454
+    │ 20 < pT < 25 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9472 ± 0.0024 │ MC: 0.9345 ± 0.0019 │ SF: 1.01368 ± 0.00329
+    │ 25 < pT < 30 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9458 ± 0.0019 │ MC: 0.9373 ± 0.0013 │ SF: 1.00907 ± 0.00244
+    │ 30 < pT < 35 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9434 ± 0.0009 │ MC: 0.9323 ± 0.0007 │ SF: 1.01194 ± 0.00124
+    │ 35 < pT < 40 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9426 ± 0.0008 │ MC: 0.9350 ± 0.0006 │ SF: 1.00817 ± 0.00102
+    │ 40 < pT < 45 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9420 ± 0.0006 │ MC: 0.9341 ± 0.0005 │ SF: 1.00849 ± 0.00082
+    │ 45 < pT < 50 │ DATA: DATA_2022_PROMPT_post_bar2 fit passed │ MC: MC_2022_PROMPT_post_bar2 fit passed │ DATA: 0.9405 ± 0.0009 │ MC: 0.9315 ± 0.0007 │ SF: 1.00971 ± 0.00118
