@@ -1,0 +1,34 @@
+{
+  "info_level": "INFO_2",
+  "mass": "Z_muon",
+  "input": {
+    "root_files_DATA": {
+        "DATA_muon_18_ID": "MUONS/FINAL_AN_Z/Run2018_UL/Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
+    },
+    "root_files_MC": {         
+        "MC_muon_18_ID": "MUONS/FINAL_AN_Z/Run2018_UL/DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
+          }                                      
+  },                       
+  "fit": {
+      "bin": ["bin2"],
+      "bin_ranges": [[3,6],[6,10],[10,20],[20,45],[45,500]],
+      "fit_type": "dcb_cms",
+      "use_cdf": false,
+      "sigmoid_eff": false, 
+      "interactive": true,
+      "x_min": 60,
+      "x_max": 140,
+      "abseta": 4,
+      "numerator": "GoldID",
+      "denominator": "baselineplus",
+      "separate_signal_shape": false
+    },
+  "output": {
+    "plot_dir": "MUONS/FINAL_Z_output_lowpt/Run2018_ID",
+    "fourplot": "4plot_eta4",
+    "results_file": ""             
+  },
+  "scale_factors": {
+      "data_mc_pair": {}
+  }
+}
