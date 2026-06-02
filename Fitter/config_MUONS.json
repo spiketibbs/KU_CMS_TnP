@@ -3,10 +3,10 @@
   "mass": "Z_muon",
   "input": {
     "root_files_DATA": {
-        "DATA_muon_18_ID": "MUONS/FINAL_AN_Z/Run2018_UL/Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
+        "DATA_muon_18_ID": "NUM_GoldID_DEN_baselineplus_abseta_pt.root"
     },
     "root_files_MC": {         
-        "MC_muon_18_ID": "MUONS/FINAL_AN_Z/Run2018_UL/DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
+        "MC_muon_18_ID": "NUM_GoldID_DEN_baselineplus_abseta_pt.root"
           }                                      
   },                       
   "fit": {
