@@ -3,10 +3,10 @@
   "mass": "Z_muon",
   "input": {
     "root_files_DATA": {
-        "DATA_muon_18_ID": "DATA/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
+        "DATA_muon_18_ID": "Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
     },
     "root_files_MC": {         
-        "MC_muon_18_ID": "MC/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
+        "MC_muon_18_ID": "DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root"
           }                                      
   },                       
   "fit": {
@@ -24,7 +24,7 @@
       "separate_signal_shape": false
     },
   "output": {
-    "plot_dir": "MUONS/FINAL_Z_output_lowpt/Run2018_ID",
+    "plot_dir": "Test/",
     "fourplot": "4plot_eta4",
     "results_file": ""             
   },
