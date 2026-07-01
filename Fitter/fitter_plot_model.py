@@ -29,7 +29,6 @@ root_files_DATA = config["input"].get("root_files_DATA", {})
 root_files_MC = config["input"].get("root_files_MC", {})
 bin_ranges = config["fit"].get("bin_ranges", [])
 separate_signal_shape = config["fit"].get("separate_signal_shape", False)
-fourplot = config["output"].get("fourplot", "4plot")
 
 # Setup stuff
 def get_bin_info(mass):
@@ -40,7 +39,7 @@ def get_bin_info(mass):
         }
     elif mass == "Z_muon":
         return {
-            f"bin{i + 1}": (f"pt_{lo}p00To{hi}p00", f"{lo:.2f}-{hi:.2f}")
+            f"bin{i}": (f"pt_{lo}p00To{hi}p00", f"{lo:.2f}-{hi:.2f}")
             for i, (lo, hi) in enumerate(bin_ranges)
         }
     elif mass == "JPsi":
@@ -49,7 +48,7 @@ def get_bin_info(mass):
         }
     elif mass == "JPsi_muon":
         return {
-            f"bin{i + 1}": (f"pt_{lo}p00To{hi}p00", f"{lo:.2f}-{hi:.2f}")
+            f"bin{i}": (f"pt_{lo}p00To{hi}p00", f"{lo:.2f}-{hi:.2f}")
             for i, (lo, hi) in enumerate(bin_ranges)
         }
 
@@ -433,7 +432,12 @@ def plot_combined_fit(results, plot_dir=".", data_type="DATA", fixed_params=None
     ax_pass.plot(x, signal_pass, "g--", label=f"Signal ({signal_model_name})")
     ax_pass.plot(x, bg_pass, "r--", label=f"Background ({background_model_name})")
 
-    ax_pass.set_xlabel("$m_{ee}$ [GeV]", fontsize=30)
+    # ax_pass.set_xlabel("$m_{ee}$ [GeV]", fontsize=30)
+    if mass in ["Z", "JPsi"]:
+        ax_pass.set_xlabel("$m_{ee}$ [GeV]", fontsize=30)
+    else:
+        ax_pass.set_xlabel("$m_{\mu\mu}$ [GeV]", fontsize=30)
+
     ax_pass.set_ylabel("Events / GeV", fontsize=30)
     bin_suffix, bin_range = BINS_INFO[results["bin"]]
     ax_pass.set_title(f"{data_type.replace('_', ' ')}: {bin_range} GeV (Pass)", pad=10)
@@ -508,7 +512,10 @@ def plot_combined_fit(results, plot_dir=".", data_type="DATA", fixed_params=None
     ax_fail.plot(x, signal_fail, "purple", linestyle="--", label=f"Signal ({signal_model_name})")
     ax_fail.plot(x, bg_fail, "r--", label=f"Background ({background_model_name})")
 
-    ax_fail.set_xlabel("$m_{ee}$ [GeV]", fontsize=30)
+    if mass == "Z" or mass == "JPsi":
+        ax_fail.set_xlabel("$m_{ee}$ [GeV]", fontsize=30)
+    else:
+        ax_fail.set_xlabel("$m_{\mu\mu}$ [GeV]", fontsize=30)
     ax_fail.set_ylabel("Events / GeV", fontsize=30)
     bin_suffix, bin_range = BINS_INFO[results["bin"]]
     ax_fail.set_title(f"{data_type.replace('_', ' ')}: {bin_range} GeV (Fail)", pad=10)
@@ -561,7 +568,7 @@ def plot_combined_fit(results, plot_dir=".", data_type="DATA", fixed_params=None
 
     return fig_pass, fig_fail
 
-def save_fits_and_plots(bin_label, eff_data, eff_data_err, eff_mc, eff_mc_err, data_key, mc_key, outdir="plots", pair_index=None):
+def save_fits_and_plots(bin_label, eff_data, eff_data_err, eff_mc, eff_mc_err, data_key, mc_key, outdir="plots", abseta=1, pair_index=None, mass="Z", year="unknown", numerator="unknown"):
     """
     Build a 4-panel summary using existing saved plots.
     Displays:
@@ -573,13 +580,25 @@ def save_fits_and_plots(bin_label, eff_data, eff_data_err, eff_mc, eff_mc_err, d
     import matplotlib.image as mpimg
     from pathlib import Path
 
+    # Map abseta to barrel naming for 4plot filenames
+    abseta_to_barrel = {
+        1: "bar1",
+        2: "bar2",
+        3: "end",
+        4: "end2"
+    }
+    barrel_name = abseta_to_barrel.get(abseta, f"bar{abseta}")
+
     outdir = Path(outdir)
 
+    outdir_4plot = outdir / "4plot"
+    outdir_4plot.mkdir(parents=True, exist_ok=True)
+
     # Paths to individual plots
-    data_pass_path = outdir / "DATA" / bin_label / f"{data_key}_Pass.png"
-    data_fail_path = outdir / "DATA" / bin_label / f"{data_key}_Fail.png"
-    mc_pass_path   = outdir / "MC"   / bin_label / f"{mc_key}_Pass.png"
-    mc_fail_path   = outdir / "MC"   / bin_label / f"{mc_key}_Fail.png"
+    data_pass_path = outdir / "DATA" / bin_label / barrel_name / f"{data_key}_Pass.png"
+    data_fail_path = outdir / "DATA" / bin_label / barrel_name / f"{data_key}_Fail.png"
+    mc_pass_path   = outdir / "MC"   / bin_label / barrel_name / f"{mc_key}_Pass.png"
+    mc_fail_path   = outdir / "MC"   / bin_label / barrel_name / f"{mc_key}_Fail.png"
 
     # Scale factor and its propagated error
     if eff_mc > 0:
@@ -634,14 +653,13 @@ def save_fits_and_plots(bin_label, eff_data, eff_data_err, eff_mc, eff_mc_err, d
     )
 
     plt.tight_layout()
-    # Ensure output directory exists
-    outdir_4plot = outdir / f"{fourplot}"
-    outdir_4plot.mkdir(parents=True, exist_ok=True)
-    
+
+    # Generate filename: {numerator}_{year}_{bin}_{barrel}
     if pair_index is not None:
-        outname = outdir_4plot / f"{bin_label}_pair_{pair_index}_{data_key}_{mc_key}_4plot.png"
+        outname = outdir_4plot / f"{numerator}_{year}_{bin_label}_{barrel_name}_pair_{pair_index}.png"
     else:
-        outname = outdir_4plot / f"{bin_label}_{data_key}_{mc_key}_4plot.png"
+        outname = outdir_4plot / f"{numerator}_{year}_{bin_label}_{barrel_name}.png"
         
     plt.savefig(outname, dpi=300, bbox_inches="tight")
     plt.close(fig)
+
