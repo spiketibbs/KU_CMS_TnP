@@ -50,6 +50,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 import sys
 import numpy as np
@@ -71,6 +72,7 @@ from fit_function import fit_function, logging, print_efficiency_summary, Custom
 from fitter_plot_model import load_histogram, plot_combined_fit, fig_to_array, BINS_INFO, save_fits_and_plots
 
 import warnings
+import pandas as pd
 
 # Suppress specific Minuit warnings about fixed parameters
 warnings.filterwarnings("ignore", message="Cannot scan over fixed parameter")
@@ -85,6 +87,22 @@ COLOR_HIGHLIGHT = "#FFB703"
 COLOR_WARNING = "#F77F00"
 COLOR_BG_DARK = "#0D1117"
 
+
+def _coerce_excel_value(value):
+    if isinstance(value, str):
+        stripped = value.strip()
+        if not stripped:
+            return value
+        try:
+            return int(stripped)
+        except ValueError:
+            try:
+                return float(stripped)
+            except ValueError:
+                return value
+    return value
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", required=True, help="Path to JSON config file")
@@ -97,6 +115,36 @@ def main():
     root_files_DATA = config["input"].get("root_files_DATA", {})
     root_files_MC = config["input"].get("root_files_MC", {})
     separate_signal_shape = config["fit"].get("separate_signal_shape", False)
+
+    # Infer year from DATA file paths, or let config override it explicitly.
+    def normalize_year(year_value):
+        if year_value is None:
+            return None
+        y = str(year_value).strip()
+        if y.isdigit() and len(y) == 4:
+            return y[-2:]
+        if y.isdigit() and len(y) == 2:
+            return y
+        return y
+
+    def infer_year(root_files):
+        for path in root_files.values():
+            p = str(path).lower()
+            if "run2016" in p or "2016" in p:
+                return "16"
+            if "run2017" in p or "2017" in p:
+                return "17"
+            if "run2018" in p or "2018" in p:
+                return "18"
+            if "run2022" in p or "2022" in p:
+                return "22"
+            if "run2023" in p or "2023" in p:
+                return "23"
+            if "run2024" in p or "2024" in p:
+                return "24"
+        return "unknown"
+
+    year = normalize_year(config["fit"].get("year")) or infer_year(root_files_DATA)
 
     fit_type = config["fit"]["fit_type"]
     use_cdf = config["fit"].get("use_cdf", False)
@@ -123,6 +171,7 @@ def main():
     output_texts_mc = defaultdict(list)
     all_pt_bins = []
     console = Console()
+
 
     bins_progress = Progress(
         TextColumn("[bold magenta]{task.description}"),
@@ -184,7 +233,7 @@ def main():
                     hist_fail_name = f"{pt}_{bin_suffix}_Fail"
                 else:
                     abseta = config["fit"].get("abseta", 1)
-                    pt_hist = int(pt.split("bin")[1])
+                    pt_hist = int(pt.split("bin")[1]) + 1  # bin0->1, bin1->2, etc to match ROOT file naming
                     num = config["fit"].get("numerator", "gold")
                     den = config["fit"].get("denominator", "baselineplus")
                     hist_pass_name = f"NUM_{num}_DEN_{den}_abseta_{abseta}_pt_{pt_hist}_Pass"
@@ -197,89 +246,77 @@ def main():
 
             data_items = list(root_files_DATA.items())
             mc_items = list(root_files_MC.items())
-
-            # Pad shorter list with (None, None)
-            max_len = max(len(data_items), len(mc_items))
-            data_items += [(None, None)] * (max_len - len(data_items))
-            mc_items += [(None, None)] * (max_len - len(mc_items))
+            if len(mc_items) > 1:
+                mc_items = mc_items[:1]
 
             data_eff_all = {}
             data_err_all = {}
             mc_eff_all = {}
             mc_err_all = {}
 
-            for i in range(max_len):
-                data_key, data_path = data_items[i]
-                mc_key, mc_path = mc_items[i]
+            # Initialize data variables
+            data_fit_results = None
+            data_eff = None
+            data_err = None
+            data_key = None
+            style_data = "white"
 
-                # Defaults
-                data_eff, data_err = None, None
-                mc_eff, mc_err = None, None
-                data_msg = None
-                mc_msg = None
+            # Fit DATA once (assuming single data file)
+            data_fit_results = None
+            if has_data and len(data_items) == 1:
+                data_key, data_path = data_items[0]
+                sub_progress.update(task_data, description=f"    [cyan]DATA ({pt}): [yellow]{data_key}")
 
-                # ---- Process DATA ----
-                if data_key is not None and has_data:
-                    sub_progress.update(task_data, description=f"    [cyan]DATA ({pt}): [yellow]{data_key}")
+                with uproot.open(data_path) as f:
+                    h_pass = load_histogram(f, hist_pass_name, "DATA")
+                    h_fail = load_histogram(f, hist_fail_name, "DATA")
 
-                    with uproot.open(data_path) as f:
-                        h_pass = load_histogram(f, hist_pass_name, "DATA")
-                        h_fail = load_histogram(f, hist_fail_name, "DATA")
+                data_fit_results = fit_function(fit_type, h_pass, h_fail, use_cdf=use_cdf, args_bin=pt, args_data="DATA", args_mass=mass,
+                    sigmoid_eff=sigmoid_eff, interactive=interactive, x_min=x_min, x_max=x_max, 
+                    data_name=data_key, mc_name=None, separate_signal_shape=separate_signal_shape)
 
-                    res_data = fit_function(fit_type, h_pass, h_fail, use_cdf=use_cdf, args_bin=pt, args_data="DATA", args_mass=mass,
-                        sigmoid_eff=sigmoid_eff, interactive=interactive, x_min=x_min, x_max=x_max, 
-                        data_name=data_key, mc_name=None, separate_signal_shape=separate_signal_shape)
+                data_fit_results['data_key'] = data_key
+                data_fit_results['data_type'] = 'DATA'
 
-                    res_data['data_key'] = data_key
-                    res_data['data_type'] = 'DATA'
+                data_eff_dict[data_key] = data_fit_results["popt"]["epsilon"]
+                data_err_dict[data_key] = data_fit_results["perr"]["epsilon"]
 
-                    data_eff_dict[data_key] = res_data["popt"]["epsilon"]
-                    data_err_dict[data_key] = res_data["perr"]["epsilon"]
+                plot_path = Path(config["output"]["plot_dir"]) / "DATA" / pt
+                plot_path.mkdir(parents=True, exist_ok=True)
 
-                    if data_key and data_eff is not None:
-                        data_eff_all[data_key] = data_eff
-                        data_err_all[data_key] = data_err
-
-                    plot_path = Path(config["output"]["plot_dir"]) / "DATA" / pt
+                if config["output"].get("plot_dir"):
+                    abseta = config["fit"].get("abseta", 1)
+                    barrel_name = {1: "bar1", 2: "bar2", 3: "end", 4: "end2"}.get(abseta, f"bar{abseta}")
+                    plot_path = Path(config["output"]["plot_dir"]) / "DATA" / pt / barrel_name
                     plot_path.mkdir(parents=True, exist_ok=True)
+                    fig_pass, fig_fail = plot_combined_fit(data_fit_results, plot_path, data_type="DATA", sigmoid_eff=sigmoid_eff, 
+                                                           args_mass=mass, separate_signal_shape=separate_signal_shape)
+                    fig_pass.savefig(plot_path / f"{data_key}_Pass.png", bbox_inches="tight", dpi=300)
+                    fig_fail.savefig(plot_path / f"{data_key}_Fail.png", bbox_inches="tight", dpi=300)
+                    plt.close(fig_pass)
+                    plt.close(fig_fail)
+                    plt.close('all')
 
-                    if config["output"].get("plot_dir"):
-                        fig_pass, fig_fail = plot_combined_fit(res_data, plot_path, data_type="DATA", sigmoid_eff=sigmoid_eff, 
-                                                               args_mass=mass, separate_signal_shape=separate_signal_shape)
-                        fig_pass.savefig(plot_path / f"{data_key}_Pass.png", bbox_inches="tight", dpi=300)
-                        fig_fail.savefig(plot_path / f"{data_key}_Fail.png", bbox_inches="tight", dpi=300)
-                        plt.close(fig_pass)
-                        plt.close(fig_fail)
-                        plt.close('all')
+                output_tables_data[pt].append(data_fit_results.get("sum_table", ""))
+                output_progs_data[pt].append(data_fit_results.get("sum_prog", ""))
+                output_texts_data[pt].append(data_fit_results.get("sum_text", ""))
 
-                    output_tables_data[pt].append(res_data.get("sum_table", ""))
-                    output_progs_data[pt].append(res_data.get("sum_prog", ""))
-                    output_texts_data[pt].append(res_data.get("sum_text", ""))
+                all_results.append(data_fit_results)
 
-                    all_results.append(res_data)
+                eps, err = data_fit_results["popt"]["epsilon"], data_fit_results["perr"]["epsilon"]
+                data_eff, data_err = eps, err
+                data_msg = f"{data_key} fit {'passed' if data_fit_results['message'].is_valid else 'failed'}"
+                data_msg_parts.append(data_msg)
+                
+                style_data = "green" if data_fit_results["message"].is_valid else "red"
+                sub_progress.update(task_data, advance=1, style=style_data)
+                bins_progress.update(task_bins, advance=1)
 
-                    eps, err = res_data["popt"]["epsilon"], res_data["perr"]["epsilon"]
-                    data_eff, data_err = eps, err
-                    if data_key is not None:
-                        data_msg = f"{data_key} fit {'passed' if res_data['message'].is_valid else 'failed'}"
-                    else:
-                        data_msg = f"DATA N/A"
+                data_eff_list.append(data_eff)
+                data_err_list.append(data_err)
 
-                    if data_msg:
-                        data_msg_parts.append(data_msg)
-                    else:
-                        data_msg_parts.append("N/A")
-                    
-                    style_data = "green" if res_data["message"].is_valid else "red"
-                    sub_progress.update(task_data, advance=1, style="green" if res_data["message"].is_valid else "red")
-                    bins_progress.update(task_bins, advance=1)  # <-- update main bin progress
-
-                elif has_data:
-                    # No data file for this index, still advance progress bar
-                    sub_progress.update(task_data, advance=1, completed=i+1)
-                    bins_progress.update(task_bins, advance=1)  # <-- update main bin progress
-
-                # ---- Process MC ----
+            # Process each MC file and create combined plots with the data fit
+            for mc_key, mc_path in mc_items:
                 if mc_key is not None and has_mc:
                     sub_progress.update(task_mc, description=f"    [cyan]MC   ({pt}): [yellow]{mc_key}")
 
@@ -292,21 +329,20 @@ def main():
                         data_name=None, mc_name=mc_key, separate_signal_shape=separate_signal_shape)
 
                     res_mc['mc_key'] = mc_key
-                    res_mc['data_key'] = None # Explicitly
+                    res_mc['data_key'] = data_key if data_fit_results else None
                     res_mc['data_type'] = 'MC'
 
                     mc_eff_dict[mc_key] = res_mc["popt"]["epsilon"]
                     mc_err_dict[mc_key] = res_mc["perr"]["epsilon"]
 
-
-                    if mc_key and mc_eff is not None:
-                        mc_eff_all[mc_key] = mc_eff
-                        mc_err_all[mc_key] = mc_err
-
                     plot_path = Path(config["output"]["plot_dir"]) / "MC" / pt
                     plot_path.mkdir(parents=True, exist_ok=True)
 
                     if config["output"].get("plot_dir"):
+                        abseta = config["fit"].get("abseta", 1)
+                        barrel_name = {1: "bar1", 2: "bar2", 3: "end", 4: "end2"}.get(abseta, f"bar{abseta}")
+                        plot_path = Path(config["output"]["plot_dir"]) / "MC" / pt / barrel_name
+                        plot_path.mkdir(parents=True, exist_ok=True)
                         fig_pass, fig_fail = plot_combined_fit(res_mc, plot_path, data_type="MC", sigmoid_eff=sigmoid_eff, 
                                                                args_mass=mass, separate_signal_shape=separate_signal_shape)
                         fig_pass.savefig(plot_path / f"{mc_key}_Pass.png", bbox_inches="tight", dpi=300)
@@ -314,6 +350,31 @@ def main():
                         plt.close(fig_pass)
                         plt.close(fig_fail)
                         plt.close('all')
+
+                    # Create combined 4-panel plot with data and MC
+                    if data_fit_results and config["output"].get("plot_dir"):
+                        numerator = config["fit"].get("numerator", "unknown").lower()
+                        # Map numerator values to their shorthand versions
+                        numerator_map = {
+                            "baselineplus": "blp",
+                            "blp": "blp",
+                            "goldid": "goldID",
+                            "iso": "iso",
+                            "prompt": "prompt",
+                            "trackermuons": "blp",  # default shorthand
+                        }
+                        numerator = numerator_map.get(numerator, numerator)
+                        # Shorten mass name for filename
+                        mass_short = mass.replace("_muon", "").replace("_", "")
+                        save_fits_and_plots(pt, 
+                                          data_fit_results["popt"]["epsilon"], data_fit_results["perr"]["epsilon"],
+                                          res_mc["popt"]["epsilon"], res_mc["perr"]["epsilon"],
+                                          data_key, mc_key, 
+                                          outdir=config["output"]["plot_dir"],
+                                          abseta=config["fit"].get("abseta", 1),
+                                          mass=mass_short,
+                                          year=year,
+                                          numerator=numerator)
 
                     output_tables_mc[pt].append(res_mc.get("sum_table", ""))
                     output_progs_mc[pt].append(res_mc.get("sum_prog", ""))
@@ -323,36 +384,24 @@ def main():
 
                     eps, err = res_mc["popt"]["epsilon"], res_mc["perr"]["epsilon"]
                     mc_eff, mc_err = eps, err
-                    if mc_key is not None:
-                        mc_msg = f"{mc_key} fit {'passed' if res_mc['message'].is_valid else 'failed'}"
-                    else:
-                        mc_msg = f"MC N/A"
-
-                    if mc_msg:
-                        mc_msg_parts.append(mc_msg)
-                    else:
-                        mc_msg_parts.append("N/A")
-
+                    mc_msg = f"{mc_key} fit {'passed' if res_mc['message'].is_valid else 'failed'}"
+                    mc_msg_parts.append(mc_msg)
+                    
                     style_mc = "green" if res_mc["message"].is_valid else "red"
-                    sub_progress.update(task_mc, advance=1, style="green" if res_mc["message"].is_valid else "red")
-                    bins_progress.update(task_bins, advance=1)  # <-- update main bin progress
-
-                elif has_mc:
-                    # No MC file for this index, still advance progress bar
-                    sub_progress.update(task_mc, advance=1)
-                    bins_progress.update(task_bins, advance=1)  # <-- update main bin progress
+                    sub_progress.update(task_mc, advance=1, style=style_mc)
+                    bins_progress.update(task_bins, advance=1)
                 
-                data_eff_list.append(data_eff)
-                data_err_list.append(data_err)
                 mc_eff_list.append(mc_eff)
                 mc_err_list.append(mc_err)
+                
+                # Calculate scale factor for this data-MC pair
                 if data_eff is not None and mc_eff is not None and mc_eff != 0:
                     sf_val = data_eff / mc_eff
                     sf_err_val = np.sqrt((data_err / data_eff)**2 + (mc_err / mc_eff)**2) * sf_val
                 else:
                     sf_val = None
                     sf_err_val = None
-
+                
                 sf_list.append(sf_val)
                 sf_err_list.append(sf_err_val)
 
@@ -361,24 +410,36 @@ def main():
                 if task_mc is not None and task_mc in sub_progress.task_ids:
                     sub_progress.update(task_mc, description=f"    [bold]MC   ({pt}): [{style_mc}]{mc_key}")
 
-                # ✅ Create 4-panel plot for this pt bin if we have both DATA and MC
-                if data_key is not None and mc_key is not None and config["output"].get("plot_dir"):
-                    bin_label = pt
-                    
-                    # Use current iteration values
-                    curr_eff_data = data_eff
-                    curr_eff_mc = mc_eff
-                    
-                    if curr_eff_data is not None and curr_eff_mc is not None:
-                        save_fits_and_plots(bin_label, curr_eff_data, data_err, curr_eff_mc, mc_err, data_key, mc_key,
-                                            outdir=Path(config["output"]["plot_dir"]), pair_index=i)
-                        console.print(f"[bold green]4-panel plot saved for {bin_label} (Pair {i})")
+            # Auto-call save_to_excel for one DATA + two MC
+            if data_fit_results and len(mc_items) >= 1:
+                epsilon_data = data_eff
+                epsilon_err_data = data_err
+                epsilon_mc = mc_eff_list[0] if mc_eff_list else None
+                epsilon_err_mc = mc_err_list[0] if mc_err_list else None
+                epsilon_data_2 = mc_eff_list[1] if len(mc_eff_list) > 1 else None
+                epsilon_err_data_2 = mc_err_list[1] if len(mc_err_list) > 1 else None
+                scale_factor = sf_list[0] if sf_list else None
+                scale_factor_err = sf_err_list[0] if sf_err_list else None
+                scale_factor2 = sf_list[1] if len(sf_list) > 1 else None
+                scale_factor2_err = sf_err_list[1] if len(sf_err_list) > 1 else None
+                args_bin = pt
+                barrel = _coerce_excel_value(config["fit"].get("abseta", 1))
+                args_type = data_key
+                args_type2 = list(root_files_MC.keys())[0] if root_files_MC else None
+                type_param = "DATA"
+                num_den = f"{config['fit'].get('numerator', 'baselineplus')}_{config['fit'].get('denominator', 'TrackerMuons')}"
+                mass_param = mass
+                save_to_excel(data_fit_results, [res for res in all_results if res.get('data_type') == 'MC'], epsilon_data, epsilon_err_data, scale_factor, scale_factor_err, args_bin, barrel, args_type, args_type2, type_param, num_den, mass_param, epsilon_mc, epsilon_err_mc)
 
             data_msg_per_bin.append(data_msg_parts)
             mc_msg_per_bin.append(mc_msg_parts)
             
-            data_eff_per_bin.append(data_eff_list)
-            data_err_per_bin.append(data_err_list)
+            # Repeat data efficiencies to match MC length for summary
+            repeated_data_eff = data_eff_list * len(mc_eff_list) if data_eff_list else [None] * len(mc_eff_list)
+            repeated_data_err = data_err_list * len(mc_err_list) if data_err_list else [None] * len(mc_err_list)
+            
+            data_eff_per_bin.append(repeated_data_eff)
+            data_err_per_bin.append(repeated_data_err)
             mc_eff_per_bin.append(mc_eff_list)
             mc_err_per_bin.append(mc_err_list)
             sf_per_bin.append(sf_list)
@@ -451,15 +512,13 @@ def main():
             )
         )
 
-#########################################################################
-    #               NEW SECTION: SAVE RESULTS TO JSON FILE
-    #########################################################################
-    
-    results_file_path = config["output"].get("results_file", "")
-    if results_file_path:
-        console.print(f"\n[bold yellow]Saving results to {results_file_path}...")
-        
-        # Helper function to convert numpy types to standard Python types
+    # Save fit results to JSON if configured (original behavior)
+    results_file_name = str(config["output"].get("results_file", "")).strip()
+    if results_file_name:
+        if not os.path.isabs(results_file_name):
+            results_file_name = os.path.join(config["output"].get("plot_dir", "."), results_file_name)
+
+        # Convert results to plain python types for serialization
         def convert_types(obj):
             if isinstance(obj, (np.integer, np.int64)):
                 return int(obj)
@@ -474,35 +533,85 @@ def main():
             return obj
 
         serializable_results = []
-        # These keys contain non-serializable objects (like Minuit)
-        keys_to_remove = ['m', 'message', 'cov', 'sum_text'] 
-        
+        keys_to_remove = ['m', 'message', 'cov', 'sum_text']
         for res in all_results:
-            # Create a copy to avoid modifying the original list
             res_copy = res.copy()
             for key in keys_to_remove:
-                res_copy.pop(key, None) # Remove if it exists
-            serializable_results.append(res_copy)
+                res_copy.pop(key, None)
+            serializable_results.append(convert_types(res_copy))
 
-        # Apply the numpy-to-python type conversion
-        final_results_to_save = convert_types(serializable_results)
-        
         try:
-            # Ensure the directory exists
-            results_path = Path(results_file_path)
-            results_path.parent.mkdir(parents=True, exist_ok=True)
-            
-            with open(results_path, 'w') as f_out:
-                json.dump(final_results_to_save, f_out, indent=4)
-            
-            console.print(f"[bold green]Successfully saved results to {results_path}")
-        
+            Path(results_file_name).parent.mkdir(parents=True, exist_ok=True)
+            with open(results_file_name, "w") as f:
+                json.dump(serializable_results, f, indent=2)
+            print(f"Saved combined fit results to {results_file_name}")
         except Exception as e:
-            console.print(f"[bold red]Error saving results to JSON file: {e}")
+            print(f"Error saving results to JSON: {e}")
+    else:
+        print("No results_file configured; skipping writing JSON results")
+
+
+def save_to_excel(results_data, results_mc, epsilon_data, epsilon_err_data,
+                 scale_factor, scale_factor_err,
+                 args_bin, barrel, args_type, args_type2, type, num_den, mass, epsilon_mc, epsilon_err_mc,
+                 filename="/Users/neilj/Desktop/python1/Physics/ISO_plots/sfs_ecol.xlsx"):
+    """
+    Save fitting results with all DATA entries first, then a single MC entry.
+    Updates existing entries in their original positions if they match the same bin, barrel, and type.
+    """
+    # Create the new entries
+    new_data_row = {
+        "Type": "DATA",
+        "bin": args_bin,
+        "barrel": barrel,
+        "num_den": num_den,
+        "fit_type": args_type,
+        "fit type, MC": args_type2,
+        "mass": mass,
+        "epsilon": epsilon_data,
+        "epsilon_err": epsilon_err_data,
+        "SF": None,
+        "SF_err": None
+    }
     
-    #########################################################################
-    #                       END OF NEW SECTION
-    #########################################################################
+    new_mc_row = {
+        "Type": "MC",
+        "bin": args_bin,
+        "barrel": barrel,
+        "num_den": num_den,
+        "fit_type Data": args_type,
+        "fit type, MC": args_type2,
+        "mass": mass,
+        "epsilon": epsilon_mc,
+        "epsilon_err": epsilon_err_mc,
+        "SF": scale_factor,
+        "SF_err": scale_factor_err
+    }
+
+    key_cols = ['Type', 'bin', 'barrel', 'num_den', 'mass']
+
+    if os.path.exists(filename):
+        existing_df = pd.read_excel(filename, sheet_name='ScaleFactors')
+
+        # Keep existing barrel values numeric so older entries don't stay as text.
+        if 'barrel' in existing_df.columns:
+            existing_df['barrel'] = existing_df['barrel'].apply(_coerce_excel_value)
+
+        # Drop any previous entries with the same identifying parameters so only the latest remains
+        match_mask = (
+            (existing_df['bin'] == args_bin) &
+            (existing_df['barrel'] == barrel) &
+            (existing_df['num_den'] == num_den) &
+            (existing_df['mass'] == mass)
+        )
+        existing_df = existing_df[~match_mask]
+
+        updated_df = pd.concat([existing_df, pd.DataFrame([new_data_row, new_mc_row])], ignore_index=True)
+    else:
+        updated_df = pd.DataFrame([new_data_row, new_mc_row])
+
+    updated_df.to_excel(filename, sheet_name='ScaleFactors', index=False)
+    print(f"Results saved/updated in {filename}")
 
 
 if __name__ == "__main__":
