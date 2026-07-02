@@ -2,8 +2,6 @@
 
 Determining Scale Factors for electrons and muons In Eras 2 and 3 in the LHC
 
-## Get the project up and running in less than 5 minutes.
-
 ### Prerequisites
 
 List what the user needs installed before running the project:
