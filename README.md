@@ -27,8 +27,7 @@ cd project-name
 
 # Install dependencies
 
-npm install  # or pip install -r requirements.txt
-\`\`\`
+pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich openpyxl
 
 ## 🛠️ Usage & Examples
 
