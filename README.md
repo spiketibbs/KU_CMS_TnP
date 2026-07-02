@@ -23,11 +23,15 @@ $ git clone https://[github.com/spiketibbs/KU_CMS_TnP](https://github.com/spiket
 
 Navigate into the project directory
 
-cd project-name
+``` bash
+$ cd project-name
+```
 
 # Install dependencies
 
+``` bash
 pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich openpyxl
+```
 
 ## 🛠️ Usage & Examples
 
