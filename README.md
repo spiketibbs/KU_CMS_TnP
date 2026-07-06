@@ -11,7 +11,6 @@ Determining Scale Factors for electrons and muons in Eras 2 and 3 in the LHC
 ### Installation
 
 Step-by-step commands to set up the environment:
-\`\`\`bash
 
 # Clone the repository
 
