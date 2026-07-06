@@ -132,8 +132,8 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
    HEATMAP_TYPE = "DATA"  # Options: 'DATA' or 'MC' (affects which rows are read from the Excel file)
    NUM = 'Not Prompt'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
    ERA = "2023 PreBPix" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-     # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-                     ```
+       # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+   ```
 4. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
 5. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
