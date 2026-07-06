@@ -429,7 +429,26 @@ def main():
                 type_param = "DATA"
                 num_den = f"{config['fit'].get('numerator', 'baselineplus')}_{config['fit'].get('denominator', 'TrackerMuons')}"
                 mass_param = mass
-                save_to_excel(data_fit_results, [res for res in all_results if res.get('data_type') == 'MC'], epsilon_data, epsilon_err_data, scale_factor, scale_factor_err, args_bin, barrel, args_type, args_type2, type_param, num_den, mass_param, epsilon_mc, epsilon_err_mc)
+                excel_dir = Path(config["output"].get("plot_dir", "."))
+                excel_dir.mkdir(parents=True, exist_ok=True)
+                save_to_excel(
+                    data_fit_results,
+                    [res for res in all_results if res.get('data_type') == 'MC'],
+                    epsilon_data,
+                    epsilon_err_data,
+                    scale_factor,
+                    scale_factor_err,
+                    args_bin,
+                    barrel,
+                    args_type,
+                    args_type2,
+                    type_param,
+                    num_den,
+                    mass_param,
+                    epsilon_mc,
+                    epsilon_err_mc,
+                    filename=excel_dir / "sfs_ecol.xlsx"
+                )
 
             data_msg_per_bin.append(data_msg_parts)
             mc_msg_per_bin.append(mc_msg_parts)
@@ -554,7 +573,7 @@ def main():
 def save_to_excel(results_data, results_mc, epsilon_data, epsilon_err_data,
                  scale_factor, scale_factor_err,
                  args_bin, barrel, args_type, args_type2, type, num_den, mass, epsilon_mc, epsilon_err_mc,
-                 filename="/Users/neilj/Desktop/python1/Physics/ISO_plots/sfs_ecol.xlsx"):
+                 filename):
     """
     Save fitting results with all DATA entries first, then a single MC entry.
     Updates existing entries in their original positions if they match the same bin, barrel, and type.
