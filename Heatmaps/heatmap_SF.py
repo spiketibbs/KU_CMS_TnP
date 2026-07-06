@@ -26,6 +26,7 @@ LEPTON_CONFIGS = {
         # Modify the excel path to match the correct file for electrons
         'excel_path': f"Electrons_{NUM_clean}/2023_pre_NOT_Prompt.xlsx",
         'pt_labels': ['2-4', '4-7', '7-10', '10-20', '20-45', '45-75', '75-500']
+        # Changes the pt_labels to '2-4' and '4-7' if 2016-2018, or '2-5' and '5-7' if 2022-2023
         if ERA in ["2016 preVFP", "2016 post VFP", "2017", "2018"]
         else ['2-5', '5-7', '7-10', '10-20', '20-45', '45-75', '75-500'],
         'eta_labels': [1, 2, 3],
