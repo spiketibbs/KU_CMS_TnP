@@ -91,7 +91,13 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
 3. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ## Electron ISO Efficiency Heatmap
+1. Open heatmap_eff_ele_ISO.py
+2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
+3. Run the code
 ## Scale Factor Heatmap
+1. Open heatmap_sf.py
+2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
+3. Run the code
 ## 📁 Repository Structure
 
 A quick map of where everything lives so users don't get lost:
