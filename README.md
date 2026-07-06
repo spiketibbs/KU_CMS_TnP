@@ -78,6 +78,7 @@ We have provided sample files in the `/samples` directory to help you get starte
 
 
 # Extrapolator
+
 # Heatmap Generator 
 ## 📁 Repository Structure
 
