@@ -100,9 +100,9 @@ Open config_MUONS.json in a text editor
 #  }
 ```
 
-4. Run the fitter
+4. Run the fitter "run_fitter_p_bar.py" with parameter "--config config_MUONS.json"
    ``` bash
-   run_fitter_p_bar.py with parameter --config config_MUONS.json
+   python3 run_fitter_p_bar.py --config config_MUONS.json
    ```
 6. Interactive Fit:
    1. You can adjust the type of minimizer to use. Migrad() is on by default.
@@ -136,6 +136,8 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 1. Open heatmap_sf.py
 2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
 3. Run the code
+``` bash
+
 ## 📁 Repository Structure
 
 A quick map of where everything lives so users don't get lost:
