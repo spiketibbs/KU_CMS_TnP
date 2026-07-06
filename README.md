@@ -85,8 +85,11 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 2. Enter all values obtained from fitting as applicable.
 3. Modify the image title and output file directory in lines 334 and 339 for electron, or 350 and 355 for muon.
 4. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
-# Heatmap Generator 
+# Heatmap Generator
 ## Efficiency Heatmap
+1. Open 2D_heatmap_eff.py
+2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
+3. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ## Electron ISO Efficiency Heatmap
 ## Scale Factor Heatmap
 ## 📁 Repository Structure
