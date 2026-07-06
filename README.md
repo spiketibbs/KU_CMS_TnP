@@ -113,8 +113,8 @@ Open config_MUONS.json in a text editor
 
 We have provided sample files in the `/samples` directory to help you get started:
 
-* **`samples/input_data.json`**: Use this file to test the data ingestion tool.
-* **`samples/config.example.env`**: Duplicate this file, rename it to `.env`, and add your local API keys.
+* **`Fitter/Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root`**: Use this file, as well as the other three identification criteria DATA files, to test the fitter, viewing outputted 4plots and .xlsx files.
+* **`Fitter/DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt`**: Use this file, as well as the other three identification criteria MC files, to test the fitter, viewing outputted 4plots and .xlsx files.
 
 
 # Extrapolator
