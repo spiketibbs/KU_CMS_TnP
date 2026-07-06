@@ -6,11 +6,12 @@ Determining Scale Factors for electrons and muons in Eras 2 and 3 in the LHC
 
 * Source Code Editor / IDE (i.e. VSCode)
 * Python 3.10+
-* Download GitHub Comamand Line Interface
+* Download GitHub Command Line Interface
    * Windows: [Git for Windows](https://gitforwindows.org/)
    * Mac: ```bash
    * git --version
-   * ``` follow disaplyed directions to install XCode
+   * ```
+     Follow the displayed directions to install Xcode
 
 ### Installation
 
