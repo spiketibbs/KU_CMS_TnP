@@ -1,6 +1,6 @@
 # Tag and Probe Analysis
 
-Determining Scale Factors for electrons and muons In Eras 2 and 3 in the LHC
+Determining Scale Factors for electrons and muons in Eras 2 and 3 in the LHC
 
 ### Prerequisites
 
@@ -47,7 +47,7 @@ To run the main application:
 3. Under fit
    1. Enter bin ranges present in the root files under "bin ranges" In the format [[x_1, x_2], [x_2, x_3], ...]
    2. Under bin, enter the bins you want to fit, starting at bin 0. i.e. [bin0, bin2, bin3]
-   3. enter fit type for signal and background signal shapes.
+   3. Enter fit type for signal and background signal shapes.
       1. Signals available: double crystal ball (dcb), gaussian (g), crystal ball x gaussian (cbg), double voigtian (dv).
       2. Backgrounds available: linear (lin), exponential (exp), phase space (ps), chebyshev polynomial (cheb), Bernstein polynomial (bpoly), CMS shape (cms).
    4. use_cdf: true or false. -- Use cdf for signal and background shapes, will fall back to pdf if either function doesn’t have a cdf available
@@ -58,11 +58,11 @@ To run the main application:
    9. numerator:
    10. denominator:
    11. separate_signal_shape: true or false
-   12. plot_dir: directory that the 4plots, pass and fail plots, and excel file will go In
+   12. plot_dir: directory that the 4plots, pass and fail plots, and excel file will go in
    13. results_file:
 4. run the run_fitter_p_bar.py with parameter --config config_MUONS.json
 5. Interactive Fit:
-   1. You can adjust the type of minimizer to use. Migrad() Is on by default.
+   1. You can adjust the type of minimizer to use. Migrad() is on by default.
 
 npm start
 \`\`\`
