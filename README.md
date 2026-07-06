@@ -36,6 +36,9 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 - [Fitter](#fitter)
 - [Extrapolator](#extrapolator)
 - [Heatmap Generator](#heatmap-generator)
+   - [Efficiency Heatmap](#efficiency-heatmap)
+      - [Electron ISO Efficiency Heatmap](#electron-iso-efficiency-heatmap)
+   - [Scale Factor Heatmap](#scale-factor-heatmap)
 
 # Fitter
 Explain how to actually use the project. Refer directly to your sample files here.
