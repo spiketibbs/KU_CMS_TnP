@@ -56,7 +56,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 To run the main application:
 Open config_MUONS.json in a text editor
-1. Edit accordingly:
+1. Edit accordingly. Below is an example of the config file along with an explanation of each parameter.
   ``` bash
 #   {
 #     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
@@ -98,10 +98,9 @@ Open config_MUONS.json in a text editor
 #     }
 #    }
 #  }
-#
 ```
 
-4. run the fitter
+4. Run the fitter
    ``` bash
    run_fitter_p_bar.py with parameter --config config_MUONS.json
    ```
