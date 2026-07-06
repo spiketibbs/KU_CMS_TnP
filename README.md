@@ -160,12 +160,13 @@ python3 heatmap_eff_ele.ISO.py
 python3 heatmap_sf.py
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 A quick map of where everything lives so users don't get lost:
+```text
 
-├── src/                # Source code
-├── samples/            # Sample data and configuration templates
-├── docs/               # Deep-dive documentation and presentation slides
+.
+├── Extraps/            # Extrapolation code and samples
+├── Fitter/             # Fitter code, sample data and configuration templates
+├── Heatmaps/           # Heatmap code and samples
 ├── README.md           # This file
-└── package.json        # Project dependencies
