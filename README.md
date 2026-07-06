@@ -35,9 +35,9 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 ## 🛠️ Usage & Examples
 
-[Fitter](#fitter)
-[Extrapolator](#extrapolator)
-[Heatmap Generator](#heatmap-generator)
+- [Fitter](#fitter)
+- [Extrapolator](#extrapolator)
+- [Heatmap Generator](#heatmap-generator)
 
 # Fitter
 Explain how to actually use the project. Refer directly to your sample files here.
