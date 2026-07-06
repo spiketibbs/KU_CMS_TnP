@@ -17,27 +17,27 @@ Determining Scale Factors for electrons and muons in Eras 2 and 3 in the LHC
 
 Step-by-step commands to set up the environment:
 
-Open Terminal
+1. Open Terminal
 
-Make and enter the folder that you want the Git repository to go in
+2. Make and enter the folder that you want the Git repository to go in
 ```bash
 mkdir Physics
 cd Physics
 ```
 
-Clone the repository
+3. Clone the repository
 
 ```bash
 git clone https://github.com/spiketibbs/KU_CMS_TnP
 ```
 
-Navigate into the project directory
+4. Navigate into the project directory
 
 ``` bash
 cd KU_CMS_TnP
 ```
 
-# Install dependencies
+5. Install dependencies
 
 ``` bash
 pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich openpyxl
