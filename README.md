@@ -106,12 +106,16 @@ Open config_MUONS.json in a text editor
    python3 run_fitter_p_bar.py --config config_MUONS.json
    ```
 6. Interactive Fit:
+7. The first interactive plot canvas that pops up will be for DATA.
    1. You can adjust the type of minimizer to use. Migrad() is on by default.
+   2. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well.
+   3. Click X on top left and repeat for MC.
+   4. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.
 
 
 ### Working with Samples
 
-We have provided sample files in the `/samples` directory to help you get started:
+We have provided sample files in the `/Fitter` directory to help you get started:
 
 * **`Fitter/Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root`**: Use this file, as well as the other three identification criteria DATA files, to test the fitter, viewing outputted 4plots and .xlsx files.
 * **`Fitter/DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt`**: Use this file, as well as the other three identification criteria MC files, to test the fitter, viewing outputted 4plots and .xlsx files.
