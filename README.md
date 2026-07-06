@@ -125,21 +125,29 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 4. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
 # Heatmap Generator
 ## Efficiency Heatmap
-1. Open 2D_heatmap_eff.py
-2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
-3. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
+1. Open 2D_heatmap_eff.py in a text editor
+2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
+   ```bash
+   LEPTON_TYPE = 'Electron'  # Options: 'Electron' or 'Muon'
+HEATMAP_TYPE = "DATA"  # Options: 'DATA' or 'MC' (affects which rows are read from the Excel file)
+NUM = 'Not Prompt'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
+ERA = "2023 PreBPix" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+                     # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+                     ```
+4. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
+5. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
 python3 2D_heatmap_eff.py
 ```
 ## Electron ISO Efficiency Heatmap
-1. Open heatmap_eff_ele_ISO.py
+1. Open heatmap_eff_ele_ISO.py in a text editor
 2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
 3. Run the code
 ```bash
 python3 heatmap_eff_ele.ISO.py
 ```
 ## Scale Factor Heatmap
-1. Open heatmap_sf.py
+1. Open heatmap_sf.py in a text editor
 2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
 3. Run the code
 ``` bash
