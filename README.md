@@ -76,7 +76,12 @@ We have provided sample files in the `/samples` directory to help you get starte
 
 
 # Extrapolator
+Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT ranges for electrons (Extrapolation_ele.py) or Muons (Extrapolation_muon.py) based on fitted values obtained from higher pT ranges.
 
+1. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation)
+2. Enter all values obtained from fitting as applicable.
+3. Modify the image title and output file directory in lines 334 and 339 for electron, or 350 and 355 for muon.
+4. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
 # Heatmap Generator 
 ## 📁 Repository Structure
 
