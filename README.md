@@ -4,9 +4,7 @@ Determining Scale Factors for electrons and muons In Eras 2 and 3 in the LHC
 
 ### Prerequisites
 
-List what the user needs installed before running the project:
-
-* Node.js (v18 or higher)
+* Source Code Editor / IDE (i.e. VSCode)
 * Python 3.10+
 * Git
 
