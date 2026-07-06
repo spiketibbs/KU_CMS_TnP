@@ -35,6 +35,11 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 ## 🛠️ Usage & Examples
 
+Fitter (#fitter)
+Extrapolator (#extrapolator)
+Heatmap Generator (#heatmap-generator)
+
+#Fitter
 Explain how to actually use the project. Refer directly to your sample files here.
 
 To run the main application:
@@ -71,6 +76,9 @@ We have provided sample files in the `/samples` directory to help you get starte
 * **`samples/input_data.json`**: Use this file to test the data ingestion tool.
 * **`samples/config.example.env`**: Duplicate this file, rename it to `.env`, and add your local API keys.
 
+
+# Extrapolator
+# Heatmap Generator 
 ## 📁 Repository Structure
 
 A quick map of where everything lives so users don't get lost:
