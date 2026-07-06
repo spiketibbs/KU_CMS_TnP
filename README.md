@@ -53,10 +53,9 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
    - [Scale Factor Heatmap](#scale-factor-heatmap)
 
 # Fitter
-Explain how to actually use the project. Refer directly to your sample files here.
 
 To run the main application:
-
+Open config_MUONS.json in a text editor
 1. Edit "mass" for what mass you are measuring (Z, Z_muon)
 2. Edit the config Muon with the two input root files you are using, one for data and one for MC
 3. Under fit
@@ -75,12 +74,13 @@ To run the main application:
    11. separate_signal_shape: true or false
    12. plot_dir: directory that the 4plots, pass and fail plots, and excel file will go in
    13. results_file:
-4. run the run_fitter_p_bar.py with parameter --config config_MUONS.json
-5. Interactive Fit:
+4. run the fitter
+   ``` bash
+   run_fitter_p_bar.py with parameter --config config_MUONS.json
+   ```
+6. Interactive Fit:
    1. You can adjust the type of minimizer to use. Migrad() is on by default.
 
-npm start
-\`\`\`
 
 ### Working with Samples
 
