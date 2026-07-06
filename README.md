@@ -16,13 +16,13 @@ Step-by-step commands to set up the environment:
 # Clone the repository
 
 ```bash
-$ git clone https://github.com/spiketibbs/KU_CMS_TnP
+git clone https://github.com/spiketibbs/KU_CMS_TnP
 ```
 
 Navigate into the project directory
 
 ``` bash
-$ cd project-name
+cd project-name
 ```
 
 # Install dependencies
