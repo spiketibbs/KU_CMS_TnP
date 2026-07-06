@@ -134,7 +134,7 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
    ERA = "2023 PreBPix" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
        # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
    ```
-4. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
+4. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, in either Electron
 5. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
 python3 2D_heatmap_eff.py
