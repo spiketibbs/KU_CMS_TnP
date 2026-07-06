@@ -100,7 +100,7 @@ Open config_MUONS.json in a text editor
 #  }
 ```
 
-4. Run the fitter "run_fitter_p_bar.py" with parameter "--config config_MUONS.json"
+4. Enter the Fitter folder and run the fitter "run_fitter_p_bar.py" with parameter "--config config_MUONS.json"
    ``` bash
    cd Fitter/
    python3 run_fitter_p_bar.py --config config_MUONS.json
