@@ -86,6 +86,9 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 3. Modify the image title and output file directory in lines 334 and 339 for electron, or 350 and 355 for muon.
 4. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
 # Heatmap Generator 
+## Efficiency Heatmap
+## Electron ISO Efficiency Heatmap
+## Scale Factor Heatmap
 ## 📁 Repository Structure
 
 A quick map of where everything lives so users don't get lost:
