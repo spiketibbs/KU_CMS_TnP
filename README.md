@@ -100,17 +100,18 @@ Open config_MUONS.json in a text editor
 #  }
 ```
 
-4. Enter the Fitter folder and run the fitter "run_fitter_p_bar.py" with parameter "--config config_MUONS.json"
+4. Enter the Fitter folder and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
    ``` bash
    cd Fitter/
    python3 run_fitter_p_bar.py --config config_MUONS.json
    ```
 6. Interactive Fit:
-7. The first interactive plot canvas that pops up will be for DATA.
-   1. You can adjust the type of minimizer to use. Migrad() is on by default.
-   2. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well.
-   3. Click X on top left and repeat for MC.
-   4. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.
+   1. The first interactive plot canvas that pops up will be for DATA.
+   2. You can adjust the type of minimizer to use. Migrad() is on by default.
+   3. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well.
+   4. Click X on the top left and repeat for MC.
+   5. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.
+7. Open file explorer and open the specified plot_dir from the config file to view 4plots and the Excel file with saved efficiency and scale factor values, along with error bars.
 
 
 ### Working with Samples
