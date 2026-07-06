@@ -165,7 +165,6 @@ python3 heatmap_sf.py
 A quick map of where everything lives so users don't get lost:
 ```text
 
-.
 ├── Extraps/            # Extrapolation code and samples
 ├── Fitter/             # Fitter code, sample data and configuration templates
 ├── Heatmaps/           # Heatmap code and samples
