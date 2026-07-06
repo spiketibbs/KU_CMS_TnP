@@ -17,7 +17,7 @@ HEATMAP_TYPE = "DATA"  # Options: 'DATA' or 'MC' (affects which rows are read fr
 NUM = 'Not Prompt'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
 ERA = "2023 PreBPix" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
                      # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-# Clean up ERA and NUM strings by replacing spaces with underscores for filenames
+# Cleans up ERA and NUM strings by replacing spaces with underscores for filenames
 ERA_clean = ERA.replace(" ", "_")
 NUM_clean = NUM.replace(" ", "_")
 
