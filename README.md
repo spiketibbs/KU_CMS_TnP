@@ -56,24 +56,51 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 To run the main application:
 Open config_MUONS.json in a text editor
-1. Edit "mass" for what mass you are measuring (Z, Z_muon)
-2. Edit the config Muon with the two input root files you are using, one for data and one for MC
-3. Under fit
-   1. Enter bin ranges present in the root files under "bin ranges" In the format [[x_1, x_2], [x_2, x_3], ...]
-   2. Under bin, enter the bins you want to fit, starting at bin 0. i.e. [bin0, bin2, bin3]
-   3. Enter fit type for signal and background signal shapes.
-      1. Signals available: double crystal ball (dcb), gaussian (g), crystal ball x gaussian (cbg), double voigtian (dv).
-      2. Backgrounds available: linear (lin), exponential (exp), phase space (ps), chebyshev polynomial (cheb), Bernstein polynomial (bpoly), CMS shape (cms).
-   4. use_cdf: true or false. -- Use cdf for signal and background shapes, will fall back to pdf if either function doesn’t have a cdf available
-   5. sigmoid_eff: true or false
-   6. interactive: true or false. If used, adds a visual fitter that is interactive. (must have PySide6 installed)
-   7. x_min and x_max: the minimum and invariant mass values, in int form
-   8. abseta: the abseta barrel to fit
-   9. numerator:
-   10. denominator:
-   11. separate_signal_shape: true or false
-   12. plot_dir: directory that the 4plots, pass and fail plots, and excel file will go in
-   13. results_file:
+1. Edit accordingly:
+  ``` bash
+#   {
+#     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
+#     "mass": "Z",                 < ----- Determines what mass you are fitting (Z, Z_muon, JPsi, JPsi_muon)
+#     "input": {
+#       "root_files_DATA": [                                  < ----- The name will be the name of the plot file that is saved in plot_dir
+#           "NAME DATA 1":   ".root DATA file path 1 ..."          < ----- The name will be the name of the plot file that is saved in plot_dir
+#           "NAME DATA 2":   ".root DATA file path 2 ..."          < ----- The name will be the name of the plot file that is saved in plot_dir
+#           "NAME DATA 3":   ".root DATA file path 3 ..."          < ----- The name will be the name of the plot file that is saved in plot_dir
+#       ],
+#       "root_files_MC": [
+#           "NAME MC 1":     ".root MC file path 1 ..."            < ----- The name will be the name of the plot file that is saved in plot_dir
+#           "NAME MC 2":     ".root MC file path 2 ..."            < ----- The name will be the name of the plot file that is saved in plot_dir
+#           "NAME MC 3":     ".root MC file path 3 ..."            < ----- The name will be the name of the plot file that is saved in plot_dir
+#       ]
+#     },
+#     "fit": {
+#       "bin_ranges": [[5,7], [7,10], [10,20], [20,45], [45,75], [75,500]],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (5-7), bin1 (7-10), bin2 (10-20), bin3 (20-45), bin4 (45-75), bin5 (75-500))
+#       "bin": ["bin0", "bin1, etc"],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (5-7), bin1 (7-10), bin2 (10-20), bin3 (20-45), bin4 (45-75), bin5 (75-500))
+#       "fit_type": "dcb_cms"    < ----- Format is: (signal shape)_(background shape). Signal shapes: (dcb, g, dv, cbg), Background shapes: (lin, exp, cms, bpoly, cheb, ps)
+#       "use_cdf": false,        < ----- If a shape does not have a cdf version, defaults back to pdf
+#       "sigmoid_eff": false,    < ----- Switches to an unbounded efficiency that is transformed back between 0 and 1
+#       "interactive": true,     < ----- Turns on interactive window for fitting (very useful for difficult fits)
+#       "x_min": 70,             < ----- x range minimum for plotting
+#       "x_max": 110,            < ----- x range maximum for plotting
+#       "abseta": 1,             < ----- ***Only impacts muon .root files. Defines absolute eta ranges
+#       "numerator": "gold",     < ----- ***Only impacts muon .root files. Defines numerator for efficiencies
+#       "denominator": "blp"     < ----- ***Only impacts muon .root files. Defines denominator for efficiencies
+#     },
+#     "output": {
+#       "plot_dir": "",          < ----- Sets location to save plots to (if left blank, it won't save)
+#       "results_file": ""       < ----- Sets location to save results to (if left blank, it won't save)
+#    },
+#    "scale_factors": {
+#        "data_mc_pair": {                                      < ----- Creates explicit scale factors for pairs of data and MC files (useful for comparing one file to multiple others)
+#            "Scale Factor 1": ["NAME DATA 1", "NAME MC 1"],    < ----- Outputs scale factor of two file specified. DATA must be put before MC
+#            "Scale Factor 2": ["NAME DATA 2", "NAME MC 2"],    < ----- Outputs scale factor of two file specified. DATA must be put before MC
+#            "Scale Factor 3": ["NAME DATA 3", "NAME MC 3"]     < ----- Outputs scale factor of two file specified. DATA must be put before MC
+#     }
+#    }
+#  }
+#
+```
+
 4. run the fitter
    ``` bash
    run_fitter_p_bar.py with parameter --config config_MUONS.json
