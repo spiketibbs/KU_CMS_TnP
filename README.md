@@ -127,17 +127,27 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 
 1. Enter Extraps Folder (May need to leave Fitter folder)
 ```bash
-cd #leaves Fitter folder
+cd .. #leaves Fitter folder
 cd Extraps/
 ```
 3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation)
-4. Enter all values obtained from fitting as applicable.
+4. Open the Excel file generated from fitting and enter all values obtained from fitting.
 5. Modify the image title and output file directory in lines 334 and 339 for electron, or 350 and 355 for muon.
 6. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
 7. Run the code
 ```bash
-python3 
+python3 Extrapolation_ele.py
+```
+or
+```bash
+python3 Extrapolation_muon.py
+```
 # Heatmap Generator
+1. Enter Heatmaps Folder (May need to leave Extraps folder)
+```bash
+cd .. #leaves Extraps folder
+cd Heatmaps/
+```
 ## Efficiency Heatmap
 1. Open 2D_heatmap_eff.py in a text editor
 2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
