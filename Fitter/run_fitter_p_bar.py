@@ -431,6 +431,7 @@ def main():
                 mass_param = mass
                 excel_dir = Path(config["output"].get("plot_dir", "."))
                 excel_dir.mkdir(parents=True, exist_ok=True)
+                excel_filename = "sfs_mcol.xlsx" if "muon" in str(mass).lower() else "sfs_ecol.xlsx"
                 save_to_excel(
                     data_fit_results,
                     [res for res in all_results if res.get('data_type') == 'MC'],
@@ -447,7 +448,7 @@ def main():
                     mass_param,
                     epsilon_mc,
                     epsilon_err_mc,
-                    filename=excel_dir / "sfs_ecol.xlsx"
+                    filename=excel_dir / excel_filename
                 )
 
             data_msg_per_bin.append(data_msg_parts)
