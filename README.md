@@ -133,9 +133,9 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 cd .. #leaves Fitter folder
 ```
 3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation) in a text editor
-4. Open the Excel file generated from fitting and enter all values obtained from fitting.
-5. Modify the image title and output file directory in lines 334 and 339 for electron, or 350 and 355 for muon.
-6. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
+3. Modify 'excel_path' to point to the right spreadsheet, beginning on line 16.
+5. Modify the image title and output file directory in lines 353 and 358 for electron, or 355 and 360 for muon.
+6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
 7. Run the code
 ```bash
 python3 Extraps/Extrapolation_ele.py
