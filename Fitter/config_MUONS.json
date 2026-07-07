@@ -11,7 +11,7 @@
   },                       
   "fit": {
       "bin_ranges": [[3,6],[6,10],[10,20],[20,45],[45,500]],
-      "bin": ["bin0", "bin1"],
+      "bin": ["bin2", "bin3", "bin4", "bin5"],
       "fit_type": "dcb_cms",
       "use_cdf": false,
       "sigmoid_eff": false, 
