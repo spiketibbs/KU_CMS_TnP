@@ -139,7 +139,7 @@ python3 Extraps/Extrapolation_ele.py
 ```
 or
 ```bash
-python3 Extrapolation_muon.py
+python3 Extraps/Extrapolation_muon.py
 ```
 # Heatmap Generator
 1. Ensure you are in the main repository
