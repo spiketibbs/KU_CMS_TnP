@@ -170,7 +170,7 @@ python3 Heatmaps/2D_heatmap_eff.py
 ## Electron ISO Efficiency Heatmap
 1. Open heatmap_eff_ele_ISO.py in a text editor
 2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
-3.   ```bash
+```bash
 # ---------------------------------------------------------
 # MANUAL DATA ENTRY
 # ---------------------------------------------------------
