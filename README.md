@@ -170,21 +170,7 @@ python3 Heatmaps/2D_heatmap_eff.py
 ## Electron ISO Efficiency Heatmap
 1. Open heatmap_eff_ele_ISO.py in a text editor
 2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
-4. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
-```bash
-python3 Heatmaps/heatmap_eff_ele_ISO.py
-```
-## Scale Factor Heatmap
-1. Open heatmap_sf.py in a text editor
-2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
-   ```bash
-   LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
-   NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
-   ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-       # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-   ```
-3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
-  ```bash
+3.   ```bash
 # ---------------------------------------------------------
 # MANUAL DATA ENTRY
 # ---------------------------------------------------------
@@ -223,6 +209,21 @@ data_dict = {
     '2016 preVFP':   [(0.9439, 0.0020), (0.9539, 0.0027), (0.9627, 0.0027)]
 }
 ```
+3. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
+```bash
+python3 Heatmaps/heatmap_eff_ele_ISO.py
+```
+## Scale Factor Heatmap
+1. Open heatmap_sf.py in a text editor
+2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
+   ```bash
+   LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
+   NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
+   ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+       # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+   ```
+3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
+
 5. Run the code
 ``` bash
 python3 Heatmaps/heatmap_sf.py
