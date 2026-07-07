@@ -1,37 +1,56 @@
-import numpy as np
 import os
+from pathlib import Path
+
+import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from iminuit import Minuit
 from iminuit.cost import LeastSquares
-import matplotlib.gridspec as gridspec
+
 
 # ==========================================
 # --- 1. DICTIONARY SETUP ---
 # ==========================================
-DATA_DICT = {
-    "bar1": 
-    [
-        {"DATA": "0.9567 ± 0.0039", "MC": "0.9756 ± 0.0019", "SF": "0.98063 ± 0.00446"},
-        {"DATA": "0.9551 ± 0.0025", "MC": "0.9721 ± 0.0014", "SF": "0.98247 ± 0.00296"},
-        {"DATA": "0.9452 ± 0.0013", "MC": "0.9697 ± 0.0010", "SF": "0.97476 ± 0.00170"},
-        {"DATA": "0.9441 ± 0.0013", "MC": "0.9662 ± 0.0007", "SF": "0.97709 ± 0.00148"},
-        {"DATA": "0.9428 ± 0.0008", "MC": "0.9660 ± 0.0005", "SF": "0.97601 ± 0.00099"},
-        {"DATA": "0.9430 ± 0.0006", "MC": "0.9659 ± 0.0004", "SF": "0.97631 ± 0.00077"},
-        {"DATA": "0.9445 ± 0.0005", "MC": "0.9657 ± 0.0004", "SF": "0.97808 ± 0.00067"},
-        {"DATA": "0.9410 ± 0.0006", "MC": "0.9645 ± 0.0005", "SF": "0.97561 ± 0.00077"}
-    ],
-    "bar2": 
-    [
-        {"DATA": "0.9636 ± 0.0056", "MC": "0.9683 ± 0.0027", "SF": "0.99519 ± 0.00636"},
-        {"DATA": "0.9531 ± 0.0029", "MC": "0.9640 ± 0.0021", "SF": "0.98868 ± 0.00372"},
-        {"DATA": "0.9378 ± 0.0021", "MC": "0.9508 ± 0.0013", "SF": "0.98639 ± 0.00258"},
-        {"DATA": "0.9364 ± 0.0017", "MC": "0.9487 ± 0.0011", "SF": "0.98703 ± 0.00208"},
-        {"DATA": "0.9325 ± 0.0013", "MC": "0.9454 ± 0.0011", "SF": "0.98635 ± 0.00180"},
-        {"DATA": "0.9291 ± 0.0009", "MC": "0.9485 ± 0.0012", "SF": "0.97946 ± 0.00154"},
-        {"DATA": "0.9288 ± 0.0001", "MC": "0.9443 ± 0.0006", "SF": "0.98361 ± 0.00066"},
-        {"DATA": "0.9249 ± 0.0009", "MC": "0.9413 ± 0.0007", "SF": "0.98267 ± 0.00120"}
-    ],
-}
+def load_data_dict_from_excel():
+    excel_path = (
+        Path(__file__).resolve().parent.parent
+        / "Fitter"
+        / "2024_ele_extrap_hists"
+        / "blp_plots"
+        / "sfs_ecol.xlsx"
+    )
+    if not excel_path.exists():
+        raise FileNotFoundError(f"Scale factor file not found: {excel_path}")
+
+    df = pd.read_excel(excel_path, sheet_name="ScaleFactors")
+    data_dict = {}
+
+    for barrel in [1, 2, 3, 4]:
+        rows = []
+        for bin_name in ["bin0", "bin1", "bin2", "bin3", "bin4"]:
+            data_row = df[(df["Type"] == "DATA") & (df["bin"] == bin_name) & (df["barrel"] == barrel)]
+            mc_row = df[(df["Type"] == "MC") & (df["bin"] == bin_name) & (df["barrel"] == barrel)]
+
+            if data_row.empty or mc_row.empty:
+                continue
+
+            data_row = data_row.iloc[0]
+            mc_row = mc_row.iloc[0]
+            rows.append(
+                {
+                    "DATA": f"{data_row['epsilon']:.6f} ± {data_row['epsilon_err']:.6f}",
+                    "MC": f"{mc_row['epsilon']:.6f} ± {mc_row['epsilon_err']:.6f}",
+                    "SF": f"{mc_row['SF']:.6f} ± {mc_row['SF_err']:.6f}",
+                }
+            )
+
+        data_dict[f"bar{barrel}"] = rows
+    print (data_dict)
+    return data_dict
+
+
+DATA_DICT = load_data_dict_from_excel()
 
 # Use raw strings (r"") for LaTeX formatting
 ETA_RANGES = {
@@ -193,14 +212,14 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
     # NEW LOGIC: Adjust error band widths for plots
     # -------------------------------------------------------------
     mask_3_6 = (xx_band >= 2) & (xx_band < 4)
-    width_data[mask_3_6] = np.where(width_data[mask_3_6] < 0.02, 0.02, width_data[mask_3_6])
-    width_mc[mask_3_6]   = np.where(width_mc[mask_3_6]   < 0.02, 0.02, width_mc[mask_3_6])
-    width_sf[mask_3_6]   = np.where(width_sf[mask_3_6]   < 0.02, 0.02, width_sf[mask_3_6])
+    width_data[mask_3_6] = np.where(width_data[mask_3_6] < 0.005, 0.005, width_data[mask_3_6])
+    width_mc[mask_3_6]   = np.where(width_mc[mask_3_6]   < 0.005, 0.005, width_mc[mask_3_6])
+    width_sf[mask_3_6]   = np.where(width_sf[mask_3_6]   < 0.005, 0.005, width_sf[mask_3_6])
 
     mask_6_10 = (xx_band >= 4) & (xx_band <= 7)
-    width_data[mask_6_10] = np.where(width_data[mask_6_10] < 0.01, 0.01, width_data[mask_6_10])
-    width_mc[mask_6_10]   = np.where(width_mc[mask_6_10]   < 0.01, 0.01, width_mc[mask_6_10])
-    width_sf[mask_6_10]   = np.where(width_sf[mask_6_10]   < 0.01, 0.01, width_sf[mask_6_10])
+    width_data[mask_6_10] = np.where(width_data[mask_6_10] < 0.005, 0.005, width_data[mask_6_10])
+    width_mc[mask_6_10]   = np.where(width_mc[mask_6_10]   < 0.005, 0.005, width_mc[mask_6_10])
+    width_sf[mask_6_10]   = np.where(width_sf[mask_6_10]   < 0.005, 0.005, width_sf[mask_6_10])
     # -------------------------------------------------------------
 
     yy_data_band = poly3_centered(xx_band, data_m.values["a"], data_m.values["b"])
@@ -250,13 +269,13 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
         # NEW LOGIC: Adjust discrete errors for error bars and tables
         # -------------------------------------------------------------
         if x1 == 2 and x2 == 4:
-            err_d = 0.02 if err_d < 0.02 else err_d
-            err_m = 0.02 if err_m < 0.02 else err_m
-            err_s = 0.02 if err_s < 0.02 else err_s
+            err_d = 0.005 if err_d < 0.005 else err_d
+            err_m = 0.005 if err_m < 0.005 else err_m
+            err_s = 0.005 if err_s < 0.005 else err_s
         elif x1 == 4 and x2 == 7:
-            err_d = 0.01 if err_d < 0.01 else err_d
-            err_m = 0.01 if err_m < 0.01 else err_m
-            err_s = 0.01 if err_s < 0.01 else err_s
+            err_d = 0.005 if err_d < 0.005 else err_d
+            err_m = 0.005 if err_m < 0.005 else err_m
+            err_s = 0.005 if err_s < 0.005 else err_s
         # -------------------------------------------------------------
 
         # Plot adjusted error bars
@@ -331,24 +350,24 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
 
     # --- UPDATED TITLE LOGIC HERE ---
     eta_label = ETA_RANGES.get(dataset_key, dataset_key)
-    plt.suptitle(f"PROMPT Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsize=16, fontweight="bold")
+    plt.suptitle(f"BLP Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsize=16, fontweight="bold")
     
     fig.tight_layout(rect=[0, 0, 1, 0.96])
 
     # --- FILE PATH REMAINS UNCHANGED ---
-    output_file = f"MUONS/EXTRAP_PLOTS_1/23/2023_PROMPT_postBPix_extrap_{dataset_key}.pdf"
+    output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf"
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    #plt.savefig(output_file, dpi=300)
+    plt.savefig(output_file, dpi=300)
     print(f"Plot generation finished for {dataset_key}")
-    #plt.show()
+    plt.show()
 
 # ==========================================
 # --- 4. EXECUTION ---
 # ==========================================
 
 if __name__ == "__main__":
-    my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35),(35, 40), (40, 45), (45, 50)] 
-    my_extrap_bins = [(2, 4), (4,7)]
+    my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] 
+    my_extrap_bins = [(2, 4), (4, 7)]
     
     for key in DATA_DICT.keys():
         extrapolate_and_plot(key, my_fit_bins, my_extrap_bins)
