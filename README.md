@@ -101,7 +101,7 @@ Open config_MUONS.json in a text editor
 #  }
 ```
 
-4. Enter the Fitter folder and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
+4. Enter the Fitter folder in terminal and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
    ``` bash
    cd Fitter/
    python3 run_fitter_p_bar.py --config config_MUONS.json
@@ -121,12 +121,14 @@ We have provided sample files in the `/Fitter` directory to help you get started
 
 * **`Fitter/Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root`**: Use this file, as well as the other three identification criteria DATA files, to test the fitter, viewing outputted 4plots and .xlsx files.
 * **`Fitter/DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt`**: Use this file, as well as the other three identification criteria MC files, to test the fitter, viewing outputted 4plots and .xlsx files.
+* Note that there are already example fitted files in the Fitter/Muons directory. Running the config file with the example parameters will replace all values in the example results. For a clean slate, you can also delete the Muons directory before running.
 
 
 # Extrapolator
 Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT ranges for electrons (Extrapolation_ele.py) or Muons (Extrapolation_muon.py) based on fitted values obtained from higher pT ranges.
 
-1. Ensure you are in the main repository
+1. Fit values that you will use as baseline values for the extrapolation.
+2. Ensure you are in the main repository
 ```bash
 cd .. #leaves Fitter folder
 ```
@@ -142,6 +144,7 @@ or
 ```bash
 python3 Extraps/Extrapolation_muon.py
 ```
+8. Add values from extrapolation files to the results spreadsheet to prepare for generating heatmaps.
 # Heatmap Generator
 1. Ensure you are in the main repository
 ```bash
@@ -151,13 +154,13 @@ cd .. #leaves Extraps folder
 1. Open 2D_heatmap_eff.py in a text editor
 2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
    ```bash
-   LEPTON_TYPE = 'Electron'  # Options: 'Electron' or 'Muon'
+   LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
    HEATMAP_TYPE = "DATA"  # Options: 'DATA' or 'MC' (affects which rows are read from the Excel file)
-   NUM = 'Not Prompt'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
-   ERA = "2023 PreBPix" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+   NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
+   ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
        # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
    ```
-4. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, in either Electron
+4. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
 5. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
 python3 Heatmaps/2D_heatmap_eff.py
