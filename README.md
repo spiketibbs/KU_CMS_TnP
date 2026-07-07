@@ -168,7 +168,7 @@ python3 2D_heatmap_eff.py
 2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
 3. Run the code
 ```bash
-python3 heatmap_eff_ele.ISO.py
+python3 heatmap_eff_ele_ISO.py
 ```
 ## Scale Factor Heatmap
 1. Open heatmap_sf.py in a text editor
