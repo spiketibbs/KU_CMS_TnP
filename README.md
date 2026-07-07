@@ -110,7 +110,8 @@ To run the main application:
 5. Interactive Fit:
    1. The first interactive plot canvas that pops up will be for DATA.
    2. You can adjust the type of minimizer to use. Migrad() is on by default.
-   3. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well (next to x<sup>2</sup>/ndof
+   3. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well (next to x<sup>2</sup>/ndof)
+   
    <img width="385" height="107" alt="Screenshot 2026-07-07 at 6 47 22 PM" src="https://github.com/user-attachments/assets/d57456ae-335e-4c8d-a653-3bddca9e4715" />
 
    5. Click X on the top left and repeat for MC.
