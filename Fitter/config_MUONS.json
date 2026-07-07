@@ -10,21 +10,21 @@
           }                                      
   },                       
   "fit": {
-      "bin": ["bin2"],
       "bin_ranges": [[3,6],[6,10],[10,20],[20,45],[45,500]],
+      "bin": ["bin0", "bin1"],
       "fit_type": "dcb_cms",
       "use_cdf": false,
       "sigmoid_eff": false, 
       "interactive": true,
       "x_min": 60,
       "x_max": 140,
-      "abseta": 4,
+      "abseta": 1,
       "numerator": "GoldID",
       "denominator": "baselineplus",
       "separate_signal_shape": false
     },
   "output": {
-    "plot_dir": "Test/",
+    "plot_dir": "Muons/2018/GoldID/",
     "fourplot": "4plot_eta4",
     "results_file": ""             
   },
