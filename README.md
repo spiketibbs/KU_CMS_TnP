@@ -125,28 +125,26 @@ We have provided sample files in the `/Fitter` directory to help you get started
 # Extrapolator
 Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT ranges for electrons (Extrapolation_ele.py) or Muons (Extrapolation_muon.py) based on fitted values obtained from higher pT ranges.
 
-1. Enter Extraps Folder (May need to leave Fitter folder)
+1. Ensure you are in the main repository
 ```bash
 cd .. #leaves Fitter folder
-cd Extraps/
 ```
-3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation)
+3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation) in a text editor
 4. Open the Excel file generated from fitting and enter all values obtained from fitting.
 5. Modify the image title and output file directory in lines 334 and 339 for electron, or 350 and 355 for muon.
 6. Enter the pT bin ranges you had put fit values in, in line 350/366, and enter what bin ranges to extrapolate for in line 351/367.
 7. Run the code
 ```bash
-python3 Extrapolation_ele.py
+python3 Extraps/Extrapolation_ele.py
 ```
 or
 ```bash
 python3 Extrapolation_muon.py
 ```
 # Heatmap Generator
-1. Enter Heatmaps Folder (May need to leave Extraps folder)
+1. Ensure you are in the main repository
 ```bash
 cd .. #leaves Extraps folder
-cd Heatmaps/
 ```
 ## Efficiency Heatmap
 1. Open 2D_heatmap_eff.py in a text editor
@@ -161,21 +159,21 @@ cd Heatmaps/
 4. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, in either Electron
 5. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
-python3 2D_heatmap_eff.py
+python3 Heatmaps/2D_heatmap_eff.py
 ```
 ## Electron ISO Efficiency Heatmap
 1. Open heatmap_eff_ele_ISO.py in a text editor
 2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
 3. Run the code
 ```bash
-python3 heatmap_eff_ele_ISO.py
+python3 Heatmaps/heatmap_eff_ele_ISO.py
 ```
 ## Scale Factor Heatmap
 1. Open heatmap_sf.py in a text editor
 2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
 3. Run the code
 ``` bash
-python3 heatmap_sf.py
+python3 Heatmaps/heatmap_sf.py
 ```
 
 ## Repository Structure
