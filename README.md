@@ -57,11 +57,11 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 To run the main application:
 Open config_MUONS.json in a text editor
-1. Edit accordingly. Below is an example of the config file along with an explanation of each parameter.
+1. Edit accordingly. Below is an explanation of each parameter in the config file.
   ``` bash
 #   {
 #     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
-#     "mass": "Z",                 < ----- Determines what mass you are fitting (Z, Z_muon, JPsi, JPsi_muon)
+#     "mass": "Z_muon",                 < ----- Determines what mass you are fitting (Z, Z_muon, JPsi, JPsi_muon)
 #     "input": {
 #       "root_files_DATA": [                                  < ----- The name will be the name of the plot file that is saved in plot_dir
 #           "NAME DATA 1":   ".root DATA file path 1 ..."          < ----- The name will be the name of the plot file that is saved in plot_dir
@@ -75,20 +75,20 @@ Open config_MUONS.json in a text editor
 #       ]
 #     },
 #     "fit": {
-#       "bin_ranges": [[5,7], [7,10], [10,20], [20,45], [45,75], [75,500]],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (5-7), bin1 (7-10), bin2 (10-20), bin3 (20-45), bin4 (45-75), bin5 (75-500))
-#       "bin": ["bin0", "bin1, etc"],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (5-7), bin1 (7-10), bin2 (10-20), bin3 (20-45), bin4 (45-75), bin5 (75-500))
+#       "bin_ranges": [[3,6],[6,10],[10,20],[20,45],[45,500]],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (3-6), bin1 (6-10), bin2 (10-20), bin3 (20-45), bin4 (45-500))
+#       "bin": ["bin0", "bin1, etc"],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (3-6), bin1 (6-10), bin2 (10-20), bin3 (20-45), bin4 (45-500))
 #       "fit_type": "dcb_cms"    < ----- Format is: (signal shape)_(background shape). Signal shapes: (dcb, g, dv, cbg), Background shapes: (lin, exp, cms, bpoly, cheb, ps)
 #       "use_cdf": false,        < ----- If a shape does not have a cdf version, defaults back to pdf
 #       "sigmoid_eff": false,    < ----- Switches to an unbounded efficiency that is transformed back between 0 and 1
 #       "interactive": true,     < ----- Turns on interactive window for fitting (very useful for difficult fits)
-#       "x_min": 70,             < ----- x range minimum for plotting
-#       "x_max": 110,            < ----- x range maximum for plotting
+#       "x_min": 60,             < ----- x range minimum for plotting
+#       "x_max": 140,            < ----- x range maximum for plotting
 #       "abseta": 1,             < ----- ***Only impacts muon .root files. Defines absolute eta ranges
-#       "numerator": "gold",     < ----- ***Only impacts muon .root files. Defines numerator for efficiencies
-#       "denominator": "blp"     < ----- ***Only impacts muon .root files. Defines denominator for efficiencies
+#       "numerator": "GoldID",     < ----- ***Only impacts muon .root files. Defines numerator for efficiencies
+#       "denominator": "baselineplus"     < ----- ***Only impacts muon .root files. Defines denominator for efficiencies
 #     },
 #     "output": {
-#       "plot_dir": "Electrons/2018/GoldID/",          < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass_numerator
+#       "plot_dir": "Muons/2018/GoldID/",         < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass/era/numerator
 #       "results_file": ""       < ----- Sets location to save results to (if left blank, it won't save)
 #    },
 #    "scale_factors": {
