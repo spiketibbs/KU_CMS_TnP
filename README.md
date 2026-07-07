@@ -163,7 +163,7 @@ cd .. #leaves Extraps folder
        # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
    ```
 3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
-4. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
+4. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC" (adjust on line 16)
 ```bash
 python3 Heatmaps/2D_heatmap_eff.py
 ```
@@ -209,7 +209,7 @@ data_dict = {
     '2016 preVFP':   [(0.9439, 0.0020), (0.9539, 0.0027), (0.9627, 0.0027)]
 }
 ```
-3. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
+3. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC" (adjust on line 25)
 ```bash
 python3 Heatmaps/heatmap_eff_ele_ISO.py
 ```
