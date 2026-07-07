@@ -13,9 +13,9 @@ mplhep.style.use(mplhep.style.CMS)
 # CONFIGURATION SWITCH
 # Toggle options below to automatically swap all tracking items.
 # ==============================================================================
-LEPTON_TYPE = 'Electron'  # Options: 'Electron' or 'Muon'
-NUM = 'Not Prompt'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
-ERA = "2023 PreBPix" # Electron Options: '2016 preVFP', '2016 post VFP', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
+NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
+ERA = "2018" # Electron Options: '2016 preVFP', '2016 post VFP', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
                      # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
 # Clean up ERA and NUM strings by replacing spaces with underscores for filenames
 ERA_clean = ERA.replace(" ", "_")
@@ -24,24 +24,24 @@ NUM_clean = NUM.replace(" ", "_")
 LEPTON_CONFIGS = {
     'Electron': {
         # Modify the excel path to match the correct file for electrons
-        'excel_path': f"Electrons_{NUM_clean}/2023_pre_NOT_Prompt.xlsx",
-        'pt_labels': ['2-4', '4-7', '7-10', '10-20', '20-45', '45-75', '75-500']
+        'excel_path': f"Fitter/Electrons/{ERA_clean}/{NUM_clean}/sfs_ecol.xlsx",
         # Changes the pt_labels to '2-4' and '4-7' if 2016-2018, or '2-5' and '5-7' if 2022-2023
+        'pt_labels': ['2-4', '4-7', '7-10', '10-20', '20-45', '45-75', '75-500']
         if ERA in ["2016 preVFP", "2016 post VFP", "2017", "2018"]
         else ['2-5', '5-7', '7-10', '10-20', '20-45', '45-75', '75-500'],
         'eta_labels': [1, 2, 3],
         'eta_pretty_labels': ['|η| ≤ 0.8', '0.8 < |η| ≤ 1.442', '1.556 < |η| ≤ 2.5'],
         'title': f"SF vs. $p_T$ and η Region ({LEPTON_TYPE} {NUM} {ERA})",
-        'save_path': f"Electrons_{NUM_clean}/SF_{LEPTON_TYPE}_{NUM_clean}_{ERA_clean}_HEATMAP.pdf"
+        'save_path': f"Fitter/Electrons/{ERA_clean}/{NUM_clean}/SF_{LEPTON_TYPE}_{NUM_clean}_{ERA_clean}_HEATMAP.pdf"
     },
     'Muon': {
         # Modify the excel path to match the correct file for muons
-        'excel_path': f"Muons_{NUM_clean}/2023_pre_NOT_Prompt_Muon.xlsx",
+        'excel_path': f"Fitter/Muons/{ERA_clean}/{NUM_clean}/sfs_mcol.xlsx",
         'pt_labels': ['3-6', '6-10', '10-20', '20-45', '45-500'],
         'eta_labels': [1, 2, 3, 4],
         'eta_pretty_labels': ['|η| ≤ 0.9', '0.9 < |η| ≤ 1.2', '1.2 < |η| ≤ 2.1', '2.1 < |η| ≤ 2.4'],
         'title': f"SF vs. $p_T$ and η Region ({LEPTON_TYPE} {NUM} {ERA})",
-        'save_path': f"Muons_{NUM_clean}/SF_{LEPTON_TYPE}_{NUM_clean}_{ERA_clean}_HEATMAP.pdf"
+        'save_path': f"Fitter/Muons/{ERA_clean}/{NUM_clean}/SF_{LEPTON_TYPE}_{NUM_clean}_{ERA_clean}_HEATMAP.pdf"
     }
 }
 
