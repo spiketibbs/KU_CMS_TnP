@@ -87,7 +87,7 @@ Open config_MUONS.json in a text editor
 #       "denominator": "blp"     < ----- ***Only impacts muon .root files. Defines denominator for efficiencies
 #     },
 #     "output": {
-#       "plot_dir": "Electrons_GoldID/",          < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass_numerator
+#       "plot_dir": "Electrons/2018/GoldID/",          < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass_numerator
 #       "results_file": ""       < ----- Sets location to save results to (if left blank, it won't save)
 #    },
 #    "scale_factors": {
