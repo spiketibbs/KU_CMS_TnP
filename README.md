@@ -160,22 +160,68 @@ cd .. #leaves Extraps folder
    ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
        # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
    ```
-4. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
-5. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
+3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
+4. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
 python3 Heatmaps/2D_heatmap_eff.py
 ```
 ## Electron ISO Efficiency Heatmap
 1. Open heatmap_eff_ele_ISO.py in a text editor
 2. Define the eras in current order, as well as eta labels. Manually enter all efficiencies and error values under data_dict in the format provided.
-3. Run the code
+4. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC"
 ```bash
 python3 Heatmaps/heatmap_eff_ele_ISO.py
 ```
 ## Scale Factor Heatmap
 1. Open heatmap_sf.py in a text editor
-2. Fill in configurations, with options provided in comments. Modify the Excel path under LEPTON_CONFIGS to point to the right spreadsheet.
-3. Run the code
+2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
+   ```bash
+   LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
+   NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
+   ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+       # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+   ```
+3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
+  ```bash
+# ---------------------------------------------------------
+# MANUAL DATA ENTRY
+# ---------------------------------------------------------
+# Define the order of the eras as they should appear from top to bottom
+eras_ordered = [
+    '2024',
+    '2023_postBPix',
+    '2023_preBPix',
+    '2022 postEE',
+    '2022 preEE',
+    '2018',
+    '2017',
+    '2016 postVFP',
+    '2016 preVFP'
+]
+HEATMAP_TYPE = "DATA"  # Options: 'DATA' or 'MC' (affects naming of heatmap file)
+
+# Column definitions (eta and pT regions matching the plot)
+eta_labels = [
+    '$|\eta| \leq 0.8$\n($7 < p_T < 20$)', 
+    '$0.8 < |\eta| \leq 1.442$\n($7 < p_T < 20$)', 
+    '$1.556 < |\eta| \leq 2.5$\n($10 < p_T < 20$)'
+]
+
+# Enter your manual data here: { 'EraName': [(val1, err1), (val2, err2), (val3, err3)] }
+# Populated with values rounded to 4 decimals from your DATA efficiency image.
+data_dict = {
+    '2024':          [(0.9643, 0.0013), (0.9680, 0.0037), (0.9218, 0.0009)],
+    '2023_postBPix': [(0.9321, 0.0024), (0.9432, 0.0029), (0.9545, 0.0027)],
+    '2023_preBPix':  [(0.9267, 0.0034), (0.9358, 0.0031), (0.9569, 0.0026)],
+    '2022 postEE':   [(0.8618, 0.0053), (0.9539, 0.0072), (0.9511, 0.0029)],
+    '2022 preEE':    [(0.8467, 0.0076), (0.8633, 0.0076), (0.9458, 0.0039)],
+    '2018':          [(0.9252, 0.0014), (0.9287, 0.0019), (0.9532, 0.0015)],
+    '2017':          [(0.9502, 0.0009), (0.9548, 0.0010), (0.9703, 0.0017)],
+    '2016 postVFP':  [(0.9524, 0.0019), (0.9611, 0.0022), (0.9695, 0.0024)],
+    '2016 preVFP':   [(0.9439, 0.0020), (0.9539, 0.0027), (0.9627, 0.0027)]
+}
+```
+5. Run the code
 ``` bash
 python3 Heatmaps/heatmap_sf.py
 ```
