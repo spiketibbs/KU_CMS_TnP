@@ -14,6 +14,7 @@ For a more detailed explanation or background on theory and the making of the fi
   ```bash
   git --version
   ```
+** Note: The example commands provided in this readme assume a MacOS (Unix or Linux)
 
 ### Installation
 
