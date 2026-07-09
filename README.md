@@ -89,7 +89,7 @@ To run the main application:
 #       "denominator": "baselineplus"     < ----- ***Only impacts muon .root files. Defines denominator for efficiencies
 #     },
 #     "output": {
-#       "plot_dir": "Muons/2018/GoldID/",         < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass/era/numerator
+#       "plot_dir": "Fitter/Muons/2018/GoldID/",         < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass/era/numerator
 #       "results_file": ""       < ----- Sets location to save results to (if left blank, it won't save)
 #    },
 #    "scale_factors": {
