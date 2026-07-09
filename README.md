@@ -103,10 +103,10 @@ To run the main application:
 ```
 
 4. Run from the repository root directory and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
-   ``` bash
-   cd ~/KU_CMS_TnP/
-   python3 Fitter/run_fitter_p_bar.py --config Fitter/config_MUONS.json
-   ```
+``` bash
+cd ~/KU_CMS_TnP/
+python3 Fitter/run_fitter_p_bar.py --config Fitter/config_MUONS.json
+```
 5. Interactive Fit:
    1. The first interactive plot canvas that pops up will be for DATA.
    2. You can adjust the type of minimizer to use. Migrad() is on by default.
