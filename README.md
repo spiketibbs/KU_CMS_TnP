@@ -233,8 +233,6 @@ python3 Heatmaps/heatmap_sf.py
 ```
 
 ## Repository Structure
-
-A quick map of where everything lives so users don't get lost:
 ```text
 ├── Extraps/            # Extrapolation code and samples
 ├── Fitter/             # Fitter code, sample data and configuration templates
