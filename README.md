@@ -200,6 +200,7 @@ eta_labels = [
 
 # Enter your manual data here: { 'EraName': [(val1, err1), (val2, err2), (val3, err3)] }
 # Populated with values rounded to 4 decimals from your DATA efficiency image.
+# Example of manual entry layout:
 data_dict = {
     '2024':          [(0.9643, 0.0013), (0.9680, 0.0037), (0.9218, 0.0009)],
     '2023_postBPix': [(0.9321, 0.0024), (0.9432, 0.0029), (0.9545, 0.0027)],
