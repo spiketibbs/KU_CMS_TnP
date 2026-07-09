@@ -1,0 +1,4807 @@
+[
+    {
+        "call_time": null, 
+        "duration": 9.206097973976284, 
+        "performance_counters": {
+            "num_requested_bytes": 8790342, 
+            "num_requests": 4, 
+            "num_requested_chunks": 721
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/869/00000/b6b8ceb1-7e9e-43c0-be86-7b8b95725b6d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.898063636966981, 
+        "performance_counters": {
+            "num_requested_bytes": 3502146, 
+            "num_requests": 4, 
+            "num_requested_chunks": 316
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/870/00000/91ab2f50-cc23-4fdf-a7ab-40ed68866cb0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 2.8092602270189673, 
+        "performance_counters": {
+            "num_requested_bytes": 3036922, 
+            "num_requests": 4, 
+            "num_requested_chunks": 313
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/927/00000/14afc352-4c5d-4840-a92d-1544ad22fdd9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.615994398016483, 
+        "performance_counters": {
+            "num_requested_bytes": 12102386, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1336
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/943/00000/8ed8d974-5804-4d95-a9b5-f0105643b304.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.059675686061382, 
+        "performance_counters": {
+            "num_requested_bytes": 17320517, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1926
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/943/00000/e5ae473c-75e1-489c-90e2-bcd6601cc3ff.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.7471488550072536, 
+        "performance_counters": {
+            "num_requested_bytes": 1591291, 
+            "num_requests": 4, 
+            "num_requested_chunks": 192
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/943/00000/ccc641d6-05e0-4ad3-bc22-fa95393fd1b9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.2639335449785, 
+        "performance_counters": {
+            "num_requested_bytes": 10925482, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1129
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/873/00000/fe8ce045-5ab9-4c4c-8394-8ffb86077d8e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.37902791099623, 
+        "performance_counters": {
+            "num_requested_bytes": 10542189, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1246
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/873/00000/41046005-ff98-47bd-94b6-01e18a63ea3c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.19684142107144, 
+        "performance_counters": {
+            "num_requested_bytes": 10437734, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1129
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/956/00000/465032d5-456b-44d8-a351-0cd09e7cafb4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 1.2699274510378018, 
+        "performance_counters": {
+            "num_requested_bytes": 61381, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/092/00000/5320ed7a-16ab-4cea-8f32-999010c070be.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.032833292963915, 
+        "performance_counters": {
+            "num_requested_bytes": 7614116, 
+            "num_requests": 4, 
+            "num_requested_chunks": 823
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/999/00000/c98af186-a871-489d-9c76-5e9bf15c5c98.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.913972916081548, 
+        "performance_counters": {
+            "num_requested_bytes": 15190533, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1518
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/956/00000/f3997c2b-80ac-49c9-a036-f698accc0928.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.9606598749524, 
+        "performance_counters": {
+            "num_requested_bytes": 13415198, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1401
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/956/00000/a25f25af-1cb5-4e41-946f-dfa57a45a98b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.316138735972345, 
+        "performance_counters": {
+            "num_requested_bytes": 13060109, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1336
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/998/00000/87799bdb-37d1-4fd4-8ba6-725eabf9e2d6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.276295669027604, 
+        "performance_counters": {
+            "num_requested_bytes": 12814693, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1382
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/956/00000/652c9b39-3bde-4cfe-bb27-5a23b8cd8636.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.196389753022231, 
+        "performance_counters": {
+            "num_requested_bytes": 14797536, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1639
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/978/00000/44f12a67-b1c7-4191-8c45-767555026bf4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.30288756196387, 
+        "performance_counters": {
+            "num_requested_bytes": 14054704, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1503
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/956/00000/46d3cf19-6278-488b-982c-29d405e22e28.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.244801915017888, 
+        "performance_counters": {
+            "num_requested_bytes": 12863621, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1382
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/956/00000/740046a3-026c-4c1d-a526-d3bf840130e5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.326921947998926, 
+        "performance_counters": {
+            "num_requested_bytes": 13077541, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1246
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/978/00000/30b36e8e-6fcb-4ffe-9c60-84ea7a839356.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.244757020962425, 
+        "performance_counters": {
+            "num_requested_bytes": 13274458, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1401
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/978/00000/2060fac8-d79b-46d8-af1a-215048589cdd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.034294869052246, 
+        "performance_counters": {
+            "num_requested_bytes": 14857936, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1574
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/978/00000/3b353549-682d-4860-a702-c387a6f21ca6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.448303179000504, 
+        "performance_counters": {
+            "num_requested_bytes": 15890944, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1707
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/978/00000/c4e9dd09-4a04-4e1e-bd2a-c7eae205285b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.164227542001754, 
+        "performance_counters": {
+            "num_requested_bytes": 15411146, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/978/00000/5843ffbf-83af-44e3-8a49-66ed64ef8475.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.992916189949028, 
+        "performance_counters": {
+            "num_requested_bytes": 19954262, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1605
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/093/00000/faca082f-f9bf-4dd0-b256-7efbe790de9a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.362118905060925, 
+        "performance_counters": {
+            "num_requested_bytes": 21218137, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1933
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/093/00000/a3000d2d-0ad2-4c50-9f8a-0fc4b4f10632.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.437763630994596, 
+        "performance_counters": {
+            "num_requested_bytes": 18498468, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/093/00000/60852532-01f3-4315-b62d-3c9e390e9acd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.037679106928408, 
+        "performance_counters": {
+            "num_requested_bytes": 16902125, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1797
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/093/00000/00c08d57-06da-4ea5-a573-d2c00fe87ef8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.752760511939414, 
+        "performance_counters": {
+            "num_requested_bytes": 5866802, 
+            "num_requests": 4, 
+            "num_requested_chunks": 585
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/093/00000/b3f5ba46-ff5f-46cc-88b3-336050cb899d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.898667711997405, 
+        "performance_counters": {
+            "num_requested_bytes": 9529800, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1030
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/369/998/00000/de5fd933-9ea9-46d6-aa13-f70461ce75ee.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.71721216000151, 
+        "performance_counters": {
+            "num_requested_bytes": 20392879, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1756
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/e6d9ce6e-08e5-49d0-8dc6-c8b1c6264083.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.4767916760174558, 
+        "performance_counters": {
+            "num_requested_bytes": 56743, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/100/00000/0726d834-5b8e-4211-ae52-49e3231f2eed.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.50633026007563, 
+        "performance_counters": {
+            "num_requested_bytes": 22573855, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1892
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/d40aae03-e4ed-464a-8fda-085ac5730b93.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.686383944004774, 
+        "performance_counters": {
+            "num_requested_bytes": 16694048, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1775
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/097/00000/d450c4bd-2ac3-4d64-8dd2-f0f7d32b27a0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.082699979073368, 
+        "performance_counters": {
+            "num_requested_bytes": 12262468, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1231
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/097/00000/d8bf184d-db46-4385-acd0-98c37ed096ba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.57811847096309, 
+        "performance_counters": {
+            "num_requested_bytes": 21577568, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2115
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/097/00000/29288885-9a3a-4a80-bb4a-4abd2de080d1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.571598540991545, 
+        "performance_counters": {
+            "num_requested_bytes": 19683921, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1926
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/097/00000/4e5dbe7f-6a0e-4e97-a96a-6c73ca1b7f40.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.54872613796033, 
+        "performance_counters": {
+            "num_requested_bytes": 21241047, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1824
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/0a1ffbd7-f67c-464c-9c8b-c800663647b8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.319433426018804, 
+        "performance_counters": {
+            "num_requested_bytes": 27641064, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2387
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/7dc3751f-7f1b-4e99-9f9e-0c09fabfd592.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.959332020021975, 
+        "performance_counters": {
+            "num_requested_bytes": 21870338, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1877
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/a745a364-f0b5-4a80-b99c-692db145d3e6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.12476043694187, 
+        "performance_counters": {
+            "num_requested_bytes": 18753476, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/097/00000/6fe1d881-baa2-4809-ba6e-248f895c31c6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.047375335008837, 
+        "performance_counters": {
+            "num_requested_bytes": 25842415, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2164
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/92989e00-42b2-45b8-91c2-e532d2ab76a4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.479316232027486, 
+        "performance_counters": {
+            "num_requested_bytes": 27661368, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2387
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/2dc67e7f-556f-44d8-87f5-4a4bbd8159eb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.961120876017958, 
+        "performance_counters": {
+            "num_requested_bytes": 22942846, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1945
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/d5321abd-58cf-48a0-8e92-53ff9b2ce210.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.603673708043061, 
+        "performance_counters": {
+            "num_requested_bytes": 27821170, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2353
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/102/00000/23a16022-16a1-42ff-b72e-658cf5e3bf1e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.5189312750007957, 
+        "performance_counters": {
+            "num_requested_bytes": 54251, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/101/00000/22dade69-c2f7-4a99-9a44-ba5d6c945452.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.625891717034392, 
+        "performance_counters": {
+            "num_requested_bytes": 19193146, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1537
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/2ad0814c-7c37-4b9b-a75b-714b6edefe14.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.21381123701576, 
+        "performance_counters": {
+            "num_requested_bytes": 20892400, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1911
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/eae0a32a-2739-4e60-9d06-1021a26922e7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.93815893109422, 
+        "performance_counters": {
+            "num_requested_bytes": 22344293, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2062
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/0845b885-e11f-40a4-a4df-66be4811675f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.682256045984104, 
+        "performance_counters": {
+            "num_requested_bytes": 20885236, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1707
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/cd97eded-fe9e-4a67-8388-e3115e7acf9e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.241737797972746, 
+        "performance_counters": {
+            "num_requested_bytes": 18602102, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1537
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/3504dc6c-359b-4cce-ad61-df28b78a0752.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.543513817945495, 
+        "performance_counters": {
+            "num_requested_bytes": 20550130, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2149
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/10fa7de2-845b-4749-b6d1-6ca71fc49cc4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.042328983079642, 
+        "performance_counters": {
+            "num_requested_bytes": 22719599, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1892
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/74a67ce0-51a7-4206-8be6-2ebbcfe88d44.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.30390904098749, 
+        "performance_counters": {
+            "num_requested_bytes": 21944640, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2047
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/637086b8-63b3-4357-b7bb-50d916553f5a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.985216371016577, 
+        "performance_counters": {
+            "num_requested_bytes": 19672350, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/e5bd9e9c-1716-4139-bb68-9c492ea0fe55.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.48194034898188, 
+        "performance_counters": {
+            "num_requested_bytes": 19894733, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1858
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/2aaa85c7-9175-4a7d-bd6f-bcbf7ec73c69.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.46853948594071, 
+        "performance_counters": {
+            "num_requested_bytes": 17621176, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/95add90c-a51a-423f-b6a5-c1a35430384b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.550581156043336, 
+        "performance_counters": {
+            "num_requested_bytes": 20292889, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2130
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/bf31e808-0197-4b68-b48e-46c77a363b46.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.138474203995429, 
+        "performance_counters": {
+            "num_requested_bytes": 19972158, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1809
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/82353069-2a41-4f7f-873a-a5f28a27eb1c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.474481554003432, 
+        "performance_counters": {
+            "num_requested_bytes": 18768636, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/e7c681be-06a0-4df9-915f-4bf6ab7507e7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 1.033718879101798, 
+        "performance_counters": {
+            "num_requested_bytes": 59665, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/171/00000/b5c83342-d131-43a3-aef2-4947b550b276.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.38829103403259, 
+        "performance_counters": {
+            "num_requested_bytes": 17363865, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1586
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/1a17e6cd-0da6-4b47-87e8-8d5bf9855b4d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.68355439498555, 
+        "performance_counters": {
+            "num_requested_bytes": 29422458, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2761
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/5acd42b8-acfd-40f2-ad26-053ead1d7a36.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.843489440972917, 
+        "performance_counters": {
+            "num_requested_bytes": 23344262, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2081
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/c52ff9fb-4bb7-4c0d-91ab-7b50fedda05b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.654482246958651, 
+        "performance_counters": {
+            "num_requested_bytes": 5844140, 
+            "num_requests": 4, 
+            "num_requested_chunks": 619
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/144/00000/90e9afdc-1389-4ca6-bebf-63d447ae4749.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.671609674929641, 
+        "performance_counters": {
+            "num_requested_bytes": 15628560, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1574
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/129/00000/d09519e5-f929-480d-ae1a-967356ed2d24.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.964535379083827, 
+        "performance_counters": {
+            "num_requested_bytes": 12104354, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1197
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/129/00000/728c5750-0f9a-4cb2-9eae-77eb6feef86b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1755197635697483642, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/62f99e20-9816-4392-a05e-bffd65ac6ebf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "Failed to open file: [ERROR] Server responded with an error: [3000] Unable to open - cannot determine the prefix path to use for the given filesystem id /store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/62f99e20-9816-4392-a05e-bffd65ac6ebf.root; invalid argument\n", 
+        "fqdn": "cmslpc312.fnal.gov", 
+        "hostname": "cmslpc312.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.499160306993872, 
+        "performance_counters": {
+            "num_requested_bytes": 15606225, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1518
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/033f2f80-7cc5-4329-b527-47aae0b650db.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 31.924372951034456, 
+        "performance_counters": {
+            "num_requested_bytes": 19508651, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1824
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/d83f4e52-d6c1-40c5-912e-c1aa0c7ae2df.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.068481583031826, 
+        "performance_counters": {
+            "num_requested_bytes": 17415260, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/715ea8ad-c7a6-4188-b594-761de9d7d5a9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.95804313593544, 
+        "performance_counters": {
+            "num_requested_bytes": 18899178, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1741
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/2f4784b5-a56d-4509-b054-df58b69da96e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.609593651955947, 
+        "performance_counters": {
+            "num_requested_bytes": 22914956, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1911
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/172/00000/8bb00b4a-03c6-40b5-a3a6-03bd60a0a407.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.881019302061759, 
+        "performance_counters": {
+            "num_requested_bytes": 23458744, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2183
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/3ba69754-2641-47f5-bb28-d437a7457bcb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.167387016001157, 
+        "performance_counters": {
+            "num_requested_bytes": 22667262, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1877
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/172/00000/02602508-ce90-4d76-9b29-df881624fd98.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.481406455975957, 
+        "performance_counters": {
+            "num_requested_bytes": 21400011, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1756
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/172/00000/b585245d-2289-438a-8bd9-c238690537be.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.252988623920828, 
+        "performance_counters": {
+            "num_requested_bytes": 19457020, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/35cadd49-5838-43c6-ba6e-84c69a8b4cd0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.07255325105507, 
+        "performance_counters": {
+            "num_requested_bytes": 16691522, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1605
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/2c8f5ec9-a17e-40c7-a55a-6dcea32659bd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.996876379009336, 
+        "performance_counters": {
+            "num_requested_bytes": 18082482, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/a1456eec-14ca-4b36-9b96-31a85a87b4b0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.567320500966161, 
+        "performance_counters": {
+            "num_requested_bytes": 17630354, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1809
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/7cc5da24-2ea6-4226-8f9c-6775632db8d3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.973934960085899, 
+        "performance_counters": {
+            "num_requested_bytes": 20096800, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1911
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/cd4f3cf0-992f-4bf5-a5d3-8705eac0993f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.755336518981494, 
+        "performance_counters": {
+            "num_requested_bytes": 21848685, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2062
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/bc8a1691-d27c-4155-8b7c-e97d9aa19b10.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.823670497979037, 
+        "performance_counters": {
+            "num_requested_bytes": 18122664, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1775
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/169/00000/cf02914f-973c-4375-ad06-a3280eacc0c4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 2.0226914919912815, 
+        "performance_counters": {
+            "num_requested_bytes": 53089, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/195/00000/06b60dfd-6807-4b56-82e8-c498d3834aaf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.5765282859792933, 
+        "performance_counters": {
+            "num_requested_bytes": 66481, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/192/00000/3c8d4ef7-47db-437e-abcb-7ab238c0038e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.347347208997235, 
+        "performance_counters": {
+            "num_requested_bytes": 2420892, 
+            "num_requests": 4, 
+            "num_requested_chunks": 214
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/196/00000/d0114caf-8b01-4b89-ae3e-955f40967892.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.97755503107328, 
+        "performance_counters": {
+            "num_requested_bytes": 20407068, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1922
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/196/00000/216b88aa-6416-490a-9bba-1b47b54cd95c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.82066913100425, 
+        "performance_counters": {
+            "num_requested_bytes": 20268946, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/172/00000/dfb3e310-3d40-4a92-abd8-3027264a3265.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.89153800997883, 
+        "performance_counters": {
+            "num_requested_bytes": 19726667, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1824
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/733bb025-e964-484e-ad2f-855e522c5c1b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.206787917995825, 
+        "performance_counters": {
+            "num_requested_bytes": 14556626, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1401
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/a19e85fe-2d83-4ee6-91fa-806e9850c46e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.913865762995556, 
+        "performance_counters": {
+            "num_requested_bytes": 17389344, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/ced10aad-5279-4bba-b1f7-f26f1d02ac70.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.58857567096129, 
+        "performance_counters": {
+            "num_requested_bytes": 23592798, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2217
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/47a6eaf1-3607-4517-a3cb-a7eaff94c5cc.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.046106702066027, 
+        "performance_counters": {
+            "num_requested_bytes": 20345217, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1790
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/0180d0a4-b898-4190-b8e8-3bdd83bc864f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.171849840902723, 
+        "performance_counters": {
+            "num_requested_bytes": 17588886, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/23c316a8-b111-4240-bf3d-13304575e6d2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.779574544052593, 
+        "performance_counters": {
+            "num_requested_bytes": 19819918, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1809
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/629ee378-f0de-45f0-9b2c-178d6a593c58.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.145642915042117, 
+        "performance_counters": {
+            "num_requested_bytes": 17794642, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/95329bcd-916f-434a-b9a2-ebf4c92a2b9c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.05070367292501, 
+        "performance_counters": {
+            "num_requested_bytes": 19528468, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1707
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/df2d4a75-1278-4c0f-85a2-3aa7011ecfa9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 1.7035778550198302, 
+        "performance_counters": {
+            "num_requested_bytes": 659892, 
+            "num_requests": 4, 
+            "num_requested_chunks": 75
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/172/00000/941ef97d-d741-402d-af4b-dc8f6abf325a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.831234314013273, 
+        "performance_counters": {
+            "num_requested_bytes": 18621254, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/5922f1f2-9a46-4390-8fe1-8de5cbb8f225.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.088956904015504, 
+        "performance_counters": {
+            "num_requested_bytes": 22514006, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2013
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/3d2618fc-d410-4dc1-af74-f17119b29e6c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.27462113602087, 
+        "performance_counters": {
+            "num_requested_bytes": 17521424, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1639
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/93cdcd6f-e096-40d3-b5f6-93b5a163031b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.478782261023298, 
+        "performance_counters": {
+            "num_requested_bytes": 24455288, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2251
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/311aab30-b442-4dcc-94f7-8d2d87057ebd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.074056176003069, 
+        "performance_counters": {
+            "num_requested_bytes": 17250965, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1654
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/045f414f-de63-414b-8e28-415416dddc49.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.7625509219942614, 
+        "performance_counters": {
+            "num_requested_bytes": 2262825, 
+            "num_requests": 4, 
+            "num_requested_chunks": 226
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/175/00000/157d5a72-493a-493c-ad86-201dc71c8b43.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 2.599709647009149, 
+        "performance_counters": {
+            "num_requested_bytes": 800612, 
+            "num_requests": 4, 
+            "num_requested_chunks": 78
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/59f6591c-9439-4cb5-9975-dabcef6eacbd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.730061682057567, 
+        "performance_counters": {
+            "num_requested_bytes": 22034540, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/e4f2b386-9940-487b-be6f-6d62fd915651.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.855710885021836, 
+        "performance_counters": {
+            "num_requested_bytes": 20779246, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1945
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/fe14abd3-7458-4a98-8ec9-53f4fe7ee830.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.253905407036655, 
+        "performance_counters": {
+            "num_requested_bytes": 14470774, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1472
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/f77a68cc-8887-410a-a2f5-bb9cf001e86e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.348085419042036, 
+        "performance_counters": {
+            "num_requested_bytes": 16512101, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1518
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/cb89fee9-edcb-4193-9e1e-01779936739c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.110442670993507, 
+        "performance_counters": {
+            "num_requested_bytes": 18464210, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1741
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/837503bc-d179-4dde-ab04-bfbf9c1fd75c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.509225215064362, 
+        "performance_counters": {
+            "num_requested_bytes": 19181871, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1620
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/bc8d29e6-634a-4d13-8c9e-4ef99ac81a24.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.249148666975088, 
+        "performance_counters": {
+            "num_requested_bytes": 17465152, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1639
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/b9915766-c41b-4f6b-8ca1-1dad7293cc3b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.186893210047856, 
+        "performance_counters": {
+            "num_requested_bytes": 17913130, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/5271f41f-490a-4225-b7b8-d816c329cd75.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.800790495006368, 
+        "performance_counters": {
+            "num_requested_bytes": 23198668, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2183
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/a676399f-9899-4f41-b06d-b35a0e8e0235.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.534273896017112, 
+        "performance_counters": {
+            "num_requested_bytes": 22806277, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1926
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/3b691530-a006-487c-8a66-7c895046a198.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.663371335016564, 
+        "performance_counters": {
+            "num_requested_bytes": 20370798, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1877
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/58639670-4a61-4931-a0b5-30bb89e23fde.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.963340769987553, 
+        "performance_counters": {
+            "num_requested_bytes": 26368950, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2217
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/9cda4b93-c8eb-4f30-9c52-a04a738c209d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.2616424029693, 
+        "performance_counters": {
+            "num_requested_bytes": 31738914, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2625
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/23c6e315-6055-47bc-997d-98ac4996fa4a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.039441361092031, 
+        "performance_counters": {
+            "num_requested_bytes": 18493683, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1756
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/bc7c36fc-23b9-4c13-a08e-d24600decb79.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.568033976946026, 
+        "performance_counters": {
+            "num_requested_bytes": 27959256, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2319
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/e5d9da7e-a83c-404a-acee-bde9f803e4ff.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.904528722981922, 
+        "performance_counters": {
+            "num_requested_bytes": 20221682, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1945
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/b60f6b3e-a06a-457a-8983-fc387328027d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.44127131998539, 
+        "performance_counters": {
+            "num_requested_bytes": 23934752, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1979
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/24a401aa-5b28-411e-87c1-213e1db16b14.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.672801490989514, 
+        "performance_counters": {
+            "num_requested_bytes": 7128118, 
+            "num_requests": 4, 
+            "num_requested_chunks": 789
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/bb2b3c21-acb1-4626-b970-fe214d836ec9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.433179430081509, 
+        "performance_counters": {
+            "num_requested_bytes": 18252022, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1741
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/02a46823-e847-4e18-9196-5229d48c8998.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.817759110010229, 
+        "performance_counters": {
+            "num_requested_bytes": 22307281, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1858
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/ac542ac2-b336-4077-ade4-f81eecd84163.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.096058211987838, 
+        "performance_counters": {
+            "num_requested_bytes": 19813842, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1809
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/293/00000/a22850a3-538d-44f3-9829-c432bebeea30.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.656771710026078, 
+        "performance_counters": {
+            "num_requested_bytes": 52950, 
+            "num_requests": 4, 
+            "num_requested_chunks": 22
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/302/00000/43ca0b53-cddc-4edc-991c-dd1669164c00.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.09339264803566, 
+        "performance_counters": {
+            "num_requested_bytes": 12566531, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1212
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/300/00000/dc857716-c34c-4e42-b821-ce006ec2ba9c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.673188345041126, 
+        "performance_counters": {
+            "num_requested_bytes": 17021978, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1605
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/300/00000/850b7c7c-cb2f-4926-8d7f-ec3354767929.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.016101105022244, 
+        "performance_counters": {
+            "num_requested_bytes": 16952822, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1537
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/300/00000/ab7f06c3-83b3-461e-a6d0-c5ebc23682b9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.163142551085912, 
+        "performance_counters": {
+            "num_requested_bytes": 17588922, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1605
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/300/00000/60420338-98ab-40b6-b622-e987b22d569d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.13787847093772, 
+        "performance_counters": {
+            "num_requested_bytes": 17075984, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/300/00000/e1bd0760-cf8a-429f-a32b-7898f2378ecf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 2.7993928430369124, 
+        "performance_counters": {
+            "num_requested_bytes": 7014127, 
+            "num_requests": 4, 
+            "num_requested_chunks": 736
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/300/00000/90014d97-d297-44c1-a872-9f97ea93e1e9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.24088097596541, 
+        "performance_counters": {
+            "num_requested_bytes": 22633116, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1911
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/294/00000/f0157dca-e65b-4e6c-8d8f-43eb67a747ba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.34460243396461, 
+        "performance_counters": {
+            "num_requested_bytes": 152970, 
+            "num_requests": 4, 
+            "num_requested_chunks": 41
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/321/00000/4c03a1c0-2215-4a41-9ed5-d4e662361757.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.144883361062966, 
+        "performance_counters": {
+            "num_requested_bytes": 19109220, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1982
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/304/00000/ae1f74f3-ebd4-4f17-bb51-142197368801.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 42.469044349039905, 
+        "performance_counters": {
+            "num_requested_bytes": 19424641, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1926
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/304/00000/448d5738-101b-4317-9afb-6678ff46dee5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.03652682201937, 
+        "performance_counters": {
+            "num_requested_bytes": 21670090, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2081
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/304/00000/9a8e3230-a191-43a5-bba5-7adfabdf1e29.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.986186860944144, 
+        "performance_counters": {
+            "num_requested_bytes": 19905886, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1945
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/304/00000/49dd5b1c-94e2-479e-b538-01b79243c92b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.66567077196669, 
+        "performance_counters": {
+            "num_requested_bytes": 23143656, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2183
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/3e81576b-06e7-42e2-b440-ab70ae53a291.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.384862888953649, 
+        "performance_counters": {
+            "num_requested_bytes": 20807044, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/02c7e06c-2865-4ba0-909e-797cfac3d69c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.095219129929319, 
+        "performance_counters": {
+            "num_requested_bytes": 22009154, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1877
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/d4f24240-4483-4e10-a73d-8b4ea29ddfa4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.218508295947686, 
+        "performance_counters": {
+            "num_requested_bytes": 8113611, 
+            "num_requests": 4, 
+            "num_requested_chunks": 804
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/304/00000/ed53ef0d-1cc4-4c6b-a6d0-1ba05c674a1c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.623653692076914, 
+        "performance_counters": {
+            "num_requested_bytes": 33405548, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2863
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/315472c5-25d2-43e6-b27b-2fe7d6763325.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.836900689057074, 
+        "performance_counters": {
+            "num_requested_bytes": 21293132, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/b834cd14-743d-4f10-9ee9-8705fe1895df.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.346760966000147, 
+        "performance_counters": {
+            "num_requested_bytes": 22954263, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1960
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/d5ecebf1-f1fe-4d03-8005-e7cb2003bb28.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.315089149982668, 
+        "performance_counters": {
+            "num_requested_bytes": 23389182, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2013
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/a9bd100f-fcba-425e-868e-4758c3e3fca2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.389442807994783, 
+        "performance_counters": {
+            "num_requested_bytes": 21841894, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1877
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/2a6eeb4c-2d10-4a9e-a530-e788e457cbc9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.975899028009735, 
+        "performance_counters": {
+            "num_requested_bytes": 17944570, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1673
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/340/00000/a9670cad-07f9-4982-bbef-309db331d65d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.761403896962292, 
+        "performance_counters": {
+            "num_requested_bytes": 18578749, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1722
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/340/00000/668cc5fd-7a11-4b0b-beee-443789cf1570.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.0378572990885, 
+        "performance_counters": {
+            "num_requested_bytes": 16411658, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1540
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/340/00000/f898de29-dfc3-429b-b7fd-b57ce674bac0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 2.230530382017605, 
+        "performance_counters": {
+            "num_requested_bytes": 632664, 
+            "num_requests": 4, 
+            "num_requested_chunks": 75
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/340/00000/65719bf0-6eee-4c98-ba66-da63b570347a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.992274291929789, 
+        "performance_counters": {
+            "num_requested_bytes": 12027579, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1076
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/e31b7f58-6d02-40ec-85f6-56abfbf3a4ea.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.279247659957036, 
+        "performance_counters": {
+            "num_requested_bytes": 22545696, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2387
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/ac443bc5-e53a-47e1-8015-7cb4bdb3e32b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.170006084023044, 
+        "performance_counters": {
+            "num_requested_bytes": 14015560, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1231
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/307/00000/d09f1cec-514d-4107-b9eb-2a7f35112afb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.91801022097934, 
+        "performance_counters": {
+            "num_requested_bytes": 15208915, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1484
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/90d7bd4d-65b7-47a9-bde6-487aadd21f65.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.352197348955087, 
+        "performance_counters": {
+            "num_requested_bytes": 27758766, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2353
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/c9c2071e-1e66-4f3d-85f2-c5eee31ca2f3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.323702716967091, 
+        "performance_counters": {
+            "num_requested_bytes": 16593266, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1741
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/4880b095-ff31-4179-816a-2eb1178b7195.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.831226828042418, 
+        "performance_counters": {
+            "num_requested_bytes": 21042628, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1775
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/2a5c7f8b-6fcc-4c34-8ee2-8060e2c83ac6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.87464517308399, 
+        "performance_counters": {
+            "num_requested_bytes": 23914442, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2149
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/c4acc3c9-8820-4399-afed-ac6393e2fe9a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.889800956938416, 
+        "performance_counters": {
+            "num_requested_bytes": 17326632, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/5f4ed575-03ff-4706-b881-11e573128ff8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.698641736060381, 
+        "performance_counters": {
+            "num_requested_bytes": 23443543, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2096
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/fe6e3452-4df4-4e87-bdea-9b48aa004787.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.782818993087858, 
+        "performance_counters": {
+            "num_requested_bytes": 20928313, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2062
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/ef6dd05f-939a-4376-81fd-ba454ec709bb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.752937632030807, 
+        "performance_counters": {
+            "num_requested_bytes": 39499277, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3898
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/09ca9147-aa61-46cf-b5b3-6ed3b4110a71.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.07484202296473, 
+        "performance_counters": {
+            "num_requested_bytes": 21735798, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2217
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/55306d9e-700a-4336-a8c7-d85ccb7c8e47.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.215462837950327, 
+        "performance_counters": {
+            "num_requested_bytes": 20641191, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2164
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/76272e50-7d2a-40f4-9483-5d9af3e2cd6e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.528254399891011, 
+        "performance_counters": {
+            "num_requested_bytes": 24978781, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2198
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/1bfd91a5-e5ae-4015-9751-3d29e5dcbf8d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.254523106035776, 
+        "performance_counters": {
+            "num_requested_bytes": 23680105, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2062
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/5a4310cc-adfd-489f-822a-c244cb3fc10a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.529049430042505, 
+        "performance_counters": {
+            "num_requested_bytes": 35840196, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3611
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/3d87945a-baad-43f7-84d5-1f9f0b4349f0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.231719352072105, 
+        "performance_counters": {
+            "num_requested_bytes": 22027550, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1880
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/21b3cd44-9c55-42ff-905d-cdd43c989e1c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.263508061063476, 
+        "performance_counters": {
+            "num_requested_bytes": 21530651, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1892
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/d29b29f8-9915-4cc7-82a7-7c004c2df510.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.070036663091742, 
+        "performance_counters": {
+            "num_requested_bytes": 17949919, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1892
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/31dbd02d-b5d9-4974-a7ed-ad0dce05d749.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.57169752207119, 
+        "performance_counters": {
+            "num_requested_bytes": 18942096, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1979
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/2cbd7fa2-7c65-4c59-bdac-e887999e59f2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.300698667066172, 
+        "performance_counters": {
+            "num_requested_bytes": 17114448, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1778
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/508dca6e-b74e-4033-be88-780e13ecb40a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.015275200945325, 
+        "performance_counters": {
+            "num_requested_bytes": 17233578, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1809
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/500d4015-5ac4-4a57-9f0f-8a85c9218711.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.27728186105378, 
+        "performance_counters": {
+            "num_requested_bytes": 17212994, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1809
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/fbf1f756-7258-4d64-ad56-3d29f0956d08.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.111926387064159, 
+        "performance_counters": {
+            "num_requested_bytes": 16630588, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1775
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/9d9c7847-942d-4a3d-a723-feb986202858.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.011282018967904, 
+        "performance_counters": {
+            "num_requested_bytes": 11820486, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1265
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/406/00000/f2cfa5df-c006-4913-8f0a-d14e140fec54.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.738186466041952, 
+        "performance_counters": {
+            "num_requested_bytes": 14833379, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1620
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/332/00000/4295dc76-f837-45f2-94ce-6cf2e4a2b899.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.894990065949969, 
+        "performance_counters": {
+            "num_requested_bytes": 14725889, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1586
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/07d0142f-ee21-43b9-8b2d-e5b4cf51736f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.693359393975697, 
+        "performance_counters": {
+            "num_requested_bytes": 761245, 
+            "num_requests": 4, 
+            "num_requested_chunks": 90
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/2529480b-0217-4074-a232-5c48a43b4431.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 4.5428285849047825, 
+        "performance_counters": {
+            "num_requested_bytes": 14175599, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1416
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/fcef5169-93ff-4f71-9ad7-f9625e5f88f0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.600785724935122, 
+        "performance_counters": {
+            "num_requested_bytes": 16273964, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1707
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/5ebd70dd-3a6b-4a91-ba9e-8bc17681b0d4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.809806175995618, 
+        "performance_counters": {
+            "num_requested_bytes": 19956994, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1948
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/4ba5a4a9-bc6c-4bc5-a132-3232a95025e4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.781226380961016, 
+        "performance_counters": {
+            "num_requested_bytes": 14858797, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1593
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/354/00000/726f1d4e-3174-423c-a292-70f3b67d8325.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.20632665802259, 
+        "performance_counters": {
+            "num_requested_bytes": 27938722, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2897
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/7a7f5df6-b2ab-4a8b-950e-fc719242a9e9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.740451427991502, 
+        "performance_counters": {
+            "num_requested_bytes": 18363696, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1979
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/fce8f5e3-4a32-4b0f-a8d1-d8f84c2d5f57.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.253814208088443, 
+        "performance_counters": {
+            "num_requested_bytes": 23199892, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2455
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/28d9e83b-689b-4714-9536-d3433d53920d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.652247874997556, 
+        "performance_counters": {
+            "num_requested_bytes": 18781806, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2013
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/357/00000/dc72ac24-85e6-4113-8c58-28b2c5462d69.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.437168686068617, 
+        "performance_counters": {
+            "num_requested_bytes": 4692101, 
+            "num_requests": 4, 
+            "num_requested_chunks": 498
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/355/00000/4ba8c57f-34cb-4054-abde-b9beccba1663.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.381252743070945, 
+        "performance_counters": {
+            "num_requested_bytes": 13566750, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1469
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/406/00000/ae5cb612-0a28-48e1-a8e9-5c95b59c7eaa.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.885540154995397, 
+        "performance_counters": {
+            "num_requested_bytes": 16118894, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1741
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/406/00000/9a0f62d7-af88-4589-882f-e9932ab9d867.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.000334755983204, 
+        "performance_counters": {
+            "num_requested_bytes": 12097107, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1287
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/54da884e-c4be-4471-bfc1-8bda34220e9c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.003468199982308, 
+        "performance_counters": {
+            "num_requested_bytes": 14569092, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1435
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/83024340-842b-45cf-8b0e-d84f5525d8c7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.051869119983166, 
+        "performance_counters": {
+            "num_requested_bytes": 19232004, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1979
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/db3b2db2-a9dc-4df9-87f2-e623fc7e1347.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.6704147659475, 
+        "performance_counters": {
+            "num_requested_bytes": 22463064, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2319
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/bc1aee15-aae2-47dd-a105-e1fef61d2a20.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.114510913030244, 
+        "performance_counters": {
+            "num_requested_bytes": 18136708, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1911
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/a023eb94-0f73-4b31-8355-6eb4f80034df.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 4.587129786028527, 
+        "performance_counters": {
+            "num_requested_bytes": 557856, 
+            "num_requests": 4, 
+            "num_requested_chunks": 75
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/472/00000/6c45d3ad-c947-458d-996c-a09eb6d03f3d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.896304819034413, 
+        "performance_counters": {
+            "num_requested_bytes": 11093880, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1166
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/560/00000/a659a932-49fd-44ee-b128-26602359d05f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.077218885999173, 
+        "performance_counters": {
+            "num_requested_bytes": 29226008, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2387
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/3543389c-7b8b-4545-a606-21439eb08f93.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.349922038032673, 
+        "performance_counters": {
+            "num_requested_bytes": 19912564, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1639
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/a8c606e0-f655-495a-9272-56e2a04d2596.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.41267071198672, 
+        "performance_counters": {
+            "num_requested_bytes": 16705428, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1707
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/522/00000/9670d523-623a-4b09-89b8-687609d9c430.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.416513129952364, 
+        "performance_counters": {
+            "num_requested_bytes": 15735552, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/579/00000/2d1d33fe-512c-4b3a-95f5-18271179134d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.1259939890587702, 
+        "performance_counters": {
+            "num_requested_bytes": 1209064, 
+            "num_requests": 4, 
+            "num_requested_chunks": 143
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/522/00000/0d2c5e16-d0b8-4c5e-865e-5ddec050856a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.468547014985234, 
+        "performance_counters": {
+            "num_requested_bytes": 14948218, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1537
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/460/00000/c22e4359-7561-4c9e-9f95-86dd28075e9b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.462926489068195, 
+        "performance_counters": {
+            "num_requested_bytes": 11326472, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1163
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/497/00000/459fe83b-ea9a-4294-b282-47555bb68983.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.4206271189032122, 
+        "performance_counters": {
+            "num_requested_bytes": 331066, 
+            "num_requests": 4, 
+            "num_requested_chunks": 41
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/460/00000/aeb639d0-52d4-417d-b0ea-0b65f7945011.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.312261412036605, 
+        "performance_counters": {
+            "num_requested_bytes": 4506143, 
+            "num_requests": 4, 
+            "num_requested_chunks": 464
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/436/00000/3dedea52-8d97-475c-b5f1-c9af9109dce0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.606263200053945, 
+        "performance_counters": {
+            "num_requested_bytes": 16996844, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1843
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/605c785c-91c3-4325-8d8b-d250dadd2dee.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.341265532071702, 
+        "performance_counters": {
+            "num_requested_bytes": 37578034, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3237
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/f3920732-2900-4e5a-885d-5e19298e983e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.597965819993988, 
+        "performance_counters": {
+            "num_requested_bytes": 6431537, 
+            "num_requests": 4, 
+            "num_requested_chunks": 702
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/5d01bdef-cbe4-4d65-b84b-875275195d45.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.693688793922774, 
+        "performance_counters": {
+            "num_requested_bytes": 30419312, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2727
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/ee5f0077-6dfc-4a16-9183-00618c4d9686.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.02817013405729, 
+        "performance_counters": {
+            "num_requested_bytes": 35076216, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2795
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/02291db2-2530-45f5-8061-2f678948d72a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.730091433040798, 
+        "performance_counters": {
+            "num_requested_bytes": 27715680, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2727
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/77deb09f-9dfa-48dd-bd16-9a5d4f83cca9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.548928107949905, 
+        "performance_counters": {
+            "num_requested_bytes": 29147394, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2421
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/11eec680-e8b8-4c7c-ae29-b86754540cf0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.578212265041657, 
+        "performance_counters": {
+            "num_requested_bytes": 23676231, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2368
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/76e7d3bc-ef04-4d77-b19b-22a4ab2b0f66.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.828062172047794, 
+        "performance_counters": {
+            "num_requested_bytes": 28054984, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2387
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/89de8d71-99de-454d-91ee-857c919987f9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.500990730011836, 
+        "performance_counters": {
+            "num_requested_bytes": 27041456, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2387
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/84f3f0f8-8180-43e8-9ead-0bdc6b979366.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.13515999203082, 
+        "performance_counters": {
+            "num_requested_bytes": 26887026, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2285
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/69538ffb-f0a9-4150-8ee2-7a374f65ed5c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.878654433065094, 
+        "performance_counters": {
+            "num_requested_bytes": 23152768, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2319
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/fdee94b6-82f5-4a9e-a0d9-826cd643c11a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.319960155058652, 
+        "performance_counters": {
+            "num_requested_bytes": 36197475, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3048
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/886eb8c1-6c0e-4e5b-a41d-8d2f27fbd225.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.539531446993351, 
+        "performance_counters": {
+            "num_requested_bytes": 21818975, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2232
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/83560f48-238d-44d0-9297-4ae5a9d90c7f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.65511404897552, 
+        "performance_counters": {
+            "num_requested_bytes": 27036090, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2285
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/ec2398e5-be01-4ca0-a30d-0eed4e912140.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.660879891947843, 
+        "performance_counters": {
+            "num_requested_bytes": 18776934, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1945
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/654e862f-b345-4da6-a86e-69dd9131ed06.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.088158695027232, 
+        "performance_counters": {
+            "num_requested_bytes": 24114078, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2081
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/583efd22-2dfb-41bc-8dde-90499f852d7f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.738399564987049, 
+        "performance_counters": {
+            "num_requested_bytes": 18198852, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1911
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/f6ebaf75-5540-4b22-bcd3-f09e4ca8ec0d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.8955942990724, 
+        "performance_counters": {
+            "num_requested_bytes": 23455428, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1979
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/71b862d3-c7e8-4fe9-8b85-1071e673d628.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.16255689796526, 
+        "performance_counters": {
+            "num_requested_bytes": 24395889, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2334
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/d852aba3-868e-413b-b1c8-9f3593355c9b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.462253132020123, 
+        "performance_counters": {
+            "num_requested_bytes": 18628981, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1994
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/842ae8c4-98a6-45f6-8186-f8513ea0021d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.358825033996254, 
+        "performance_counters": {
+            "num_requested_bytes": 25596443, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2164
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/PromptReco-v1/000/370/580/00000/8ce487f7-ad42-49e5-85f2-4d6371d11935.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

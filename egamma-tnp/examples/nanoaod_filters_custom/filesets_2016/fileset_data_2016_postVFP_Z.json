@@ -1,0 +1,22 @@
+{ "DATA_2016_GH":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/E353F511-F565-2443-B67C-40D0C3235AC8.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/DCBFCC6D-EC34-8B48-A2CF-EA74BBF4EDFD.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/5A99C795-4CE4-0F43-87C6-22686CCDBD0F.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/7A11637B-4BD7-ED42-ABF7-F22BF3D38D86.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/3EBF4299-63AB-EC48-8E8A-A66E3C1039C5.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/1EEFCB14-DE11-7443-A09D-8609C8B876AE.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016G/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/250000/ECA6DDD9-3AA8-8C45-B36A-F86B53F4F2DF.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/E9EA8DF4-AEB2-6B4A-A51C-FBA39D3D26E0.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/60EB4CE5-4BA9-8246-B211-54EFE4521BFA.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/B072C293-D9B7-CD4C-BE6C-7180DB4D9DE8.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/1253AC11-244C-AC4B-870A-3D54638F3A24.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/D5CA8B47-FB14-8E41-A2B2-8070A798BED5.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/96510D8E-B569-F948-8DF3-2E91E7B460AF.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2016H/DoubleEG/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/260000/03134293-A338-1B48-B693-08C3F6B6CEE8.root": "Events"
+
+            }
+     }
+}

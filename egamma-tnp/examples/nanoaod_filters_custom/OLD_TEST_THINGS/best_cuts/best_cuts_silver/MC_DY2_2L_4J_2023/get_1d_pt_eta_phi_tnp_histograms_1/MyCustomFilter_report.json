@@ -1,0 +1,107 @@
+[
+    {
+        "call_time": null, 
+        "duration": 2.2893611127510667, 
+        "performance_counters": {
+            "num_requested_bytes": 15826388, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2844
+        }, 
+        "args": [
+            "'root://cmseos.fnal.gov:1094//store/user/lpcsusylep/leptons/egamma_files/MC_files/DYto2L_4J/00aa4598-0955-4993-bf29-0c3c4821e94e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.490448135882616, 
+        "performance_counters": {
+            "num_requested_bytes": 19744956, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3580
+        }, 
+        "args": [
+            "'root://cmseos.fnal.gov:1094//store/user/lpcsusylep/leptons/egamma_files/MC_files/DYto2L_4J/00b2e2c3-8962-4bcc-9a02-7c210036f886.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 4.733490419574082, 
+        "performance_counters": {
+            "num_requested_bytes": 22610237, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4089
+        }, 
+        "args": [
+            "'root://cmseos.fnal.gov:1094//store/user/lpcsusylep/leptons/egamma_files/MC_files/DYto2L_4J/00b4cd9a-09ed-4369-9294-2b1bc78e9fda.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 3.1457717092707753, 
+        "performance_counters": {
+            "num_requested_bytes": 13211706, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2358
+        }, 
+        "args": [
+            "'root://cmseos.fnal.gov:1094//store/user/lpcsusylep/leptons/egamma_files/MC_files/DYto2L_4J/03ad6173-9607-4b0f-8d25-f52e8de104ba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 4.081809343770146, 
+        "performance_counters": {
+            "num_requested_bytes": 13858837, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2488
+        }, 
+        "args": [
+            "'root://cmseos.fnal.gov:1094//store/user/lpcsusylep/leptons/egamma_files/MC_files/DYto2L_4J/06a2c735-db99-4d08-8ea8-1e9f08e453b4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

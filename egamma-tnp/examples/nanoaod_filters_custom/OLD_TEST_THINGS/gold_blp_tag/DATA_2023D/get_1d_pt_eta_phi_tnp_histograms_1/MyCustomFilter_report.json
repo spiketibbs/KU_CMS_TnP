@@ -1,0 +1,23 @@
+[
+    {
+        "call_time": null, 
+        "duration": 20.89805192593485, 
+        "performance_counters": {
+            "num_requested_bytes": 387344976, 
+            "num_requests": 4, 
+            "num_requested_chunks": 13037
+        }, 
+        "args": [
+            "'/uscms/home/bean/nobackup/tagnprobe/EGamma0_Run2023D-22Sep2023_NANOAOD.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

@@ -1,0 +1,1262 @@
+[
+    {
+        "call_time": null, 
+        "duration": 22.824820088921115, 
+        "performance_counters": {
+            "num_requested_bytes": 58866368, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5121
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/fc70d472-858a-481e-b717-72d755f76d63.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.34817970613949, 
+        "performance_counters": {
+            "num_requested_bytes": 18361312, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1605
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/378a792e-310a-420c-95a0-09ac8a750c3d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 42.62694894406013, 
+        "performance_counters": {
+            "num_requested_bytes": 81308252, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7065
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/7d21927f-4ae4-4fc9-9b9c-be922dc3d507.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.769610384013504, 
+        "performance_counters": {
+            "num_requested_bytes": 56238812, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4853
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/ee3f48f8-f0b1-4127-8e99-8e6cfc45a1a4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.537575596943498, 
+        "performance_counters": {
+            "num_requested_bytes": 3226477, 
+            "num_requests": 4, 
+            "num_requested_chunks": 293
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/9054ff39-9c15-4f5a-9a68-1acc2d4cad52.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.230698849074543, 
+        "performance_counters": {
+            "num_requested_bytes": 1703798, 
+            "num_requests": 4, 
+            "num_requested_chunks": 174
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/e0b317f3-3ca9-4823-93c7-d0908af14c14.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.40496061486192, 
+        "performance_counters": {
+            "num_requested_bytes": 76023162, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6621
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/06336d9b-9217-4822-80bf-1d192e928267.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 40.891342618037015, 
+        "performance_counters": {
+            "num_requested_bytes": 101649884, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8745
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/51533762-0911-471b-919b-d42ceaf870df.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.225837481906638, 
+        "performance_counters": {
+            "num_requested_bytes": 78903663, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6742
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/b51dc8c0-ece7-4748-aee3-35b0a6abd3e8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.08210519584827, 
+        "performance_counters": {
+            "num_requested_bytes": 118362681, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10421
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/cc53410c-06d3-4713-aadf-fbec7bb144ac.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.948032720014453, 
+        "performance_counters": {
+            "num_requested_bytes": 119303883, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10157
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/3cbed11c-df03-439a-9641-e1905496d73a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 25.912393225124106, 
+        "performance_counters": {
+            "num_requested_bytes": 61414745, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6241
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/6dec84e1-445e-418d-9fff-aef17411271b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 25.680508782854304, 
+        "performance_counters": {
+            "num_requested_bytes": 62512063, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5381
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/552ccc08-5269-46cb-98b9-38930189ff38.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 45.09972997405566, 
+        "performance_counters": {
+            "num_requested_bytes": 74776190, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6485
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/90fbe00a-0029-41c9-b62a-e0c8b9a4c682.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.331422659102827, 
+        "performance_counters": {
+            "num_requested_bytes": 88238333, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7294
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/e0386f63-1045-4326-a595-daba9d76d7c5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.760485261911526, 
+        "performance_counters": {
+            "num_requested_bytes": 62327023, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5381
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/b5a85a95-5cce-4887-807d-40e301f3cd1b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.74938646098599, 
+        "performance_counters": {
+            "num_requested_bytes": 69474561, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5769
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/a2004054-f037-4894-ac32-26d17cfed9f4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 32.57424122514203, 
+        "performance_counters": {
+            "num_requested_bytes": 119235153, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10084
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/41b5cfe1-19fa-46d8-be62-9e5ae4bafe0c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 32.652592472033575, 
+        "performance_counters": {
+            "num_requested_bytes": 118182870, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10033
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/2997bf43-f8c1-42cc-a76b-be96b64ff45c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 31.997588112950325, 
+        "performance_counters": {
+            "num_requested_bytes": 48058335, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4037
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/f8810663-01aa-4dbc-8b2c-e870d32267f9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 43.6483833079692, 
+        "performance_counters": {
+            "num_requested_bytes": 75533457, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4628
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/17560d65-304d-4e1d-9fae-4d8da8fe7a29.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 50.376433808822185, 
+        "performance_counters": {
+            "num_requested_bytes": 64835119, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5573
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/34de7509-bade-4b17-8873-6b14194f1538.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.600456146057695, 
+        "performance_counters": {
+            "num_requested_bytes": 55655804, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4757
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/f309ccdc-fbab-4533-91ad-156911a675d2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 32.02094645006582, 
+        "performance_counters": {
+            "num_requested_bytes": 83592998, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7253
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/255fd2ad-1843-402f-8abb-99685e24c8e6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 37.080904284026474, 
+        "performance_counters": {
+            "num_requested_bytes": 85294176, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7349
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/0f87d77d-f4db-46cc-9d94-92c82864845f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.8859482021071, 
+        "performance_counters": {
+            "num_requested_bytes": 63555818, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5440
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/ebd1518a-972f-4561-b722-01d69ae2219e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.291224801912904, 
+        "performance_counters": {
+            "num_requested_bytes": 42196207, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3670
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/b16542ab-0a93-4e97-8aac-6e638e30099c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.4899072968401, 
+        "performance_counters": {
+            "num_requested_bytes": 74694195, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6458
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/e263c79a-1020-4133-9a0e-b12551917359.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.343480953015387, 
+        "performance_counters": {
+            "num_requested_bytes": 66656119, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5645
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/b5cff409-2e56-4607-8888-3ec767d38517.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 49.37959528295323, 
+        "performance_counters": {
+            "num_requested_bytes": 83818361, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8613
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/ce59f39b-fcf7-4561-8157-8541280debe4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.66336235590279, 
+        "performance_counters": {
+            "num_requested_bytes": 68610914, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5909
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/dd135067-4f60-4909-bbd4-a783e548ab84.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.547271800925955, 
+        "performance_counters": {
+            "num_requested_bytes": 78768177, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6729
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/0bc7f875-74ac-482b-b344-9d1ffb9e97a0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.282656509894878, 
+        "performance_counters": {
+            "num_requested_bytes": 65492922, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5642
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/ed644111-b3b0-4b17-93ff-85409d01c8ba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.459073624107987, 
+        "performance_counters": {
+            "num_requested_bytes": 9462380, 
+            "num_requests": 4, 
+            "num_requested_chunks": 821
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/941e4af5-473f-4ddd-a5b0-de5bdc5a5b9d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.64817578601651, 
+        "performance_counters": {
+            "num_requested_bytes": 65372112, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5621
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/48e3e3ea-be3e-4962-a763-c859c3f8ad95.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.26333628105931, 
+        "performance_counters": {
+            "num_requested_bytes": 61488289, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5429
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/cec93220-d45c-4e7d-bc84-43cc1092efc5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.37949927104637, 
+        "performance_counters": {
+            "num_requested_bytes": 59500915, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5144
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/24cfbb1d-bc9c-4aad-82c2-ad827e603483.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.668865350075066, 
+        "performance_counters": {
+            "num_requested_bytes": 24923018, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2169
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2560000/1d0ae659-1127-43de-9a5d-754cb00db809.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.917070802068338, 
+        "performance_counters": {
+            "num_requested_bytes": 37812701, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3273
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/884d047b-6c5c-4732-b433-25f2614b20f5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.765645388048142, 
+        "performance_counters": {
+            "num_requested_bytes": 80942581, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6921
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/a0b2ec11-ed31-4657-8342-ea7ca1099a33.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.094799349084496, 
+        "performance_counters": {
+            "num_requested_bytes": 73962381, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6437
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/4a3181e9-408b-46c6-b5ba-3150263d3586.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.897496135905385, 
+        "performance_counters": {
+            "num_requested_bytes": 84274105, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7305
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/5205ab21-6203-42e1-bb9b-d2b19f7e8cea.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.37054430693388, 
+        "performance_counters": {
+            "num_requested_bytes": 69011842, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6068
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/a5b3260c-769f-4672-a6d0-16f6166a69ed.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.703970173140988, 
+        "performance_counters": {
+            "num_requested_bytes": 35483113, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3162
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/b2fb9f45-ba87-495f-a74f-13e375cae2f4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.17352408193983, 
+        "performance_counters": {
+            "num_requested_bytes": 4193187, 
+            "num_requests": 4, 
+            "num_requested_chunks": 416
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/66c449b2-f54b-4725-9cb0-171868e220dd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 35.9440843090415, 
+        "performance_counters": {
+            "num_requested_bytes": 69822016, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6022
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/94255b25-2575-4eea-a665-feea2081fa9c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.53853036998771, 
+        "performance_counters": {
+            "num_requested_bytes": 72542713, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6261
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/3f34b6df-0529-4c26-85cd-12245e53a3b2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 28.449452345026657, 
+        "performance_counters": {
+            "num_requested_bytes": 92347591, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7894
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/efc9481d-3a63-4867-a145-30e64a8822c2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 28.789741373155266, 
+        "performance_counters": {
+            "num_requested_bytes": 62121615, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5381
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/3bbb29b9-7683-4470-a4d0-7f5aabfc34c4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.00654087914154, 
+        "performance_counters": {
+            "num_requested_bytes": 49655016, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4360
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/da9937c3-1a3e-48e3-9fe9-ab8082aedf6b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.862176361028105, 
+        "performance_counters": {
+            "num_requested_bytes": 1722982, 
+            "num_requests": 4, 
+            "num_requested_chunks": 174
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/d282d981-5d39-49a6-8c28-d9ca0971c235.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.423906126990914, 
+        "performance_counters": {
+            "num_requested_bytes": 64345299, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5573
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/1f05b660-1287-4daa-bb35-8c118513c2f8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 40.92456067795865, 
+        "performance_counters": {
+            "num_requested_bytes": 107829809, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10268
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/5fb2db15-9009-443b-904f-d770a718f014.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.175873863045126, 
+        "performance_counters": {
+            "num_requested_bytes": 69598151, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5957
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/e6a559fe-9721-46ed-9646-b90284c7dfd6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 25.25969943916425, 
+        "performance_counters": {
+            "num_requested_bytes": 57629390, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4949
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/3ef0363e-b3a6-42e4-8f9e-e418b7c643e0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 31.863566202111542, 
+        "performance_counters": {
+            "num_requested_bytes": 111815735, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9705
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/e8140edc-26c3-4bb3-8871-9c185fb4c8f0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 28.721904659178108, 
+        "performance_counters": {
+            "num_requested_bytes": 90994471, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7999
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/64a6a333-e896-47a5-98d1-3e0b8edb4690.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.68729061004706, 
+        "performance_counters": {
+            "num_requested_bytes": 96651402, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8388
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/92c868fb-7c35-4ca8-bab9-95b0edbe75e2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 54.31585961510427, 
+        "performance_counters": {
+            "num_requested_bytes": 113844006, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9933
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/75da32d5-2a79-4750-ad4f-f02daf15355c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.281241443008184, 
+        "performance_counters": {
+            "num_requested_bytes": 64258923, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5573
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/2550000/4ac9cc3b-8e5c-4474-9e4d-5f8c7fd31fa0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

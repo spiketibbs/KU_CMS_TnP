@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 /usr/local/bin/cmslpc-local-conf.py.orig | grep -v "LOCAL_CONFIG_FILE"

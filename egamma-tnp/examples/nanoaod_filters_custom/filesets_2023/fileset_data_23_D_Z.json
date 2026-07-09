@@ -1,0 +1,23 @@
+{
+ "DATA_2023_D":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/120000/63b06055-0474-4541-b63f-898d0be21630.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/868101fa-3721-4df4-9b4c-83e8638329cb.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/8e1d2829-8fd7-43da-9b4a-ed7e8c7680ba.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/fb69cc9a-4556-4d97-be39-0dda3caef36f.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/3b4e8b43-2b58-48fa-9bda-d45e032f4ace.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/a3897640-e2a5-4ec7-934e-770fc8b17fc2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/24de1f7f-6886-4441-806b-02c220a381b1.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/8efc7ffa-e479-4b8f-bec5-7ae1f4898a84.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/ee4da721-7c37-4772-aad6-f774dc95ec31.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/e52ba430-809f-4ae4-9fcd-4032f277a0bf.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/7c117890-3a70-4a99-96f8-b3d04a541f69.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/445f7476-e4ad-4f85-bb30-c2215bbecf1f.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/88ea6ff1-37b2-444b-b237-f5be54cd8859.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/616dd0c4-498c-4ee0-a864-c3672edefa3c.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/083a7142-9197-4974-95b5-8c7a4b5ef478.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/EGamma1/NANOAOD/24Jan2024_v1-v1/2820000/60b349db-b4bd-4da7-9e1f-7d577664d6da.root": "Events"
+            }
+        }
+    }

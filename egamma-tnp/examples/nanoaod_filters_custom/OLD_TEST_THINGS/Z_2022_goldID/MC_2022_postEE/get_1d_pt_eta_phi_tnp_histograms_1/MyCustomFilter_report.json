@@ -1,0 +1,2510 @@
+[
+    {
+        "call_time": null, 
+        "duration": 21.900173395173624, 
+        "performance_counters": {
+            "num_requested_bytes": 32203885, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5756
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/671bef05-43d8-49bb-acfc-9e1277290c4f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.451405013911426, 
+        "performance_counters": {
+            "num_requested_bytes": 36585063, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6568
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/1f6f600b-d046-4d34-8e22-a14d6136048f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.688326279167086, 
+        "performance_counters": {
+            "num_requested_bytes": 60169759, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10700
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/c2080d7f-c2b0-4c46-9d92-6956f0d3ee1f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.78357767709531, 
+        "performance_counters": {
+            "num_requested_bytes": 50574284, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8584
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/b2c6bf33-3cbb-4a3d-a151-23c0b9e06c51.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.29687667102553, 
+        "performance_counters": {
+            "num_requested_bytes": 53135303, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9448
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/01daa119-4652-4ef0-9e64-b12f7ab8b621.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.972811975050718, 
+        "performance_counters": {
+            "num_requested_bytes": 44834675, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7556
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/f82d63e8-e49e-4197-a082-645916f192a2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.83757253200747, 
+        "performance_counters": {
+            "num_requested_bytes": 60425545, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10888
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/4554bcd4-7aa9-4260-ba2c-1bf29637f3d8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.2502365950495, 
+        "performance_counters": {
+            "num_requested_bytes": 60323468, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10840
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/5c58a1db-430c-4cfa-9484-974c8705e8a3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 40.25226376391947, 
+        "performance_counters": {
+            "num_requested_bytes": 59683870, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10744
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/aa85f1d5-392d-4a35-b446-9a3bd924be03.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.189186821924523, 
+        "performance_counters": {
+            "num_requested_bytes": 60378752, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10883
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/e25394b8-ca9e-4f0f-ace4-5f8c0bd52ae1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.675119593041018, 
+        "performance_counters": {
+            "num_requested_bytes": 60517738, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10744
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/609f057b-5c02-497a-b39d-bac4671ccacd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.44887669896707, 
+        "performance_counters": {
+            "num_requested_bytes": 31663365, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5704
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/9c923810-2929-440a-93a7-42e199bc6b29.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.671140170888975, 
+        "performance_counters": {
+            "num_requested_bytes": 38079231, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6535
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/a2e43422-66e6-4b31-9b5d-11e2e9e53881.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.47206364083104, 
+        "performance_counters": {
+            "num_requested_bytes": 48415516, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8180
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/1e3aa036-1dce-4bb2-8daf-6e7603606659.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 47.27186576696113, 
+        "performance_counters": {
+            "num_requested_bytes": 53460701, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9636
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/4dd7d9fb-e213-49c4-b93c-e1866f05de1f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.303702960023656, 
+        "performance_counters": {
+            "num_requested_bytes": 59355615, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10124
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/1a9442d4-c837-4412-a7b7-336b30ce06ad.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.698153306962922, 
+        "performance_counters": {
+            "num_requested_bytes": 45277545, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8085
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/e4902592-9f6a-4f57-8ea0-ee84473892e2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.357934202067554, 
+        "performance_counters": {
+            "num_requested_bytes": 35430090, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6436
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/e432b1c5-823f-4a93-8067-090796d1c662.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.81415047496557, 
+        "performance_counters": {
+            "num_requested_bytes": 56141352, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9997
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/6aac1eca-45a9-45c6-95bb-cf9bf13d87ad.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.569126858841628, 
+        "performance_counters": {
+            "num_requested_bytes": 38266216, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6844
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/c2de5924-e2f0-48c0-99c0-d68ff81c0f85.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 28.0149115039967, 
+        "performance_counters": {
+            "num_requested_bytes": 56197426, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10068
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/cc3e1e19-158a-4d9d-aa03-882320afcf59.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.892504083923995, 
+        "performance_counters": {
+            "num_requested_bytes": 30355202, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5184
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/eb1fedb2-b233-41f3-b3ff-0a380cd38b49.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.135465346975252, 
+        "performance_counters": {
+            "num_requested_bytes": 55137925, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9928
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/ebf73623-6a6b-4a70-8b9f-ea19c7506a77.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.685868181986734, 
+        "performance_counters": {
+            "num_requested_bytes": 33643596, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6040
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/9c34edcc-5b72-4b52-b2da-926c06542842.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.67591789504513, 
+        "performance_counters": {
+            "num_requested_bytes": 51147415, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9248
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/f1b43d8e-b81d-4a6a-bd41-6f12b68379e3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.481019244994968, 
+        "performance_counters": {
+            "num_requested_bytes": 60178248, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10576
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/30d5548d-b3df-4fe4-a167-e75e6a6bc6d9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.154259368078783, 
+        "performance_counters": {
+            "num_requested_bytes": 18129067, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3056
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/7d7100dd-ce69-4c8d-a49b-42876c721ed1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.656291003106162, 
+        "performance_counters": {
+            "num_requested_bytes": 59501364, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10560
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/0c8c2dde-bf8c-468f-ac75-8a44eec12e0f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 35.911121865035966, 
+        "performance_counters": {
+            "num_requested_bytes": 44112711, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7944
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/69962320-f7a4-44ab-9f94-a5cec289d05a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 31.221244672778994, 
+        "performance_counters": {
+            "num_requested_bytes": 60456124, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10842
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/30000/65281a3f-12f5-4b02-b1f9-c58080b4f0ca.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.34714198182337, 
+        "performance_counters": {
+            "num_requested_bytes": 39470947, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7144
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/30000/ed4ee797-120b-4cca-a1fe-1acf22f267dd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.981604340020567, 
+        "performance_counters": {
+            "num_requested_bytes": 19881836, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3505
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/30000/25462df5-c9b2-4890-8ca1-1b1a10f816a8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.221457588020712, 
+        "performance_counters": {
+            "num_requested_bytes": 32494565, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5432
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/d9be16b9-0ff6-4c9c-aeeb-277d587917cd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.023712747963145, 
+        "performance_counters": {
+            "num_requested_bytes": 35428127, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6376
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/363eef7a-dce3-4b4e-9976-ce1bb6f7aabc.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.591800722060725, 
+        "performance_counters": {
+            "num_requested_bytes": 13494276, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2429
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/2b1be5ba-5ca1-48d1-9d59-72519ad953c6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.82981657399796, 
+        "performance_counters": {
+            "num_requested_bytes": 46045610, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8060
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/c950011a-110a-481e-baf0-11264412703c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.22913914709352, 
+        "performance_counters": {
+            "num_requested_bytes": 31789300, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5656
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/fa9b6dc8-06e7-46aa-a936-ca60aa8af867.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.19629805115983, 
+        "performance_counters": {
+            "num_requested_bytes": 32977763, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5852
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/cdfc3c37-b02f-4d9b-a726-5303ec7fb76d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.5999609248247, 
+        "performance_counters": {
+            "num_requested_bytes": 8634281, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1511
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/30fdb891-c03d-470f-b0c9-e8184d88e1ff.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.670127778081223, 
+        "performance_counters": {
+            "num_requested_bytes": 33951072, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5728
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/cc604e55-07b6-48f8-b2c4-6188bbc04657.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.392610805109143, 
+        "performance_counters": {
+            "num_requested_bytes": 37198006, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6296
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/3d829cf4-9e2a-465c-b7db-4dca5ab650d4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.421274322085083, 
+        "performance_counters": {
+            "num_requested_bytes": 52932838, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9452
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/34792b64-a6cf-414f-8063-9be43ec46a9f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.29922466003336, 
+        "performance_counters": {
+            "num_requested_bytes": 36472826, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6512
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/0302761f-6b8f-4db9-b71b-ed73f8d1e083.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.25658937706612, 
+        "performance_counters": {
+            "num_requested_bytes": 37015436, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6616
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/bfa63936-0e71-4f0a-bc97-e5a40b5b8756.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.390949751948938, 
+        "performance_counters": {
+            "num_requested_bytes": 40592480, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7329
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/f4cff145-005b-4a6a-bfb1-2b948e0ed62e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.61070692492649, 
+        "performance_counters": {
+            "num_requested_bytes": 39472866, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7113
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/8df7fe82-df3c-4df2-b2ce-17434a2d11f0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 32.24716522684321, 
+        "performance_counters": {
+            "num_requested_bytes": 39369663, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7065
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/7ba53ac7-4a7a-4f22-8452-8a10050f5ed0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.847566002048552, 
+        "performance_counters": {
+            "num_requested_bytes": 8665008, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1576
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2540000/59830d22-c6fc-4022-97fc-82b8e28f81ef.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.480867821956053, 
+        "performance_counters": {
+            "num_requested_bytes": 33052205, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5896
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/e7241d31-273a-4cec-985c-7164c3a4795b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.09381776698865, 
+        "performance_counters": {
+            "num_requested_bytes": 43851772, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7404
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/b60f90d9-03f2-42be-9778-3da1ccf86dcd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.055411817040294, 
+        "performance_counters": {
+            "num_requested_bytes": 36533114, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6520
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/8ef9fbd1-d5ba-4d11-9509-ce76c06235e8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.786586749134585, 
+        "performance_counters": {
+            "num_requested_bytes": 3922767, 
+            "num_requests": 4, 
+            "num_requested_chunks": 708
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/ba851f7a-01e2-495a-b4aa-c98dde4f8001.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.841081182938069, 
+        "performance_counters": {
+            "num_requested_bytes": 33266890, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5944
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/ce483666-33e1-4604-94ed-5322397f4573.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 22.331379121169448, 
+        "performance_counters": {
+            "num_requested_bytes": 47057501, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8392
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/45d63e75-153c-4c72-8dfb-07725a230cf4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.33363270992413, 
+        "performance_counters": {
+            "num_requested_bytes": 38280328, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6944
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/f88df5bc-5de9-4fe4-81f8-add7e00eab66.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.890075627947226, 
+        "performance_counters": {
+            "num_requested_bytes": 41216329, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7432
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/22b1e536-d396-4dd1-b289-d3ea3c938b93.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.28760147606954, 
+        "performance_counters": {
+            "num_requested_bytes": 35130185, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5940
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/cdbd1840-1e75-4a25-9dbb-585c83ee9964.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.768804194172844, 
+        "performance_counters": {
+            "num_requested_bytes": 30794433, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5512
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/20ecf2c4-8a60-491c-96a1-a80519680af1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 29.808403762988746, 
+        "performance_counters": {
+            "num_requested_bytes": 52604042, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9401
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/def7c08f-3fa5-4a99-b952-c6671a69d146.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.808923763921484, 
+        "performance_counters": {
+            "num_requested_bytes": 60045216, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10724
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/50000/5c2cbc23-8540-44c9-bbce-379b0023e879.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.986713837832212, 
+        "performance_counters": {
+            "num_requested_bytes": 35841733, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6524
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/157c2b1f-56d6-4231-a3ee-f61828897727.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.06746293581091, 
+        "performance_counters": {
+            "num_requested_bytes": 21476633, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3976
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/3b3a62b1-7c15-4fd2-b9e5-7e66ba80fdbe.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.587076834170148, 
+        "performance_counters": {
+            "num_requested_bytes": 27247278, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4984
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/c6c75bd3-719d-4329-b1fb-d1c66697fe35.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.595215749926865, 
+        "performance_counters": {
+            "num_requested_bytes": 33004164, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6002
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/55977a16-ff2a-4c21-b102-e90af2861823.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.852819986175746, 
+        "performance_counters": {
+            "num_requested_bytes": 30509331, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5644
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/3f15c6ac-5c88-42bc-ad78-c6d1c62b2385.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.544741895981133, 
+        "performance_counters": {
+            "num_requested_bytes": 34904551, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6376
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/5d9ac5c3-25bb-42aa-a3ef-6884e074361b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 49.607651219004765, 
+        "performance_counters": {
+            "num_requested_bytes": 42920870, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7864
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/e21f25c4-6e31-4f69-a87e-2850a80d73c7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.001693013124168, 
+        "performance_counters": {
+            "num_requested_bytes": 30363286, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5560
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/fb20a644-6a50-4d72-ab6c-fc61c5b91f28.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.877506186952814, 
+        "performance_counters": {
+            "num_requested_bytes": 30415375, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5572
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/66903404-2d0a-4285-93a0-6a4d4fcf51ed.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.58081300999038, 
+        "performance_counters": {
+            "num_requested_bytes": 29481293, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5401
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/b4d4efad-eb57-4d3e-84e4-943c76a65d98.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.67858495307155, 
+        "performance_counters": {
+            "num_requested_bytes": 30409445, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5564
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/dfc67a0b-378b-4dd3-9bcc-d03972b1d030.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.073059129994363, 
+        "performance_counters": {
+            "num_requested_bytes": 38439399, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7088
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/a0fa34c9-00e0-4f42-8a15-c7d287f14839.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.586034161038697, 
+        "performance_counters": {
+            "num_requested_bytes": 35623485, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6440
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/6cc41003-b793-46b3-b04c-70c6dd71b136.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.725355025846511, 
+        "performance_counters": {
+            "num_requested_bytes": 35649331, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6568
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/843d852b-0f82-4967-91b6-35ebab00d60f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.164582644123584, 
+        "performance_counters": {
+            "num_requested_bytes": 31301269, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5720
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/35786eaf-665f-4c93-abd3-04e0e9d03c7a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.196667673997581, 
+        "performance_counters": {
+            "num_requested_bytes": 29340306, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5368
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/489308de-e34f-4d1f-ab17-7c6cdabefe5a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.430003164103255, 
+        "performance_counters": {
+            "num_requested_bytes": 33975278, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6213
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/a9f3d660-d1ee-4073-bcfe-fc931b6fb397.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.327895258087665, 
+        "performance_counters": {
+            "num_requested_bytes": 33120729, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6052
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/2b83dbfb-1c33-4ccc-9db2-76df2fab0260.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.15378624200821, 
+        "performance_counters": {
+            "num_requested_bytes": 30418042, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5560
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/1f28c977-f93a-4800-971e-58b9dc69782e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.08130763215013, 
+        "performance_counters": {
+            "num_requested_bytes": 32367857, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5860
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/57cebb1c-7c85-4882-92e6-f91dddebbf5a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.373810519929975, 
+        "performance_counters": {
+            "num_requested_bytes": 30246737, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5568
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/ea74b4d4-163a-4852-a392-b39f6fe2820c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 35.40441475203261, 
+        "performance_counters": {
+            "num_requested_bytes": 36337336, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6616
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/430c780c-7fb4-4dd5-8ebb-8303d73c7051.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.049871121998876, 
+        "performance_counters": {
+            "num_requested_bytes": 49965759, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9072
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/aa49c7b3-5899-4030-93f7-b20d24bcbc5b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.814605322200805, 
+        "performance_counters": {
+            "num_requested_bytes": 34764236, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6440
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/6e71dbb4-e678-4993-85d9-9d449ae4f8c3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.547301915008575, 
+        "performance_counters": {
+            "num_requested_bytes": 28637382, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5293
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/74124a66-898e-4578-9c1b-1ebd10baac18.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 25.299242672976106, 
+        "performance_counters": {
+            "num_requested_bytes": 37407577, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6900
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/6a3bcb26-0244-4f34-8679-13df1a18d2f9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.491439271019772, 
+        "performance_counters": {
+            "num_requested_bytes": 40955015, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7528
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/fe84b150-66dd-4a41-93bb-3c678c1f9e22.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.310531060909852, 
+        "performance_counters": {
+            "num_requested_bytes": 31070404, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5368
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/28805799-8289-4dc7-9947-2cc0a6aefc1f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.327029292006046, 
+        "performance_counters": {
+            "num_requested_bytes": 24142530, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4424
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/d5c32ea3-df7e-475d-9696-25b347b8c7e6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.578248262172565, 
+        "performance_counters": {
+            "num_requested_bytes": 39729586, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7336
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/12a074de-981b-4dc8-ad09-fb84382c5771.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.255315931979567, 
+        "performance_counters": {
+            "num_requested_bytes": 6336919, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1192
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/107fc280-970f-409e-9731-be4a87ee896a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 40.670625529950485, 
+        "performance_counters": {
+            "num_requested_bytes": 39347565, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7165
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/7de67566-54ba-48db-b8be-f9ef1915bbd4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.941816400038078, 
+        "performance_counters": {
+            "num_requested_bytes": 58040459, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10617
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/fd78c271-f64a-4f97-b72f-ee5b213c2dba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.92401415714994, 
+        "performance_counters": {
+            "num_requested_bytes": 36698186, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6712
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/c453380c-ab0e-4353-b6b5-4be6b566104a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.140412127133459, 
+        "performance_counters": {
+            "num_requested_bytes": 34687455, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6376
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/e04410f7-f8e0-4c17-ab93-edc843177f12.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.177710030926391, 
+        "performance_counters": {
+            "num_requested_bytes": 38441217, 
+            "num_requests": 4, 
+            "num_requested_chunks": 7012
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/6726dee9-9c5c-4a92-9982-abe382d97aaa.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.044994009891525, 
+        "performance_counters": {
+            "num_requested_bytes": 37522877, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6820
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/4c06bb55-26d7-4939-8ec2-573e4cc13d5a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1758896474757402026, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/c5c0cf87-fd68-46e9-881b-0d4029920dea.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "Failed to close file: [ERROR] Server responded with an error: [3004] Unable to close file ; bad file descriptor\n", 
+        "fqdn": "cmslpc318.fnal.gov", 
+        "hostname": "cmslpc318.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.120248182909563, 
+        "performance_counters": {
+            "num_requested_bytes": 24990774, 
+            "num_requests": 4, 
+            "num_requested_chunks": 4564
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/b5849b6c-1cdd-4ab7-a3b9-86a3e1d909e6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.262798872077838, 
+        "performance_counters": {
+            "num_requested_bytes": 35962902, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6421
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/52d565bc-99f5-4287-aeaa-e19f5e51ab2c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.332372993929312, 
+        "performance_counters": {
+            "num_requested_bytes": 57544813, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9936
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/99287d3c-fc17-4859-80c5-245ce2f3a7ab.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.540105844149366, 
+        "performance_counters": {
+            "num_requested_bytes": 58004592, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10664
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/9ea5e13e-8f2c-4816-97ed-2b1af3153f89.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 23.461179470876232, 
+        "performance_counters": {
+            "num_requested_bytes": 57974916, 
+            "num_requests": 4, 
+            "num_requested_chunks": 10648
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/45d8d2fc-5369-4027-ae1a-f100d400a9b9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1758896476019200175, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/9df5f49e-6afd-4a09-b3ed-08d9dbc4e578.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "Failed to close file: [ERROR] Server responded with an error: [3004] Unable to close file ; bad file descriptor\n", 
+        "fqdn": "cmslpc318.fnal.gov", 
+        "hostname": "cmslpc318.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.705418047960848, 
+        "performance_counters": {
+            "num_requested_bytes": 29405431, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5416
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/e20bb43d-dada-4b11-a6d0-e0139e93595a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1758896462685096623, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/1143d6bc-592e-404d-a1b5-eb3df3c6d8bb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "Failed to close file: [ERROR] Server responded with an error: [3004] Unable to close file ; bad file descriptor\n", 
+        "fqdn": "cmslpc318.fnal.gov", 
+        "hostname": "cmslpc318.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.555779322981834, 
+        "performance_counters": {
+            "num_requested_bytes": 30366847, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5608
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/6d7856c8-e59d-4769-92b6-b521cbb6d52d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.776223419001326, 
+        "performance_counters": {
+            "num_requested_bytes": 34017416, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6232
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/a1ac31f7-1b02-4398-847f-83dc8faff818.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.987309142947197, 
+        "performance_counters": {
+            "num_requested_bytes": 29503467, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5416
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/22938163-f6f7-4df0-a865-49c020f5748a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.27511682594195, 
+        "performance_counters": {
+            "num_requested_bytes": 5464426, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1012
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/1a228e8c-c4c1-4624-a0eb-3f9be7611b49.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.2207166319713, 
+        "performance_counters": {
+            "num_requested_bytes": 30490310, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5524
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/464d2c6f-328a-4131-b86d-63fe08278a28.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.950148340081796, 
+        "performance_counters": {
+            "num_requested_bytes": 33776256, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5816
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/91c78b5e-216a-4419-953a-9a7a8d0a5ec4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 45.19551114109345, 
+        "performance_counters": {
+            "num_requested_bytes": 30434850, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5560
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/6b12ca83-2501-4c62-8503-41e13a0f0ec1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.434331136057153, 
+        "performance_counters": {
+            "num_requested_bytes": 51634984, 
+            "num_requests": 4, 
+            "num_requested_chunks": 9460
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/09fa3e4b-5540-4dd3-ab2c-34a5cfd19273.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.882664465112612, 
+        "performance_counters": {
+            "num_requested_bytes": 35808835, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6541
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/97107b48-a9ee-4ac2-86f7-634d19cbaf1b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.22994593414478, 
+        "performance_counters": {
+            "num_requested_bytes": 47503024, 
+            "num_requests": 4, 
+            "num_requested_chunks": 8728
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/025eaa18-d9ac-468c-9465-c1616dcc900a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 41.44161641201936, 
+        "performance_counters": {
+            "num_requested_bytes": 30570307, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5608
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/209be528-0f8a-43c1-bdce-973373baeb05.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.822073692921549, 
+        "performance_counters": {
+            "num_requested_bytes": 5451016, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1012
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/877b59d8-348c-4b3b-9ece-9de4d319e688.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.372231901157647, 
+        "performance_counters": {
+            "num_requested_bytes": 29471588, 
+            "num_requests": 4, 
+            "num_requested_chunks": 5464
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/0d3418f4-065b-413c-a51e-cb71fd743d5b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 56.279462911887094, 
+        "performance_counters": {
+            "num_requested_bytes": 37576066, 
+            "num_requests": 4, 
+            "num_requested_chunks": 6904
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Summer22EENanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/2138c8fc-483b-4ab8-bb4a-9896baf95dbe.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

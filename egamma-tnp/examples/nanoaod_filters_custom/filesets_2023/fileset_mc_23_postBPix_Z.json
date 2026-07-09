@@ -1,0 +1,16 @@
+{ "MC_2023_postBPix":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_postBPix_ForNanov13_v2-v1/2830000/838bc8e4-1b25-4158-bc91-45433ed9f25d.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_postBPix_ForNanov13_v2-v1/2830000/2e1e8164-7bc0-41a9-8ecb-05eb5b028ead.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_postBPix_ForNanov13_v2-v1/2830000/3cfcbeab-c9a6-455a-aa52-2615607989b5.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_postBPix_ForNanov13_v2-v1/2830000/f38bf8c9-fe32-4cef-b54d-ea13e067e656.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_postBPix_ForNanov13_v2-v1/2830000/d0f509b8-1cc2-4fab-a47a-4fbb6bfed552.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/50000/dbc0c757-709f-47a3-81d1-515b5ab53ace.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/50000/34a82774-d187-4d6f-b8ac-77db4da3873c.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/50000/18dd148d-2a69-4161-a2e9-4cda673d6ad7.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/50000/f6c724f8-8c88-40c9-bbe0-95c199d222d4.root": "Events"
+            }
+       }
+    }

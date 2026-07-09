@@ -1,0 +1,23 @@
+[
+    {
+        "call_time": null, 
+        "duration": 25.75618475303054, 
+        "performance_counters": {
+            "num_requested_bytes": 23502786, 
+            "num_requests": 4, 
+            "num_requested_chunks": 3347
+        }, 
+        "args": [
+            "'root://cmseos.fnal.gov:1094//store/user/lpcsusylep/leptons/egamma_files/MC_files/DYto2L_4J/00aa4598-0955-4993-bf29-0c3c4821e94e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

@@ -1,0 +1,21 @@
+{
+ "DATA_2023_BC":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/37b42a1f-0a96-41a1-991a-1c04bd4bd9fd.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/a92f461f-9a86-4074-bba0-80c93cc334a0.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/ca26fd2a-c02a-45a1-bae9-20115d5c1704.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/e9e76a80-a26a-4c7a-b9da-5818173750a7.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/38b60687-d313-4e21-b8d6-c02cd13a408b.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/a42220fb-4719-4e02-a173-d00e01451974.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/data/Run2023C/EGamma1/NANOAOD/24Jan2024_v4-v1/130000/397bf7a6-8a55-4ef6-bc6e-a34e8d3cad50.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023C/EGamma1/NANOAOD/24Jan2024_v4-v1/130000/196aa529-9ba7-4192-9a29-80a8d9f6fc77.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023C/EGamma1/NANOAOD/24Jan2024_v4-v1/130000/4a1970ff-d63e-43a7-8b43-e095befad5b2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023C/EGamma1/NANOAOD/24Jan2024_v4-v1/130000/2854c7dc-80f3-4a99-9520-254c704e0bb5.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023C/EGamma1/NANOAOD/24Jan2024_v4-v1/130000/9ac8c3d4-e012-4352-a18a-eaecca366fc9.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023C/EGamma1/NANOAOD/24Jan2024_v4-v1/130000/8331419b-892d-4130-976e-c36e7e78f548.root": "Events"
+
+            }
+        }
+    }

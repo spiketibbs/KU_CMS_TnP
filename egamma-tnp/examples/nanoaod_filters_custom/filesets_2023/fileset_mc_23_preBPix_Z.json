@@ -1,0 +1,23 @@
+{ "MC_2023_preBPix":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/fd00f57b-39b7-4a16-9653-30008fd073ae.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/ac2e6a77-c9cc-4589-974a-dfbd7158e973.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/b0921310-92dc-434b-8691-a51c79e4d0ac.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/0974fb52-33e2-4355-a362-a9f55f9a5856.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/7964e837-8c9d-46a7-a88a-3432aad115a2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/d8e46d5f-fc44-44cc-8406-2cddbff840de.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/cf3fad7b-aab0-4879-b716-6edae1930c2f.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv13/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/133X_mcRun3_2023_realistic_ForNanov13_v1-v1/2830000/f0eab774-f00e-41db-88a3-936c292f59b4.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/234e446d-8a94-4f44-bdb2-2a8d72c6e850.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/8a43fc56-943e-4216-92c4-b13fcde72861.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/0713d8a6-d38c-4e03-b223-3a75fef98bec.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/7d5f1e27-c86d-4ee6-8e5f-5525425d3ebc.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/3a0cbe7a-a414-4eb2-8cf2-112022de0704.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/44cacbb2-7b2c-4a8d-b6b1-85ad7c2036fa.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/e40461fa-228d-4d03-8913-2f9848aa5dc2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23NanoAODv12/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2810000/e241fcfd-06e2-4f71-a284-d70084353994.root": "Events"
+            }
+       }
+    }

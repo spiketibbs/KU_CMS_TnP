@@ -1,0 +1,66 @@
+{
+ "DATA_2017_BCDEF":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/4BC53825-C4CC-264D-B251-87375F80A49E.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/AA934002-6CA2-C141-B724-728F9542256D.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/BB7E632C-9672-4E4C-867D-590E69A1269C.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/83110FE1-A540-3A4B-A81C-2454A017C471.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/2A428A4E-12E5-3449-8E0F-9DA6C64A7449.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/8939430E-0EF1-D045-BAE9-FB60D6FF7BAF.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/3A77A223-60EF-024E-89AF-A03783DC4F63.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/0E5E3581-6C20-9D44-B44C-576C11B72848.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/A6BDB723-8B6B-0246-A9AE-2848CE22BFDD.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/B26B3614-D124-DA45-960D-CF1F18370B6A.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017B/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/D3707E68-5015-C240-B8A6-4134B9387B09.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/7F02F6CF-39C2-B242-AAB0-8E9A2D479D44.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/BADFF03B-D4BA-5C4B-89DF-C5AC1DCA56A8.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/CA5385B2-A283-E648-83A3-91C949C372C4.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/5118FB15-2A0C-ED44-9E4E-354EF24E4369.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/C0508628-AFFE-E640-8281-3F63E34BC9F1.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/03F30FEA-E47D-2B4A-99AB-3CD2327E33C2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/2DC25AC5-25D7-5A42-9A16-8509ABBFC4D2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/ED74E743-61BA-EE4E-A521-6F5CDC2EA8E1.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/FD9F92E0-28A2-4243-B3D1-2EF20D763E17.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/1394DCF8-5034-5D4A-AFBA-A2B225062E5D.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/612D45DC-E837-D94B-ADB6-871528F3401B.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017C/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/E02E822C-D33F-C847-9693-59B0FF8DF214.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/8E2AFC79-EFE0-5840-B0A0-B06596C3F4B8.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/C1C57437-8EB5-354D-AF73-1C10723D430D.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/24ACF135-65E9-4F44-8007-49EB55848B9C.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/1C103CF0-208E-034A-B127-76A648CBF011.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/C4D9C76B-A2A8-EC4E-9EBE-3AAB6D153410.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/22849BC8-9DC4-F443-9E56-9116647F26EC.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/699EE3F9-A06C-BB4B-B539-36D34F18880A.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/741A593A-8124-6446-A113-E2EA45DE084E.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/C021D27E-0036-924B-A537-2699EEDB4993.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/5C84A912-6D3D-ED47-8AE4-FA12E910DEC5.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017D/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/48F712BC-1E99-EF48-A8BB-02AFC53A7FA8.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/126A9324-E4B8-9C42-8AF2-999AAD41C348.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/7C683A88-BCA7-4A4A-B940-15DAEEECCCAB.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/78ECCB19-893B-324A-AA66-9D3C05B9B8AA.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/5DE4E2D7-04DC-2341-9C07-A1A3E380281B.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/CBE37742-2BBE-5C47-89B7-68DBBB15C832.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/0B70AAEC-D57D-4544-8F84-5660653CAD51.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/25CBE313-0CB4-5E46-A6AB-72E2BFC5CBDF.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/24823EA3-7243-DC44-A792-4EB348F162B3.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/764734FE-5979-3745-B2D5-61091D985524.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/5B8B2192-BE98-0346-8881-B5635E172BE2.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017E/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/5A20F287-0360-4B44-8BB9-CB06FD3F9CF8.root": "Events",
+
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/710000/E0416E7B-3364-D64D-910A-E83496BCD1EF.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/61B08DB4-292E-734A-B082-E56243B5365A.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/D70C8107-E9FB-A44A-8684-24E3697CABE3.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/A90344F3-C211-7647-9C0E-FBC607FF75A9.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/4E365C89-68A8-CD4A-AA0C-5B24A25F50CB.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/BAFF8923-4F03-7149-A611-B040D1D9A743.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/506CBA69-EC91-D149-A741-1DCCB2CCD431.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/FE8DA99A-913E-F645-B97D-5F1A6444946E.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/C8305E7F-543E-0944-8DCE-3645400139A3.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2017F/DoubleEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/270000/98C333B9-FAFB-5B47-B30C-2BBB154C661A.root": "Events"
+            }
+        }
+    }

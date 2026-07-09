@@ -1,0 +1,120 @@
+[build-system]
+requires = ["hatchling>=1.17.1", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "egamma-tnp"
+description = "E/Gamma Tag & Probe framework."
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+requires-python = ">=3.8"
+authors = [
+  { name = "Iason Krommydas", email = "ik23@rice.edu" },
+]
+maintainers = [
+    { name = "Iason Krommydas", email = "ik23@rice.edu" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Topic :: Software Development",
+  "Topic :: Utilities",
+]
+dependencies = [
+  "click>=8.0.4",
+  "coffea[dask,rucio]>=2024.5.0",
+  "dask<2025",
+  "distributed<2025",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/iasonkrom/egamma-tnp"
+"Bug Tracker" = "https://github.com/iasonkrom/egamma-tnp/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+  "ruff",
+  "pytest",
+]
+
+[project.scripts]
+run-analysis = "egamma_tnp.scripts.run_analysis:main"
+run-fitter = "egamma_tnp.scripts.run_fitter:main"
+dataset-query = "egamma_tnp.scripts.dataset_query:main"
+merge-parquet = "egamma_tnp.scripts.merge_parquet:main"
+prepare-histograms = "egamma_tnp.scripts.prepare_histograms:main"
+fetch-datasets = "egamma_tnp.scripts.fetch_datasets:main"
+get-unprocessed-partitions = "egamma_tnp.scripts.get_unprocessed_partitions:main"
+
+[tool.hatch]
+version.source = "vcs"
+build.hooks.vcs.version-file = "src/egamma_tnp/_version.py"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+addopts = [
+  "-rfesxX",
+  "-v",
+]
+log_cli_level = "DEBUG"
+filterwarnings = [
+  "ignore:There is no current event loop",
+]
+
+[tool.ruff]
+src = ["src"]
+extend-include = ["*.ipynb"]
+line-length = 160
+
+[tool.ruff.lint]
+extend-select = [
+    "B",           # flake8-bugbear
+    "I",           # isort
+    "C4",          # flake8-comprehensions
+    "ISC",         # flake8-implicit-str-concat
+    "G",           # flake8-logging-format
+    "PGH",         # pygrep-hooks
+    "PIE",         # flake8-pie
+    "PL",          # pylint
+    "RUF",         # Ruff-specific
+    "T20",         # flake8-print
+    "UP",          # pyupgrade
+    "YTT",         # flake8-2020
+    "EXE",         # flake8-executable
+    "NPY",         # NumPy specific rules
+    "TID251",      # flake8-tidy-imports
+]
+ignore = [
+    "PLR",     # Design related pylint codes
+    "ISC001",  # Conflicts with the formatter in 0.1.2
+    "G004",    # Logging f-string
+]
+unfixable = [
+    "T20",  # Removes print statements
+    "F841", # Removes unused variables
+]
+isort.required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.lint.per-file-ignores]
+"**.ipynb" = ["B008", "T20", "I002", "E402", "E703", "B018"]
+"src/egamma_tnp/nanoaod_efficiency.py" = ["PLW2901"]
+"src/egamma_tnp/__init__.py" = ["E402"]
+"tests/example_extra_filter.py" = ["T201"]
+"src/egamma_tnp/utils/rucio_utils.py" = ["T201"]

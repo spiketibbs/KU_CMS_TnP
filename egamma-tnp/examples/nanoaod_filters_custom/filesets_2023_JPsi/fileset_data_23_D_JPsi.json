@@ -1,0 +1,42 @@
+{  "DATA_Bp_23_D":{
+        "files":
+            {
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/23d8936f-a73d-45a4-9e47-83146fce56ba.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/1d668dcf-3b2b-4888-a4ca-4fd08a89f1d3.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/efaf99b4-d9d6-4d3c-be0e-0a220ad8e10f.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/852aeaad-41bd-4e78-bc30-cebbcef1058c.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/a13fb794-ab79-49ca-8b33-0d9ef671cc38.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/ecb3d5f1-a118-4240-bdca-33b5213f1a4d.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/c21b7b25-8047-48c4-ae70-1cf495451fae.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/e5d00424-2a4d-4f0a-bc62-7e80041085f9.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/017a94c3-4d1d-456a-9af0-9ba553af0e16.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/ee7d7d1f-64a7-4dcd-8c6c-7cdcae4b9b44.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/3d338989-2af2-4128-bbaa-262aca1cea40.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/9c0e6f25-266d-4173-91d6-4c647ae7167c.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/47ddd8be-3f45-443d-89f8-5042e10b8763.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/7af81c2c-7fde-43ae-882e-27726852b30b.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/79fb9c34-a0df-4af7-86f8-b30e4da77669.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/7529281b-d579-4054-96c7-6f29aa38ed7e.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/7f7f2543-cc6e-4912-a73d-e178c1137a7d.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/5978c8ee-52d9-4308-b781-49576e7fc5d6.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/c5883b18-dd05-406d-9467-52f4c1ecea68.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/3d496db9-9dee-4ad4-828a-eb2687613495.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/790e4c58-46c5-4062-bbb7-b017d0519b8d.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/02f895fc-facd-457f-81cf-b382c8983a68.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/1f002373-f35d-4102-84b2-54e99bbbbfa7.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/8b471f70-1949-4441-ad49-0a32b7c92453.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/5b64a427-2aec-4fe3-baa6-f148b1f391de.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/4df9814a-d86e-45f8-8563-66e7773fa360.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/11d49f67-2708-496f-84db-3ab6faea8f9f.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/4d8f44cc-3807-4051-8c66-f13171fcb788.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/a5b787cd-864f-4bad-9962-0f6a629dee41.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/4283a6bd-db21-4648-99f4-16d7363ae751.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/169217c5-1272-4a5d-940f-37227c5f4d31.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/405d23bd-8239-4ea3-83b1-e3adadb517dc.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/33bd4dc9-3a8d-4074-8720-9d934ac2745e.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/f5e38926-ff29-4d78-9f84-7b3e9a6c175b.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/498c4706-9801-4ecd-bbd4-eb4804d29a7c.root": "Events",
+                "root://cms-xrd-global.cern.ch//store/data/Run2023D/ParkingDoubleElectronLowMass/NANOAOD/22Sep2023_v1-v1/70000/ae4a12f1-d875-4435-8998-40a1616e6f4c.root": "Events"
+	    }
+ }
+}
