@@ -104,7 +104,7 @@ To run the main application:
 
 4. Enter the Fitter folder in terminal and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
    ``` bash
-   cd Fitter/
+   cd ~/KU_CMS_TnP/Fitter/
    python3 run_fitter_p_bar.py --config config_MUONS.json
    ```
 5. Interactive Fit:
@@ -134,7 +134,7 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 1. Fit values that you will use as baseline values for the extrapolation.
 2. Ensure you are in the main repository
 ```bash
-cd .. #leaves Fitter folder
+cd ~/KU_CMS_TnP/
 ```
 3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation) in a text editor
 3. Modify 'excel_path' to point to the right spreadsheet, beginning on line 16.
@@ -153,7 +153,7 @@ python3 Extraps/Extrapolation_muon.py
 # Heatmap Generator
 1. Ensure you are in the main repository
 ```bash
-cd .. #leaves Extraps folder
+cd ~/KU_CMS_TnP/
 ```
 ## Efficiency Heatmap
 1. Open 2D_heatmap_eff.py in a text editor
