@@ -9,7 +9,7 @@ For a more detailed explanation or background on theory and the making of the fi
 * Python 3.10+ (Local Computer)
 * Download GitHub Command Line Interface
    * Windows: [Git for Windows](https://gitforwindows.org/)
-   * Mac (Follow the displayed directions after running below command to install Xcode):
+   * Mac (Follow the displayed directions after running the command below to install Xcode):
   ```bash
   git --version
   ```
@@ -102,10 +102,10 @@ To run the main application:
 #  }
 ```
 
-4. Enter the Fitter folder in terminal and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
+4. Run from the repository root directory and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
    ``` bash
-   cd ~/KU_CMS_TnP/Fitter/
-   python3 run_fitter_p_bar.py --config config_MUONS.json
+   cd ~/KU_CMS_TnP/
+   python3 Fitter/run_fitter_p_bar.py --config Fitter/config_MUONS.json
    ```
 5. Interactive Fit:
    1. The first interactive plot canvas that pops up will be for DATA.
