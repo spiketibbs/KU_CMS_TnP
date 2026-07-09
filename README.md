@@ -145,7 +145,7 @@ cd ~/KU_CMS_TnP/
   output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf" #line 358 (Electron) or 360 (Muon)
 ```
 
-7. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
+6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
    ```bash
        my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] # line 369 (Electron) or 370 (Muon)
        # ...
@@ -161,7 +161,7 @@ cd ~/KU_CMS_TnP/
    if x1 == a and x2 == b: # line 271 (Electron) or 273 (Muon)
    elif x1 == b and x2 == c: # line 275 (Electron) or 277 (Muon)
 ```
-8. Run the code
+7. Run the code
 ```bash
 python3 Extraps/Extrapolation_ele.py
 ```
@@ -169,7 +169,7 @@ or
 ```bash
 python3 Extraps/Extrapolation_muon.py
 ```
-8. Add values from extrapolation files to the results spreadsheet to prepare for generating heatmaps. Since extrapolated values are in the lowest bins, you might need to rename all the bins in the excel sheet by adding 2 to each name(bin0 now becomes bin2, etc.) to account for a new bin0 and bin1 for the two extrapolated pT ranges.
+9. Add values from extrapolation files to the results spreadsheet to prepare for generating heatmaps. Since extrapolated values are in the lowest bins, you might need to rename all the bins in the excel sheet by adding 2 to each name(bin0 now becomes bin2, etc.) to account for a new bin0 and bin1 for the two extrapolated pT ranges.
 # Heatmap Generators
 1. Ensure you are in the main repository
 ```bash
