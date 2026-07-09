@@ -169,7 +169,7 @@ or
 ```bash
 python3 Extraps/Extrapolation_muon.py
 ```
-8. Add values from extrapolation files to the results spreadsheet (sfs_ecol.xlsx or sfs_mcol.xlsx) to prepare for generating heatmaps. Since extrapolated values are in the lowest bins, you might need to rename all the bins in the Excel sheet by adding 2 to each name(bin0 now becomes bin2, etc.) to account for a new bin0 and bin1 for the two extrapolated pT ranges.
+8. Add values from extrapolation files to the results spreadsheet (sfs_ecol.xlsx or sfs_mcol.xlsx) to prepare for generating heatmaps. Since extrapolated values are in the lowest bins, you might need to rename all the bins in the Excel sheet by adding 2 to each name(bin0 now becomes bin2, etc.) to account for a new bin0 and bin1 for the two extrapolated pT ranges. View the currently present Fitter/Muons/2018/GoldID/sfs_mcol.xlsx for an example.
 # Heatmap Generators
 1. Ensure you are in the main repository
 ```bash
