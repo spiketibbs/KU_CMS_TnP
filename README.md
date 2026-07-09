@@ -147,15 +147,15 @@ cd ~/KU_CMS_TnP/
 
 6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
    ```bash
-       my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] # line 369 (Electron) or 370 (Muon)
-       # ...
-       my_extrap_bins = [(2, 4), (4, 7)] # line 371 (Electron) or 372 (Muon)
+   my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] # line 369 (Electron) or 370 (Muon)
+   # ...
+   my_extrap_bins = [(2, 4), (4, 7)] # line 371 (Electron) or 372 (Muon)
    ```
    * If modifying the extrapolated bin ranges, you must also modify the error bar calculations in lines 214, 219, 271, and 275 for Electron, and 216, 221, 273, and 277 for Muon.
 ```bash
    # extrapolated to a<pT<b and b<pT<c (replace a, b, and c with preferred bin ranges)
-    mask_3_6 = (xx_band >= a) & (xx_band < b) # line 214 (Electron) or 216 (Muon)
-    mask_6_10 = (xx_band >= b) & (xx_band <= c) # line 219 (Electron) or 221 (Muon)
+   mask_3_6 = (xx_band >= a) & (xx_band < b) # line 214 (Electron) or 216 (Muon)
+   mask_6_10 = (xx_band >= b) & (xx_band <= c) # line 219 (Electron) or 221 (Muon)
 # ...
    # extrapolated to a<pT<b and b<pT<c (replace a, b, and c with preferred bin ranges)
    if x1 == a and x2 == b: # line 271 (Electron) or 273 (Muon)
