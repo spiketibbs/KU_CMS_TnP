@@ -141,6 +141,14 @@ cd ~/KU_CMS_TnP/
 5. Modify the image title and output file directory in lines 353 and 358 for electron, or 355 and 360 for muon.
 6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
    * If modifying the extrapolated bin ranges, you must also modify the error bar calculations in lines 214, 219, 271, and 275 for Electron, and 216, 221, 273, and 277 for Muon.
+   ```bash
+   # extrapolated to a<pT<b and b<pT<c (replace a, b, and c with preferred bin ranges)
+    mask_3_6 = (xx_band >= a) & (xx_band < b)
+    mask_6_10 = (xx_band >= b) & (xx_band <= c)
+...
+   if x1 == a and x2 == b:
+   elif x1 == b and x2 == c:
+  ```
 8. Run the code
 ```bash
 python3 Extraps/Extrapolation_ele.py
