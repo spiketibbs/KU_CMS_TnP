@@ -59,8 +59,8 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 To run the main application:
 1. Retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
-2. Open config_MUONS.json in a text editor
-3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). The actual config_MUONS.json file is clean and ready to use.
+2. Open config.json in a text editor
+3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). The actual config.json file is clean and ready to use.
   ``` bash
 #   {
 #     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
@@ -104,10 +104,10 @@ To run the main application:
 #  }
 ```
 
-4. Run from the repository root directory and run the fitter "run_fitter_p_bar.py" with the parameter "--config config_MUONS.json"
+4. Run from the repository root directory and run the fitter "run_fitter_p_bar.py" with the parameter "--config config.json"
 ``` bash
 cd ~/KU_CMS_TnP/
-python3 Fitter/run_fitter_p_bar.py --config Fitter/config_MUONS.json
+python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
 ```
 5. Interactive Fit:
    1. The first interactive plot canvas that pops up will be for DATA.
