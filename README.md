@@ -179,7 +179,7 @@ python3 Extraps/Extrapolation_muon.py
 cd ~/KU_CMS_TnP/
 ```
 ## Efficiency Heatmap
-1. Open 2D_heatmap_eff.py in a text editor
+1. Open heatmap_eff.py in a text editor
 2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
 ```bash
 LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
@@ -191,7 +191,7 @@ ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 Pos
 3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
 4. Run the code for both HEATMAP_TYPE = "DATA" and HEATMAP_TYPE = "MC" (adjust on line 16)
 ```bash
-python3 Heatmaps/2D_heatmap_eff.py
+python3 Heatmaps/heatmap_eff.py
 ```
 ## Electron ISO Efficiency Heatmap
 1. Open heatmap_eff_ele_ISO.py in a text editor
