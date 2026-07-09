@@ -1,7 +1,8 @@
 # Tag and Probe Analysis
 
 Determining Scale Factors for electrons and muons in Eras 2 and 3 in the LHC.  
-For a more detailed explanation or background on theory and the making of the fitter, please refer to Teams - lowptelec team - Presentations folder
+For a more detailed explanation or background on theory and the making of the fitter, please refer to:  
+  Teams - lowptelec team - Presentations folder
 
 ### Prerequisites
 
