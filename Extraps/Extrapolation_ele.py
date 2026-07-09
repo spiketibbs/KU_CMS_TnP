@@ -385,11 +385,11 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins, ERA):
 # ==========================================
 # --- 4. EXECUTION ---
 # ==========================================
-ERA = 2  # Replace with 2 if 2016 PreVFP, 2016 PostVFP, 2017, or 2018.
-         # Replace with 3 if 2022 PreEE, 2022 PostEE, 2023 PreBPix, 2023 PostBPix, 2024, 2025, or 2026.
+
 if __name__ == "__main__":
     my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] 
-    
+    ERA = 2  # Replace with 2 if 2016 PreVFP, 2016 PostVFP, 2017, or 2018.
+            # Replace with 3 if 2022 PreEE, 2022 PostEE, 2023 PreBPix, 2023 PostBPix, 2024, 2025, or 2026.
     if ERA == 2:
         my_extrap_bins = [(2, 4), (4, 7)]
     else:  # ERA == 3
