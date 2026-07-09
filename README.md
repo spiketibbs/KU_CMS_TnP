@@ -139,7 +139,13 @@ cd ~/KU_CMS_TnP/
 3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation) in a text editor
 3. Modify 'excel_path' to point to the right spreadsheet, beginning on line 16.
 5. Modify the image title and output file directory in lines 353 and 358 for electron, or 355 and 360 for muon.
-6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
+```bash
+    plt.suptitle(f"BLP Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsize=16, fontweight="bold") # line 353 (Electron) or 355 (Muon)
+  # ...
+  output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf" #line 358 (Electron) or 360 (Muon)
+```
+
+7. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
    * If modifying the extrapolated bin ranges, you must also modify the error bar calculations in lines 214, 219, 271, and 275 for Electron, and 216, 221, 273, and 277 for Muon.
 ```bash
    # extrapolated to a<pT<b and b<pT<c (replace a, b, and c with preferred bin ranges)
