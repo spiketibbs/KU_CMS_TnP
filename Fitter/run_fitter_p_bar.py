@@ -142,6 +142,10 @@ def main():
                 return "23"
             if "run2024" in p or "2024" in p:
                 return "24"
+            if "run2025" in p or "2025" in p:
+                return "25"
+            if "run2026" in p or "2026" in p:
+                return "26"
         return "unknown"
 
     year = normalize_year(config["fit"].get("year")) or infer_year(root_files_DATA)
