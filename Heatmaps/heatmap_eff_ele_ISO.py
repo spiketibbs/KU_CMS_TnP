@@ -12,6 +12,8 @@ mplhep.style.use(mplhep.style.CMS)
 # ---------------------------------------------------------
 # Define the order of the eras as they should appear from top to bottom
 eras_ordered = [
+    '2026',
+    '2025',
     '2024',
     '2023 postBPix',
     '2023 preBPix',
