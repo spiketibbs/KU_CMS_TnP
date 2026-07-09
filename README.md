@@ -58,7 +58,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 To run the main application:
 1. Retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
 2. Open config_MUONS.json in a text editor
-3. Edit accordingly. Below is an explanation of each parameter in the config file.
+3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). An example is already provided in the given JSON file.
   ``` bash
 #   {
 #     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
