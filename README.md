@@ -130,7 +130,8 @@ We have provided sample files in the `/Fitter` directory to help you get started
 
 
 # Extrapolator
-Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT ranges for electrons (Extrapolation_ele.py) or Muons (Extrapolation_muon.py) based on fitted values obtained from higher pT ranges. Note: the Extrapolation examples use a different era than the Fitter and Heatmap examples.
+Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT ranges for electrons (Extrapolation_ele.py) or Muons (Extrapolation_muon.py) based on fitted values obtained from higher pT ranges.
+- Note: the Extrapolation examples use a different era than the Fitter and Heatmap examples.
 
 1. Fit values that you will use as baseline values for the extrapolation.
 2. Ensure you are in the main repository
