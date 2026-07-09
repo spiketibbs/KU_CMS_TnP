@@ -46,7 +46,7 @@ cd KU_CMS_TnP
 pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich openpyxl
 ```
 
-## 🛠️ Usage & Examples
+## Usage & Examples
 
 - [Fitter](#fitter)
 - [Extrapolator](#extrapolator)
