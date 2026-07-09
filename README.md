@@ -48,7 +48,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 - [Fitter](#fitter)
 - [Extrapolator](#extrapolator)
-- [Heatmap Generator](#heatmap-generator)
+- [Heatmap Generators](#heatmap-generators)
    - [Efficiency Heatmap](#efficiency-heatmap)
       - [Electron ISO Efficiency Heatmap](#electron-iso-efficiency-heatmap)
    - [Scale Factor Heatmap](#scale-factor-heatmap)
@@ -150,7 +150,7 @@ or
 python3 Extraps/Extrapolation_muon.py
 ```
 8. Add values from extrapolation files to the results spreadsheet to prepare for generating heatmaps. Since extrapolated values are in the lowest bins, you might need to rename all the bins in the excel sheet by adding 2 to each name(bin0 now becomes bin2, etc.) to account for a new bin0 and bin1 for the two extrapolated pT ranges.
-# Heatmap Generator
+# Heatmap Generators
 1. Ensure you are in the main repository
 ```bash
 cd ~/KU_CMS_TnP/
