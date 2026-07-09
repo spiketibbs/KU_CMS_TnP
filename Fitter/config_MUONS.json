@@ -24,7 +24,7 @@
       "separate_signal_shape": false
     },
   "output": {
-    "plot_dir": "Muons/2018/GoldID/",
+    "plot_dir": "Fitter/Muons/2018/GoldID/",
     "fourplot": "4plot_eta4",
     "results_file": ""             
   },
