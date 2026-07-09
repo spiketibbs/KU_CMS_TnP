@@ -142,7 +142,7 @@ cd ~/KU_CMS_TnP/
 ```bash
 plt.suptitle(f"BLP Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsize=16, fontweight="bold") # line 353 (Electron) or 355 (Muon)
 # ...
-output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf" #line 358 (Electron) or 360 (Muon)
+output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf" # line 358 (Electron) or 360 (Muon)
 ```
 
 6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and enter what bin ranges to extrapolate for in line 370 for electron and 372 for muon.
