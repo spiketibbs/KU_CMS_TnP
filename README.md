@@ -1,6 +1,6 @@
 # Tag and Probe Analysis
 
-Determining Scale Factors for electrons and muons in Eras 2 and 3 in the LHC.  
+Determining Efficiencies and Scale Factors for electrons and muons in Eras 2 and 3 in the Compact Muon Solenoid (CMS) detector within the Large Hadron Collider (LHC).  
 For a more detailed explanation or background on theory and the making of the fitter, please refer to:  
    - Teams - lowptelec team - Presentations folder
 
