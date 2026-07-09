@@ -28,7 +28,7 @@ def load_data_dict_from_excel():
 
     for barrel in [1, 2, 3, 4]:
         rows = []
-        for bin_name in ["bin0", "bin1", "bin2", "bin3", "bin4"]:
+        for bin_name in ["bin0", "bin1", "bin2", "bin3", "bin4"]: # Include as many bins as needed based on your baseline data in the Excel file
             data_row = df[(df["Type"] == "DATA") & (df["bin"] == bin_name) & (df["barrel"] == barrel)]
             mc_row = df[(df["Type"] == "MC") & (df["bin"] == bin_name) & (df["barrel"] == barrel)]
 
@@ -213,15 +213,15 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
     # -------------------------------------------------------------
     # NEW LOGIC: Adjust error band widths for plots
     # -------------------------------------------------------------
-    mask_3_6 = (xx_band >= 3) & (xx_band < 6)
-    width_data[mask_3_6] = np.where(width_data[mask_3_6] < 0.005, 0.005, width_data[mask_3_6])
-    width_mc[mask_3_6]   = np.where(width_mc[mask_3_6]   < 0.005, 0.005, width_mc[mask_3_6])
-    width_sf[mask_3_6]   = np.where(width_sf[mask_3_6]   < 0.005, 0.005, width_sf[mask_3_6])
+    mask_first = (xx_band >= 3) & (xx_band < 6)
+    width_data[mask_first] = np.where(width_data[mask_first] < 0.005, 0.005, width_data[mask_first])
+    width_mc[mask_first]   = np.where(width_mc[mask_first]   < 0.005, 0.005, width_mc[mask_first])
+    width_sf[mask_first]   = np.where(width_sf[mask_first]   < 0.005, 0.005, width_sf[mask_first])
 
-    mask_6_10 = (xx_band >= 6) & (xx_band <= 10)
-    width_data[mask_6_10] = np.where(width_data[mask_6_10] < 0.005, 0.005, width_data[mask_6_10])
-    width_mc[mask_6_10]   = np.where(width_mc[mask_6_10]   < 0.005, 0.005, width_mc[mask_6_10])
-    width_sf[mask_6_10]   = np.where(width_sf[mask_6_10]   < 0.005, 0.005, width_sf[mask_6_10])
+    mask_second = (xx_band >= 6) & (xx_band <= 10)
+    width_data[mask_second] = np.where(width_data[mask_second] < 0.005, 0.005, width_data[mask_second])
+    width_mc[mask_second]   = np.where(width_mc[mask_second]   < 0.005, 0.005, width_mc[mask_second])
+    width_sf[mask_second]   = np.where(width_sf[mask_second]   < 0.005, 0.005, width_sf[mask_second])
     # -------------------------------------------------------------
 
     yy_data_band = poly3_centered(xx_band, data_m.values["a"], data_m.values["b"])
