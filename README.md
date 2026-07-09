@@ -240,12 +240,12 @@ python3 Heatmaps/heatmap_eff_ele_ISO.py
 ## Scale Factor Heatmap
 1. Open heatmap_sf.py in a text editor
 2. Modify configurations LEPTON_TYPE, HEATMAP_TYPE, NUM, and ERA.
-   ```bash
-   LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
-   NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
-   ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-       # Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
-   ```
+```bash
+LEPTON_TYPE = 'Muon'  # Options: 'Electron' or 'Muon'
+NUM = 'GoldID'  # Options: 'GoldID', 'ISO', 'Prompt', 'BLP', 'Not Prompt', or 'Not ID nor ISO'
+ERA = "2018" # Electron Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+# Muon Options: '2016', '2017', '2018', '2022 PreEE', '2022 PostEE', '2023 PreBPix', '2023 PostBPix'"
+```
 3. Modify 'excel_path' under LEPTON_CONFIGS to point to the right spreadsheet, under LEPTON_CONFIGS in either Electron or Muon.
 
 5. Run the code
