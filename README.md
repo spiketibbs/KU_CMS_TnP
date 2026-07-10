@@ -92,7 +92,7 @@ To run the main application:
 #     },
 #     "output": {
 #       "plot_dir": "Fitter/Muons/2018/GoldID/",         < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass/era/numerator
-#       "results_file": ""       < ----- Sets location to save results to (if left blank, it won't save)
+#       "results_file": "",       < ----- Sets location to save results to (if left blank, it won't save)
 #       "fourplot": "4plot"      < ----- Sets folder name where plots are saved with all four plots + data in it (Data pass/fail and MC pass/fail) 
 #    },
 #    "scale_factors": {
