@@ -123,7 +123,7 @@ python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
 
 ## Fit Shapes
 
-- Shapes can be found: ```Fitter/fitter_shapes,py```
+- Shapes can be found: ```Fitter/fitter_shapes.py```
 - Definitions are abreviated when called in the config file as: 'signal'_'background'
 
 - Signal Shapes (dcb, dv, v, cbg, g):
