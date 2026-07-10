@@ -93,6 +93,7 @@ To run the main application:
 #     "output": {
 #       "plot_dir": "Fitter/Muons/2018/GoldID/",         < ----- Sets location to save plots to (if left blank, it won't save). Recommended: mass/era/numerator
 #       "results_file": ""       < ----- Sets location to save results to (if left blank, it won't save)
+#       "fourplot": "4plot"      < ----- Sets folder name where plots are saved with all four plots + data in it (Data pass/fail and MC pass/fail) 
 #    },
 #    "scale_factors": {
 #        "data_mc_pair": {                                      < ----- Creates explicit scale factors for pairs of data and MC files (useful for comparing one file to multiple others)
@@ -119,6 +120,19 @@ python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
    5. Close out of the tab on the top left and repeat for MC.
    6. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.
 6. Open file explorer and open the specified plot_dir from the config file to view 4plots and the Excel file with saved efficiency and scale factor values, along with error bars.
+
+## Fit Shapes
+
+- Shapes can be found: ```Fitter/fitter_shapes,py```
+- Definitions are abreviated when called in the config file as: 'signal'_'background'
+
+- Signal Shapes (dcb, dv, v, cbg, g):
+
+   <img width="320" height="486" alt="image" src="https://github.com/user-attachments/assets/56f56154-948f-4774-9045-7f272274c208" />
+
+- Background Shapes (ps, lin, exp, cheb, bpoly, cms):
+
+   <img width="414" height="454" alt="image" src="https://github.com/user-attachments/assets/490a10dd-4e86-4e2c-96c3-cab6c7ce2491" />
 
 
 ### Working with Samples
