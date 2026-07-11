@@ -162,7 +162,7 @@ plt.suptitle(f"BLP Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsi
 output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf" # line 358 (Electron) or 360 (Muon)
 ```
 
-6. Enter the base pT bin ranges you had put fit values in, in line 401 for electron and 371 for muon, and if you are extrapolating for electrons, enter what ERA in line 402. If you want to modify the extrapolated bins, change them by uncommenting and modifying line 379 for Electrons, or line 373 for Muons.
+6. Enter the base pT bin ranges you had put fit values in, in line 371 for Electron or Muon. If you are extrapolating for electrons, enter what ERA in line 402, since ERA 1 uses extrapolated bins of 2<pT<4 and 4<pT<7 while ERA 2 is 2<pT<5 and 5<pT<7. If you want to modify the extrapolated bins, change them by uncommenting and modifying line 379 for Electron, or line 373 for Muon.
 ```bash
 my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] # line 401 (Electron) or 371 (Muon)
 # ...
