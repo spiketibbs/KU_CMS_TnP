@@ -155,7 +155,7 @@ cd ~/KU_CMS_TnP/
 ```
 3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation) in a text editor
 4. Modify 'excel_path' to point to the right spreadsheet, beginning on line 16.
-5. Modify the image title and output file directory in lines 353 and 358 for electron, or 355 and 360 for muon.
+5. Modify the image title and output file directory in both lines 355 and 360 for Electron or Muon.
 ```bash
 plt.suptitle(f"BLP Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsize=16, fontweight="bold") # line 353 (Electron) or 355 (Muon)
 # ...
@@ -168,7 +168,7 @@ my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 
 # ...
 ERA = 2  # Only for Electron (line 402) - Replace with 2 if 2016 PreVFP, 2016 PostVFP, 2017, or 2018.
          # Replace with 3 if 2022 PreEE, 2022 PostEE, 2023 PreBPix, 2023 PostBPix, 2024, 2025, or 2026.
-
+# ...
     # my_extrap_bins = [custom_extrap_bins]  # Uncomment and define custom_extrap_bins if needed (two ranges max)
                                              # line 379 (Electron) or 373 (Muon)
 ```
