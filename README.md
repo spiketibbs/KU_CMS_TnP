@@ -49,6 +49,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 ## Usage & Examples
 
 - [Fitter](#fitter)
+   - [Fit Shapes](#fit-shapes)
 - [Extrapolator](#extrapolator)
 - [Heatmap Generators](#heatmap-generators)
    - [Efficiency Heatmap](#efficiency-heatmap)
@@ -61,6 +62,7 @@ To run the main application:
 1. Retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
 2. Open config.json in a text editor
 3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). The actual config.json file is clean and ready to use.
+   * Look below at [Fit Shapes](#fit-shapes) for information on each kind of signal and background shape.
   ``` bash
 #   {
 #     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
