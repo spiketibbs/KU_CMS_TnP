@@ -211,26 +211,17 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins, ERA):
     # -------------------------------------------------------------
     # NEW LOGIC: Adjust error band widths for plots
     # -------------------------------------------------------------
-    if ERA == 2:
-        mask_first = (xx_band >= 2) & (xx_band < 4)
-        width_data[mask_first] = np.where(width_data[mask_first] < 0.005, 0.005, width_data[mask_first])
-        width_mc[mask_first]   = np.where(width_mc[mask_first]   < 0.005, 0.005, width_mc[mask_first])
-        width_sf[mask_first]   = np.where(width_sf[mask_first]   < 0.005, 0.005, width_sf[mask_first])
 
-        mask_second = (xx_band >= 4) & (xx_band <= 7)
-        width_data[mask_second] = np.where(width_data[mask_second] < 0.005, 0.005, width_data[mask_second])
-        width_mc[mask_second]   = np.where(width_mc[mask_second]   < 0.005, 0.005, width_mc[mask_second])
-        width_sf[mask_second]   = np.where(width_sf[mask_second]   < 0.005, 0.005, width_sf[mask_second])
-    else:  # ERA == 3
-        mask_first = (xx_band >= 2) & (xx_band < 5)
-        width_data[mask_first] = np.where(width_data[mask_first] < 0.005, 0.005, width_data[mask_first])
-        width_mc[mask_first]   = np.where(width_mc[mask_first]   < 0.005, 0.005, width_mc[mask_first])
-        width_sf[mask_first]   = np.where(width_sf[mask_first]   < 0.005, 0.005, width_sf[mask_first])
+    mask_first = (xx_band >= my_extrap_bins[0][0]) & (xx_band < my_extrap_bins[0][1])
+    width_data[mask_first] = np.where(width_data[mask_first] < 0.005, 0.005, width_data[mask_first])
+    width_mc[mask_first]   = np.where(width_mc[mask_first]   < 0.005, 0.005, width_mc[mask_first])
+    width_sf[mask_first]   = np.where(width_sf[mask_first]   < 0.005, 0.005, width_sf[mask_first])
 
-        mask_second = (xx_band >= 5) & (xx_band <= 7)
-        width_data[mask_second] = np.where(width_data[mask_second] < 0.005, 0.005, width_data[mask_second])
-        width_mc[mask_second]   = np.where(width_mc[mask_second]   < 0.005, 0.005, width_mc[mask_second])
-        width_sf[mask_second]   = np.where(width_sf[mask_second]   < 0.005, 0.005, width_sf[mask_second])
+    mask_second = (xx_band >= my_extrap_bins[1][0]) & (xx_band <= my_extrap_bins[1][1])
+    width_data[mask_second] = np.where(width_data[mask_second] < 0.005, 0.005, width_data[mask_second])
+    width_mc[mask_second]   = np.where(width_mc[mask_second]   < 0.005, 0.005, width_mc[mask_second])
+    width_sf[mask_second]   = np.where(width_sf[mask_second]   < 0.005, 0.005, width_sf[mask_second])
+
     # -------------------------------------------------------------
 
     yy_data_band = poly3_centered(xx_band, data_m.values["a"], data_m.values["b"])
@@ -279,24 +270,14 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins, ERA):
         # -------------------------------------------------------------
         # NEW LOGIC: Adjust discrete errors for error bars and tables
         # -------------------------------------------------------------
-        if ERA == 2:
-            if x1 == 2 and x2 == 4:
-                err_d = 0.005 if err_d < 0.005 else err_d
-                err_m = 0.005 if err_m < 0.005 else err_m
-                err_s = 0.005 if err_s < 0.005 else err_s
-            elif x1 == 4 and x2 == 7:
-                err_d = 0.005 if err_d < 0.005 else err_d
-                err_m = 0.005 if err_m < 0.005 else err_m
-                err_s = 0.005 if err_s < 0.005 else err_s
-        else:  # ERA == 3
-            if x1 == 2 and x2 == 5:
-                err_d = 0.005 if err_d < 0.005 else err_d
-                err_m = 0.005 if err_m < 0.005 else err_m
-                err_s = 0.005 if err_s < 0.005 else err_s
-            elif x1 == 5 and x2 == 7:
-                err_d = 0.005 if err_d < 0.005 else err_d
-                err_m = 0.005 if err_m < 0.005 else err_m
-                err_s = 0.005 if err_s < 0.005 else err_s
+        if x1 == my_extrap_bins[0][0] and x2 == my_extrap_bins[0][1]:
+            err_d = 0.005 if err_d < 0.005 else err_d
+            err_m = 0.005 if err_m < 0.005 else err_m
+            err_s = 0.005 if err_s < 0.005 else err_s
+        elif x1 == my_extrap_bins[1][0] and x2 == my_extrap_bins[1][1]:
+            err_d = 0.005 if err_d < 0.005 else err_d
+            err_m = 0.005 if err_m < 0.005 else err_m
+            err_s = 0.005 if err_s < 0.005 else err_s
         # -------------------------------------------------------------
 
         # Plot adjusted error bars
@@ -390,10 +371,12 @@ if __name__ == "__main__":
     my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] 
     ERA = 2  # Replace with 2 if 2016 PreVFP, 2016 PostVFP, 2017, or 2018.
             # Replace with 3 if 2022 PreEE, 2022 PostEE, 2023 PreBPix, 2023 PostBPix, 2024, 2025, or 2026.
+            # Replace with 1 if you plan to implement custom extrapolated bins in line 379.
     if ERA == 2:
         my_extrap_bins = [(2, 4), (4, 7)]
     else:  # ERA == 3
         my_extrap_bins = [(2, 5), (5, 7)]
-    
+    # my_extrap_bins = [custom_extrap_bins]  # Uncomment and define custom_extrap_bins if needed (two ranges max)
+
     for key in DATA_DICT.keys():
         extrapolate_and_plot(key, my_fit_bins, my_extrap_bins, ERA)

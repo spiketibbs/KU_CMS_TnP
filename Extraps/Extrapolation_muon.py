@@ -213,12 +213,12 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
     # -------------------------------------------------------------
     # NEW LOGIC: Adjust error band widths for plots
     # -------------------------------------------------------------
-    mask_first = (xx_band >= 3) & (xx_band < 6)
+    mask_first = (xx_band >= my_extrap_bins[0][0]) & (xx_band < my_extrap_bins[0][1])
     width_data[mask_first] = np.where(width_data[mask_first] < 0.005, 0.005, width_data[mask_first])
     width_mc[mask_first]   = np.where(width_mc[mask_first]   < 0.005, 0.005, width_mc[mask_first])
     width_sf[mask_first]   = np.where(width_sf[mask_first]   < 0.005, 0.005, width_sf[mask_first])
 
-    mask_second = (xx_band >= 6) & (xx_band <= 10)
+    mask_second = (xx_band >= my_extrap_bins[1][0]) & (xx_band <= my_extrap_bins[1][1])
     width_data[mask_second] = np.where(width_data[mask_second] < 0.005, 0.005, width_data[mask_second])
     width_mc[mask_second]   = np.where(width_mc[mask_second]   < 0.005, 0.005, width_mc[mask_second])
     width_sf[mask_second]   = np.where(width_sf[mask_second]   < 0.005, 0.005, width_sf[mask_second])
@@ -270,11 +270,11 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
         # -------------------------------------------------------------
         # NEW LOGIC: Adjust discrete errors for error bars and tables
         # -------------------------------------------------------------
-        if x1 == 3 and x2 == 6:
+        if x1 == my_extrap_bins[0][0] and x2 == my_extrap_bins[0][1]:
             err_d = 0.005 if err_d < 0.005 else err_d
             err_m = 0.005 if err_m < 0.005 else err_m
             err_s = 0.005 if err_s < 0.005 else err_s
-        elif x1 == 6 and x2 == 10:
+        elif x1 == my_extrap_bins[1][0] and x2 == my_extrap_bins[1][1]:
             err_d = 0.005 if err_d < 0.005 else err_d
             err_m = 0.005 if err_m < 0.005 else err_m
             err_s = 0.005 if err_s < 0.005 else err_s
@@ -370,6 +370,7 @@ def extrapolate_and_plot(dataset_key, fit_bin_ranges, extrap_bins):
 if __name__ == "__main__":
     my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35)]
     my_extrap_bins = [(3, 6), (6, 10)]
+    # my_extrap_bins = [custom_extrap_bins]  # Uncomment and define custom_extrap_bins if needed (two ranges max)
 
     for key in DATA_DICT.keys():
         extrapolate_and_plot(key, my_fit_bins, my_extrap_bins)
