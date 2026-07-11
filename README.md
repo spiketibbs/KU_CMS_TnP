@@ -162,23 +162,17 @@ plt.suptitle(f"BLP Data/MC Efficiency Scale Factor Fits (${eta_label}$)", fontsi
 output_file = f"Extraps/EXTRAP_PLOTS_ELE/24/2024_blp_extrap_{dataset_key}.pdf" # line 358 (Electron) or 360 (Muon)
 ```
 
-6. Enter the pT bin ranges you had put fit values in, in line 369 for electron and 371 for muon, and if you are extrapolating for electrons, enter what ERA.
+6. Enter the base pT bin ranges you had put fit values in, in line 401 for electron and 371 for muon, and if you are extrapolating for electrons, enter what ERA in line 402. If you want to modify the extrapolated bins, change them by uncommenting and modifying line 379 for Electrons, or line 373 for Muons.
 ```bash
-my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] # line 369 (Electron) or 370 (Muon)
+my_fit_bins = [(10, 15), (15, 20), (20, 25), (25, 30), (30, 35), (35, 40), (40, 45)] # line 401 (Electron) or 371 (Muon)
 # ...
-ERA = 2  # Replace with 2 if 2016 PreVFP, 2016 PostVFP, 2017, or 2018. # line 391 for Electron
+ERA = 2  # Only for Electron (line 402) - Replace with 2 if 2016 PreVFP, 2016 PostVFP, 2017, or 2018.
          # Replace with 3 if 2022 PreEE, 2022 PostEE, 2023 PreBPix, 2023 PostBPix, 2024, 2025, or 2026.
+
+    # my_extrap_bins = [custom_extrap_bins]  # Uncomment and define custom_extrap_bins if needed (two ranges max)
+                                             # line 379 (Electron) or 373 (Muon)
 ```
-   * If modifying the extrapolated bin ranges, you must also modify the error bar calculations in lines 214, 219, 271, and 275 for Electron, and 216, 221, 273, and 277 for Muon.
-   ```bash
-   # extrapolated to a<pT<b and b<pT<c (replace a, b, and c with preferred bin ranges)
-   mask_3_6 = (xx_band >= a) & (xx_band < b) # line 214 (Electron) or 216 (Muon)
-   mask_6_10 = (xx_band >= b) & (xx_band <= c) # line 219 (Electron) or 221 (Muon)
-   # ...
-   # extrapolated to a<pT<b and b<pT<c (replace a, b, and c with preferred bin ranges)
-   if x1 == a and x2 == b: # line 271 (Electron) or 273 (Muon)
-   elif x1 == b and x2 == c: # line 275 (Electron) or 277 (Muon)
-```
+
 7. Run the code
 ```bash
 python3 Extraps/Extrapolation_ele.py
