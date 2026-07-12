@@ -66,7 +66,7 @@ To run the main application:
   ``` bash
 #   {
 #     "info_level": "INFO_2"       < ----- INFO, DEBUG, or INFO_2 (more verbose) (leave blank for no output)
-#     "mass": "Z_muon",                 < ----- Determines what mass you are fitting (Z, Z_muon, JPsi, JPsi_muon)
+#     "mass": "Z_muon",                 < ----- Determines what mass you are fitting (Z, Z_muon, JPsi, JPsi_muon). **Z and JPsi are Electron, and Z_muon and JPsi_muon are Muon.**
 #     "input": {
 #       "root_files_DATA": [                                  < ----- The name will be the name of the plot file that is saved in plot_dir
 #           "NAME DATA 1":   ".root DATA file path 1 ..."          < ----- The name will be the name of the plot file that is saved in plot_dir
