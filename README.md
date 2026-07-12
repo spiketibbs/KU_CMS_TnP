@@ -144,7 +144,7 @@ We have provided sample files in the `/Fitter` directory to help you get started
 * **`Fitter/Run2018_UL/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt.root`**: Use this file, as well as the other three identification criteria DATA files, to test the fitter, viewing outputted 4plots and .xlsx files.
 * **`Fitter/DY_madgraph/Nominal/NUM_GoldID_DEN_baselineplus_abseta_pt`**: Use this file, as well as the other three identification criteria MC files, to test the fitter, viewing outputted 4plots and .xlsx files.
 * Note that there are already example fitted files in the **`Fitter/Muons directory`**. Running the config file with the example parameters will replace all values in the example results. For a clean slate, you can also delete the Muons directory before running.
-* There are example electron root files as well that you can test. Data
+* There are example electron root files as well that you can test in **`Fitter/2024_Electron_Histograms`**
 
 
 # Extrapolator
