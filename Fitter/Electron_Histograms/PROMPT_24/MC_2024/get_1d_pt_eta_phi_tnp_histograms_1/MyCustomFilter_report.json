@@ -1,0 +1,4982 @@
+[
+    {
+        "call_time": null, 
+        "duration": 8.684478339040652, 
+        "performance_counters": {
+            "num_requested_bytes": 13860032, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1716
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/6121edd2-eb39-4679-aded-363ce10044e2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.216397819109261, 
+        "performance_counters": {
+            "num_requested_bytes": 12949059, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1527
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/84f9bd4c-4654-485a-a893-921ae7cb2b52.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.1416838329751045, 
+        "performance_counters": {
+            "num_requested_bytes": 12495021, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1475
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/9fa8285a-de59-41db-bd95-4ae347e303ea.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.258642012951896, 
+        "performance_counters": {
+            "num_requested_bytes": 12574243, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1532
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/d92fc38d-75d0-49cd-a942-81fc1f7ba66e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.80793331307359, 
+        "performance_counters": {
+            "num_requested_bytes": 11990693, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1414
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/b3b8c6d4-f380-458b-8521-d3cb888bb7cb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.923930266872048, 
+        "performance_counters": {
+            "num_requested_bytes": 11801334, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1396
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/7159e7d9-449a-4a14-891e-12cc232ea380.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.831317091127858, 
+        "performance_counters": {
+            "num_requested_bytes": 11704901, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1359
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/24b50964-0baa-407d-9def-ea613260e165.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.798683546017855, 
+        "performance_counters": {
+            "num_requested_bytes": 12596280, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1480
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/02f9fb79-bf26-41e3-9307-1063b0bcf142.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.75737343309447, 
+        "performance_counters": {
+            "num_requested_bytes": 12823906, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1620
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/a43dc15a-14a2-433e-812f-09ed289b1cd0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.490916457027197, 
+        "performance_counters": {
+            "num_requested_bytes": 12095695, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1414
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/27933c5c-5f8f-4e3b-8122-b9df5360dbdd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.695277586812153, 
+        "performance_counters": {
+            "num_requested_bytes": 12177565, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1438
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/56da4822-ba6e-42af-b11f-cb845cec6e8c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.115464749978855, 
+        "performance_counters": {
+            "num_requested_bytes": 11827097, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1476
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/aa7667fb-cd7d-43d4-9496-88a474531adf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.976734868017957, 
+        "performance_counters": {
+            "num_requested_bytes": 11728099, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1350
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/73b2ef2f-024f-412c-b460-2cdc44b3e98a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.612153291003779, 
+        "performance_counters": {
+            "num_requested_bytes": 13086991, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1520
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/cc1971dd-455f-4ae8-8ec6-ef4438e730ba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.377326657995582, 
+        "performance_counters": {
+            "num_requested_bytes": 13762033, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1632
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/45a11378-eaa3-41c5-ae74-aebf2c668dcf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.852177563123405, 
+        "performance_counters": {
+            "num_requested_bytes": 12269016, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1406
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/de109815-f334-456d-a76e-ea5ff6733fb3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.080112844938412, 
+        "performance_counters": {
+            "num_requested_bytes": 12105848, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1427
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/17d7ffcc-5b63-45a2-91cf-3e7c54d1e302.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.748877269914374, 
+        "performance_counters": {
+            "num_requested_bytes": 11650437, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1351
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/80500dcd-45f2-40c8-9837-ff21cd569d3c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.00893751392141, 
+        "performance_counters": {
+            "num_requested_bytes": 11852777, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1401
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/946d27eb-9e17-4a26-9e2e-08858148f105.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.527630626922473, 
+        "performance_counters": {
+            "num_requested_bytes": 12951655, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1519
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/fe7dc001-197d-42be-92fe-853b53fb2c5b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.703041138127446, 
+        "performance_counters": {
+            "num_requested_bytes": 12915168, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1565
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/55172e10-97d0-4fba-aabc-3a066a002d79.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.1130881200078875, 
+        "performance_counters": {
+            "num_requested_bytes": 12400831, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1439
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/de9fe705-698d-4778-b8a0-63d13f5a1b83.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.015283223008737, 
+        "performance_counters": {
+            "num_requested_bytes": 12329899, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1479
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/954d8a8d-7ab9-4a31-a313-5a4e9b4bc8dd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.2423253818415105, 
+        "performance_counters": {
+            "num_requested_bytes": 12572882, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1461
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/60e6c3c1-5ac0-4cce-ad00-18674fd1dec3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 28.466055921977386, 
+        "performance_counters": {
+            "num_requested_bytes": 11750625, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1392
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/4602af60-2d27-4fe7-bf63-37e65bae987b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.660035023931414, 
+        "performance_counters": {
+            "num_requested_bytes": 12320370, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1528
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/fc62985b-ba1c-4d56-b259-00a6b3717b66.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.778868345078081, 
+        "performance_counters": {
+            "num_requested_bytes": 8203894, 
+            "num_requests": 4, 
+            "num_requested_chunks": 981
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/968e3340-7fc0-4d30-8044-03de14a2751e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 67.37899316288531, 
+        "performance_counters": {
+            "num_requested_bytes": 11715741, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1380
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/10dcf0fc-a492-4644-a7ec-17ce903160c7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.369832023046911, 
+        "performance_counters": {
+            "num_requested_bytes": 12222017, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1476
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/275630be-44c4-409e-90f7-8288a7ea9c1d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.014453060925007, 
+        "performance_counters": {
+            "num_requested_bytes": 12753272, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1488
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/9d601055-ccf1-487d-9913-1d9f5698d608.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.529867521952838, 
+        "performance_counters": {
+            "num_requested_bytes": 12826189, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1576
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/6121a105-1b74-4f01-9bd3-eeafb6f236e4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.346318719908595, 
+        "performance_counters": {
+            "num_requested_bytes": 12091288, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1467
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/5f0b1b11-5893-4663-a229-b6896f62d358.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.261911619920284, 
+        "performance_counters": {
+            "num_requested_bytes": 12386771, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1464
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/88dec228-8eba-4371-9aa4-103dbe0b02be.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.172426365781575, 
+        "performance_counters": {
+            "num_requested_bytes": 13395008, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1556
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/52b4bac2-46de-429d-a0ee-4341395d88d0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.571142493048683, 
+        "performance_counters": {
+            "num_requested_bytes": 12157274, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1418
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/678ba688-f0a2-4f81-a8b4-8ddc38225a76.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.084965137997642, 
+        "performance_counters": {
+            "num_requested_bytes": 11766661, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1377
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/553786dd-a7eb-4514-bb20-612e1ea9392e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.277977692894638, 
+        "performance_counters": {
+            "num_requested_bytes": 12502162, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1487
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/6f94ea8d-be99-45a6-863e-866ed3570fba.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.560655989916995, 
+        "performance_counters": {
+            "num_requested_bytes": 13292371, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1570
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/825f3a9e-ab80-4cad-819d-dcf3cb6eb186.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.668287440901622, 
+        "performance_counters": {
+            "num_requested_bytes": 12049176, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1451
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/8280141f-81c6-4db9-ae71-c69c60858bf0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 4.683744336012751, 
+        "performance_counters": {
+            "num_requested_bytes": 12377007, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1461
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/a755d91f-0066-4807-971b-b9d6435a3c1f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.44886137591675, 
+        "performance_counters": {
+            "num_requested_bytes": 12348383, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1445
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/40affc00-5fae-4de2-8f5c-92f324f428cd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.28687941399403, 
+        "performance_counters": {
+            "num_requested_bytes": 12977110, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1519
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/754d5c44-623e-4b71-b9a9-29052a5fb139.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.414037198992446, 
+        "performance_counters": {
+            "num_requested_bytes": 12958349, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1576
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/81a329e8-2a56-4114-9c7a-8a3e1b05df77.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.285557177150622, 
+        "performance_counters": {
+            "num_requested_bytes": 14209125, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1743
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/82427dcf-3454-4fc6-a749-f163eaaa633a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.5567015369888395, 
+        "performance_counters": {
+            "num_requested_bytes": 11776381, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1419
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/e4fbdfe8-cb6a-4c90-b597-a1ecfac7267a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.701374314026907, 
+        "performance_counters": {
+            "num_requested_bytes": 11763483, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1422
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/a998e61c-68a8-4391-914a-b0a801afce5a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.395886921091005, 
+        "performance_counters": {
+            "num_requested_bytes": 11660231, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1383
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/362909cd-7708-4159-8fe3-c5706eca6d24.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.658078621840104, 
+        "performance_counters": {
+            "num_requested_bytes": 12514127, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1456
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/6f4c3a8a-fca4-4c05-a3c4-7fcaaab6bd5d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.522472865879536, 
+        "performance_counters": {
+            "num_requested_bytes": 16617476, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2019
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/e4c7a28b-81d4-4c57-9f2e-f6140f4e913c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.017930386122316, 
+        "performance_counters": {
+            "num_requested_bytes": 13029334, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1512
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/c5225fd6-9925-466a-a3e0-ffad8441a8b3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.332806300139055, 
+        "performance_counters": {
+            "num_requested_bytes": 11783168, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1380
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/cbd39ce4-1f4e-4ecb-95f2-35a270194307.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.5088782440871, 
+        "performance_counters": {
+            "num_requested_bytes": 11821622, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1384
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/a6e89fa1-f7f3-4070-a8f0-3a2b31c8d82f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 18.19422377506271, 
+        "performance_counters": {
+            "num_requested_bytes": 12441811, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1490
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/c00a7707-2142-4dee-ba74-43a47e234d8c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.134627084014937, 
+        "performance_counters": {
+            "num_requested_bytes": 12606560, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1489
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/ab9d4a6d-9865-4a7a-bea4-2728c48e4caa.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.215407756157219, 
+        "performance_counters": {
+            "num_requested_bytes": 11597271, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1340
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/23137dfe-24a4-4f9b-8a98-b57cfa9f1aed.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.492635084083304, 
+        "performance_counters": {
+            "num_requested_bytes": 12146561, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1402
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/c6373d50-9807-4c24-8723-cb78a5edf367.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.860807528952137, 
+        "performance_counters": {
+            "num_requested_bytes": 11760619, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1448
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/c60abe93-4ac1-4e20-9b6d-0c30b3f78b19.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.164413969963789, 
+        "performance_counters": {
+            "num_requested_bytes": 12269375, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1414
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/ee53a5e4-5ad1-4ab9-a673-0d805d98c493.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.153905059909448, 
+        "performance_counters": {
+            "num_requested_bytes": 11924227, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1463
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/6e3f3bff-04c7-4552-8a69-8fb9fb9f8c74.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 24.592288337182254, 
+        "performance_counters": {
+            "num_requested_bytes": 11982482, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1504
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/4d9b5241-a748-495f-a826-b6fe6fee42d5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091791855667711, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/ea8131f1-5380-4a2f-83f6-b77a61fd4a7c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404317-0-cmswn2220.fnal.gov", 
+        "hostname": "hortua-57404317-0-cmswn2220.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.433395294006914, 
+        "performance_counters": {
+            "num_requested_bytes": 12295943, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1468
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/1af12573-af9d-496c-a57c-fc1b65d53424.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 63.3309209139552, 
+        "performance_counters": {
+            "num_requested_bytes": 13674858, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1582
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/5113ffba-752c-4a35-be55-4c81abb466aa.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.013636386021972, 
+        "performance_counters": {
+            "num_requested_bytes": 12482820, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1464
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/441662db-3e09-435d-a5d9-ae5af52b8a1f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.868435204960406, 
+        "performance_counters": {
+            "num_requested_bytes": 12146554, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1496
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/6b38bad0-b7b1-4c40-a569-8c1efb5194f9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091787947386117, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/5721a920-d3f0-430f-ba3f-0e7a229d74c1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404339-0-cmswn2191.fnal.gov", 
+        "hostname": "hortua-57404339-0-cmswn2191.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.738768788054585, 
+        "performance_counters": {
+            "num_requested_bytes": 12197135, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1439
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/44bad2af-6883-4546-89b2-c57e487499f5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 73.84648213791661, 
+        "performance_counters": {
+            "num_requested_bytes": 11816863, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1371
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/afe22277-4824-4e01-9eb4-9dba1aa74d66.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091792182202033, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/149e34bf-c1ba-46ed-af81-c8e8d31927b7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404379-0-cmswn2168.fnal.gov", 
+        "hostname": "hortua-57404379-0-cmswn2168.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.892900470178574, 
+        "performance_counters": {
+            "num_requested_bytes": 13409516, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1588
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/4e9aa30b-dec2-487f-ac5f-cecda30dd40a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 32.99523808900267, 
+        "performance_counters": {
+            "num_requested_bytes": 12121022, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1454
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/41e91ac0-2291-43b5-94d8-6c8abe332aa7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 35.486924580996856, 
+        "performance_counters": {
+            "num_requested_bytes": 11948784, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1406
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/5fdf394d-b773-4c81-9d45-a7ce4054b1f4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 45.37958488706499, 
+        "performance_counters": {
+            "num_requested_bytes": 12107176, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1493
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/e21beea8-ebdb-4eed-957a-0287ac1bb209.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.841607840033248, 
+        "performance_counters": {
+            "num_requested_bytes": 12526332, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1449
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/fcb049c1-4ea0-4d5a-bc25-42edd3136a1e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.934012990212068, 
+        "performance_counters": {
+            "num_requested_bytes": 13270309, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1592
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/81e05a28-3ebb-4b9d-8b6b-ad6f75272dbc.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.997476452961564, 
+        "performance_counters": {
+            "num_requested_bytes": 11952604, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1390
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/098c7d74-e203-443f-a6d4-dff011134777.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 37.24848136282526, 
+        "performance_counters": {
+            "num_requested_bytes": 11606027, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1366
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/5b0f4f49-e3f7-42ba-8ada-f7648409e2ed.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 76.88332251599059, 
+        "performance_counters": {
+            "num_requested_bytes": 11732744, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1447
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/9d9150bd-219a-4c8d-95a4-276fc0d326ea.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.026808578055352, 
+        "performance_counters": {
+            "num_requested_bytes": 12641880, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1512
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/287a369f-2d5d-4158-a71d-6ec1a67e3862.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 89.27152980701067, 
+        "performance_counters": {
+            "num_requested_bytes": 11943254, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1403
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/004cd9cb-9cec-4531-911a-bbcb482fee33.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 27.254730750108138, 
+        "performance_counters": {
+            "num_requested_bytes": 12056706, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1410
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/371a321b-3d10-449c-9efc-5058001f27e2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 53.669858262874186, 
+        "performance_counters": {
+            "num_requested_bytes": 11769840, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1390
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/8bc62de7-2c91-4c26-a32a-9f6befdd1b0c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.265756689943373, 
+        "performance_counters": {
+            "num_requested_bytes": 12571948, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1576
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/75bb92f4-4b76-42c2-9950-dc0c4fe27bc9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 55.524334348971024, 
+        "performance_counters": {
+            "num_requested_bytes": 12273914, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1528
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/faeaecdd-016e-4118-89c3-51a55e6015b3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.31403081910685, 
+        "performance_counters": {
+            "num_requested_bytes": 13593748, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1614
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/46c62196-f12b-4a5c-92de-d0de163bc035.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.543293710798025, 
+        "performance_counters": {
+            "num_requested_bytes": 12416242, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1544
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/c019e76d-a43e-4447-ae35-8f6b8189e7be.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.055183354998007, 
+        "performance_counters": {
+            "num_requested_bytes": 12238238, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1472
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/ba9a4434-75fa-4312-a818-c649d87ec27f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.304481990169734, 
+        "performance_counters": {
+            "num_requested_bytes": 12358931, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1445
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/849bf956-c219-4eda-9a76-5ddc89777fc1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.676915094954893, 
+        "performance_counters": {
+            "num_requested_bytes": 12589626, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1462
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/05e4a4d7-9e6a-4a92-b604-add5da0c3b6e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.462417782982811, 
+        "performance_counters": {
+            "num_requested_bytes": 12266256, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1475
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/520f24d2-cada-4daf-a6a2-01af7240d572.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 55.94136274699122, 
+        "performance_counters": {
+            "num_requested_bytes": 12485637, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1445
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/a4aff120-9174-4efd-98ed-9a136d30b59a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.200097373919562, 
+        "performance_counters": {
+            "num_requested_bytes": 11817213, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1476
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/c8d48d00-6f5c-47f9-8f3f-1fcd76f5fc3d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091797995291054, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/7bd870aa-a9f5-4802-884a-dddef9d1f864.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404416-0-cmswn2272.fnal.gov", 
+        "hostname": "hortua-57404416-0-cmswn2272.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.574829923920333, 
+        "performance_counters": {
+            "num_requested_bytes": 12004379, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1435
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/8b847a7c-e272-4041-bd2c-2d50545bc126.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091790327490174, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/a12e9c25-05fc-40d7-a52d-f273e3ed171e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404408-0-cmswn2236.fnal.gov", 
+        "hostname": "hortua-57404408-0-cmswn2236.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.81980031193234, 
+        "performance_counters": {
+            "num_requested_bytes": 12264519, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1460
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/2ebddac1-4a62-4255-b560-83564c34022a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.9732764170039445, 
+        "performance_counters": {
+            "num_requested_bytes": 12508608, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1449
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/b5aa1364-b0ea-49b9-bd1f-d2bd2d8d5b13.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.551682353951037, 
+        "performance_counters": {
+            "num_requested_bytes": 12356439, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1447
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/e1e52a62-16c3-4aae-97a6-157756614f3a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 75.93805927108042, 
+        "performance_counters": {
+            "num_requested_bytes": 13119160, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1624
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/a57b04a5-0d34-480a-8151-7846f8ffaf74.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.80611221981235, 
+        "performance_counters": {
+            "num_requested_bytes": 11769237, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1453
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/a0cda9a5-dd57-42ef-8606-f228b2655071.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.644665928790346, 
+        "performance_counters": {
+            "num_requested_bytes": 14091143, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1691
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/db1075c9-5a0e-4039-b140-a969bf2642ad.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 63.7429739960935, 
+        "performance_counters": {
+            "num_requested_bytes": 11921683, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1433
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/13b8ceb8-36ac-4fbc-af43-8482fd6031ae.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.531851754989475, 
+        "performance_counters": {
+            "num_requested_bytes": 13131971, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1573
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/638191b6-d571-4b2c-a538-f53f5c2d6312.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.441205546027049, 
+        "performance_counters": {
+            "num_requested_bytes": 12158302, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1488
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/ca34cc30-0ae2-455d-b641-aad8d1d14451.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091789243555889, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/4e43ba04-77ce-4480-b11c-d129eaaff525.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404380-0-cmswn2215.fnal.gov", 
+        "hostname": "hortua-57404380-0-cmswn2215.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 78.01694502588362, 
+        "performance_counters": {
+            "num_requested_bytes": 13231483, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1527
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/db0944ab-2e05-4922-9a70-c5a20821c9ac.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.050645836163312, 
+        "performance_counters": {
+            "num_requested_bytes": 11663022, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1388
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/915bda64-a36e-4ff6-b623-9b4f83a6f5ee.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.713887717109174, 
+        "performance_counters": {
+            "num_requested_bytes": 14383622, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1656
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/0a882f79-f899-4c4f-a1a9-e0396d2b3e31.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.958016843069345, 
+        "performance_counters": {
+            "num_requested_bytes": 11676785, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1351
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/e64396b3-09f1-48c0-a2af-1c492b7185e8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 59.08803173294291, 
+        "performance_counters": {
+            "num_requested_bytes": 12835949, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1515
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/6386f27b-e097-4af5-be2c-9d10bd7f0620.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 47.01740818005055, 
+        "performance_counters": {
+            "num_requested_bytes": 12663907, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1498
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/f93b5cc3-96e2-45a2-8703-6bc57838e232.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.037773641990498, 
+        "performance_counters": {
+            "num_requested_bytes": 12633397, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1552
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/012ab921-0c37-4661-9e39-24492721af23.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 53.41520254383795, 
+        "performance_counters": {
+            "num_requested_bytes": 12575002, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1468
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/8ac87c3b-3b09-4dd8-90f6-d0b7eee27bca.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.77101312787272, 
+        "performance_counters": {
+            "num_requested_bytes": 11822472, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1398
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/fc4886b0-157f-4af9-b729-81981b366c78.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.615263273008168, 
+        "performance_counters": {
+            "num_requested_bytes": 11971232, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1409
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/5f1d68bf-3662-4acf-a0cc-28ff865eb7b7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.601357530103996, 
+        "performance_counters": {
+            "num_requested_bytes": 12148646, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1476
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/a8a70c13-8b7c-490f-8a7b-61ffa3679214.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091821762495780, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/853952e0-dcae-4db3-955d-74dbf1520a1c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404364-0-cmswn2211.fnal.gov", 
+        "hostname": "hortua-57404364-0-cmswn2211.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 11.896390167996287, 
+        "performance_counters": {
+            "num_requested_bytes": 12028984, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1396
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/6e4c9397-cefd-4827-a8a5-7d8ca6de2175.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.657015566015616, 
+        "performance_counters": {
+            "num_requested_bytes": 11918078, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1398
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/29113524-6bdf-4aac-950d-11ea497eb6cd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 45.395403207978234, 
+        "performance_counters": {
+            "num_requested_bytes": 12328547, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1460
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/3fccb70f-2d22-42ee-963d-28c7090a507f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091800434071241, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2520000/802b3c1a-e4ef-4e21-9191-18b66a96e8a8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404397-0-cmswn2252.fnal.gov", 
+        "hostname": "hortua-57404397-0-cmswn2252.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.800984322093427, 
+        "performance_counters": {
+            "num_requested_bytes": 15518207, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1848
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/2829168a-1162-4925-9d5a-933a7d306bb3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.014930544188246, 
+        "performance_counters": {
+            "num_requested_bytes": 12870335, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1513
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/b0aa7e40-34f9-4d77-807f-7337f941aef0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 60.34426194499247, 
+        "performance_counters": {
+            "num_requested_bytes": 17226134, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2008
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/8536f3c1-1a28-47c9-86ea-028f5163a091.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.964303490007296, 
+        "performance_counters": {
+            "num_requested_bytes": 11873351, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1419
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/7ffbd150-9fbe-4d83-b713-885a42d80655.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.92052897205576, 
+        "performance_counters": {
+            "num_requested_bytes": 12901345, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1559
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/734d8be4-e429-4316-92f0-bf8403a8fa5d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 64.16353914793581, 
+        "performance_counters": {
+            "num_requested_bytes": 12877280, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1473
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/ee78af65-51f7-4bd4-9514-667082bf9b91.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.2912805150263, 
+        "performance_counters": {
+            "num_requested_bytes": 13361068, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1580
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/44fcccf7-b32a-44ac-abef-a164c7f159c5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 78.7029988928698, 
+        "performance_counters": {
+            "num_requested_bytes": 13080458, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1539
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/08cc1110-33dc-4eee-b5f0-f02823a27ff4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 41.339400914963335, 
+        "performance_counters": {
+            "num_requested_bytes": 13238577, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1645
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/3a485e34-6656-464d-bfff-4a637c4e8360.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 44.15870274300687, 
+        "performance_counters": {
+            "num_requested_bytes": 14994494, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1754
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/49d8bf92-1a31-4208-91c7-39282c17124e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 69.25246534100734, 
+        "performance_counters": {
+            "num_requested_bytes": 13998370, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1676
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/b5453e06-1ddc-4c19-863b-da06e418cf0f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.611854972084984, 
+        "performance_counters": {
+            "num_requested_bytes": 13605626, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1575
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/92f180a0-644c-4023-948a-f26236719673.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.82903539715335, 
+        "performance_counters": {
+            "num_requested_bytes": 14390044, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1715
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/af952970-ab03-40c3-bc4f-9e4a6c5555c3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.817849804181606, 
+        "performance_counters": {
+            "num_requested_bytes": 12216589, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1437
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/14969e81-1a84-45ed-bfc4-b49286b46520.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 25.216501687886193, 
+        "performance_counters": {
+            "num_requested_bytes": 12768172, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1600
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/229bde20-4701-44bd-b456-9bc09d836ba2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.613065368961543, 
+        "performance_counters": {
+            "num_requested_bytes": 12798381, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1521
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/cf2018f4-2cb5-4c9b-b55b-8713d9cc5aab.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.805847208015621, 
+        "performance_counters": {
+            "num_requested_bytes": 13483958, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1583
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/6d67f167-92a0-485c-9437-4a46d9861611.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 20.7531472009141, 
+        "performance_counters": {
+            "num_requested_bytes": 12332959, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1472
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/f719ff2c-d02c-4876-ab93-746748680ff6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 53.02336954395287, 
+        "performance_counters": {
+            "num_requested_bytes": 12378060, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1458
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/3929a6cc-18ee-4a38-bd51-35fd9972cc8b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091779672948141, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/44cb74aa-bcd6-4f60-94a9-80f971487348.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404320-0-cmswn2251.fnal.gov", 
+        "hostname": "hortua-57404320-0-cmswn2251.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.172700440045446, 
+        "performance_counters": {
+            "num_requested_bytes": 13404474, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1610
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/e2aa3451-7ca2-468d-902d-3d87e22712f0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 38.137524997117, 
+        "performance_counters": {
+            "num_requested_bytes": 13140095, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1519
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/15a38d53-bdef-46ea-a4ca-6889824f5616.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.080518858972937, 
+        "performance_counters": {
+            "num_requested_bytes": 13343954, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1555
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/81ece5bd-cf9c-4a11-b7bd-f9634d20cf47.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.172149987192824, 
+        "performance_counters": {
+            "num_requested_bytes": 12337787, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1467
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/a607de60-6808-451a-97a6-289259c90ab1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091786578051581, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/79a74b89-90e5-4c61-bd04-90bfbec65754.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404363-0-cmswn2257.fnal.gov", 
+        "hostname": "hortua-57404363-0-cmswn2257.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.67060311185196, 
+        "performance_counters": {
+            "num_requested_bytes": 12010467, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1434
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/f275539b-d79a-471c-aed3-d87016f43a3b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.048281638883054, 
+        "performance_counters": {
+            "num_requested_bytes": 11770673, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1365
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/938578cf-f33a-4de1-ab00-eabf4fc6614e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.666963214054704, 
+        "performance_counters": {
+            "num_requested_bytes": 11724750, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1359
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/0691284a-8f87-4554-805e-5d987f9f1502.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 52.49488098314032, 
+        "performance_counters": {
+            "num_requested_bytes": 13845495, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1625
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/71acbb2b-fe21-48f8-841a-5bb659b6218f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.464932559989393, 
+        "performance_counters": {
+            "num_requested_bytes": 13084484, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1512
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/942e271c-fd58-4a86-8b0a-695732078d1d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 41.44982275413349, 
+        "performance_counters": {
+            "num_requested_bytes": 13023464, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1506
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/afc946bc-20c7-4756-8669-a679c0d851af.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.2718015590216964, 
+        "performance_counters": {
+            "num_requested_bytes": 12125181, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1429
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/67eee9c4-8d13-456d-80db-84826cde6431.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.130311897955835, 
+        "performance_counters": {
+            "num_requested_bytes": 11815611, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1412
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/690590b2-8a7b-41af-a4c8-a0e41e712cf9.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.733773940941319, 
+        "performance_counters": {
+            "num_requested_bytes": 13984863, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1651
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/76ac2b0e-6158-46c0-ac38-28bfb95ed2b0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 70.09696567011997, 
+        "performance_counters": {
+            "num_requested_bytes": 12880999, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1572
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/e391151a-91ab-4424-a090-ddb19ab82a19.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091785340719179, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/af7dd0f6-20f2-4031-9396-4bd9a289694b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404321-0-cmswn2258.fnal.gov", 
+        "hostname": "hortua-57404321-0-cmswn2258.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.016744297929108, 
+        "performance_counters": {
+            "num_requested_bytes": 18183957, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2194
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/285fe4e1-8749-4e81-b4ec-824c76f63056.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 33.122746685985476, 
+        "performance_counters": {
+            "num_requested_bytes": 11851601, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1404
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/a7cad1e5-824d-4a8f-8431-08338f08b066.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 34.160217384109274, 
+        "performance_counters": {
+            "num_requested_bytes": 13371378, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1539
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/63fc2668-6e56-47f0-a3f3-158b693d3046.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.397655320120975, 
+        "performance_counters": {
+            "num_requested_bytes": 11973277, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1383
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/1e47e791-7cc7-4c96-8a66-0c3c9ecb61e3.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 73.19776573288254, 
+        "performance_counters": {
+            "num_requested_bytes": 12431367, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1453
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/8761e545-7351-47a4-922e-ff469b99110b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 75.94029675493948, 
+        "performance_counters": {
+            "num_requested_bytes": 20382405, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2405
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/9718e439-f715-4bd9-a2ec-293dcc9c885b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.570696134120226, 
+        "performance_counters": {
+            "num_requested_bytes": 16134797, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1924
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/9d8134e9-dfd1-419e-8f38-12e12b1a16ce.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 45.54262405610643, 
+        "performance_counters": {
+            "num_requested_bytes": 12495385, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1456
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/4e27e20b-8f1f-4740-a4ec-bca0bd8f2509.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 57.04377901693806, 
+        "performance_counters": {
+            "num_requested_bytes": 12104208, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1423
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/4f555116-4533-4f51-a328-ed47dc35f6ad.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 38.736162272049114, 
+        "performance_counters": {
+            "num_requested_bytes": 13403271, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1581
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/481800d6-f29c-4a8e-a815-166fba9d977f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 67.98036399600096, 
+        "performance_counters": {
+            "num_requested_bytes": 12124763, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1455
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/e896f786-7af7-47bb-bead-d772dd1a82b7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091780163393066, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/2faebb00-3883-4601-8edf-4612a70e9372.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404348-0-cmswn2241.fnal.gov", 
+        "hostname": "hortua-57404348-0-cmswn2241.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.150689127855003, 
+        "performance_counters": {
+            "num_requested_bytes": 13288451, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1656
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/2530000/fc49365d-ea45-42b2-b7c9-e48eb3921327.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091784888314936, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/1cb09a53-6b06-4919-b8a6-f61e0ea57e4d.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404341-0-cmswn2173.fnal.gov", 
+        "hostname": "hortua-57404341-0-cmswn2173.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.759545606095344, 
+        "performance_counters": {
+            "num_requested_bytes": 13537264, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1597
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/aa8eaabf-0f64-4fca-909c-487c764a2fc8.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 12.919736319920048, 
+        "performance_counters": {
+            "num_requested_bytes": 14068898, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1669
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/0c0fb6ce-75fc-48cf-8bde-a90c6527586e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 35.73055174201727, 
+        "performance_counters": {
+            "num_requested_bytes": 15633584, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1883
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/323e46d7-be52-4c5c-b6e5-e52fddb6f0a2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.090999802807346, 
+        "performance_counters": {
+            "num_requested_bytes": 12744307, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1508
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/d1f07508-fa5b-4bb6-9180-c34e90f4e9c0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.763538899132982, 
+        "performance_counters": {
+            "num_requested_bytes": 17836421, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2085
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/6059699a-35b3-4412-b76f-dcea300504c6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.761301554972306, 
+        "performance_counters": {
+            "num_requested_bytes": 15040776, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1766
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/d1c88e24-d9f6-46e1-8ed6-c6f14e7f6112.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091779410924187, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/d22b06ea-2c3d-48c0-bb23-45a931318425.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404400-0-cmswn2212.fnal.gov", 
+        "hostname": "hortua-57404400-0-cmswn2212.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.87592410389334, 
+        "performance_counters": {
+            "num_requested_bytes": 15913125, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1960
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/9c9a9359-e2b1-49ab-935a-16b5b7c95bd6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 41.656337588094175, 
+        "performance_counters": {
+            "num_requested_bytes": 21602353, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2526
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/e54f21e8-7b7a-4450-bf29-4e490e7802fe.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 42.8998817151878, 
+        "performance_counters": {
+            "num_requested_bytes": 23402615, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2908
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/ef5c0545-224d-4081-89e3-0f2f52259d0e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 75.3053674180992, 
+        "performance_counters": {
+            "num_requested_bytes": 19562569, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2291
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/1e7fa280-af74-4a0b-92e7-02a0f049ab81.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 29.166007556021214, 
+        "performance_counters": {
+            "num_requested_bytes": 13493749, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1601
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/c02b8339-305b-4812-8144-e5c79712891c.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 44.071034132968634, 
+        "performance_counters": {
+            "num_requested_bytes": 16706500, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2034
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/9f382f14-bd12-4c47-aa21-0f739155dfbb.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 26.14586829394102, 
+        "performance_counters": {
+            "num_requested_bytes": 16667236, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1976
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/86306970-e2c1-4aaa-962f-6661499e328b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.578847028082237, 
+        "performance_counters": {
+            "num_requested_bytes": 14250572, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1652
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/9e228cb3-aef2-411e-852b-ca9b96b6d142.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.819494624156505, 
+        "performance_counters": {
+            "num_requested_bytes": 18089400, 
+            "num_requests": 4, 
+            "num_requested_chunks": 2284
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/1503afb8-97a9-4a6d-aa6e-c10dcafde11e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.7509856428951025, 
+        "performance_counters": {
+            "num_requested_bytes": 14059679, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1632
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/e20dd83d-8c71-46f2-829b-499b54fedb4a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.927684604888782, 
+        "performance_counters": {
+            "num_requested_bytes": 11716665, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1382
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/0fd49c33-601f-4e77-a1f8-4b4a253a0242.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": 1764091779286521085, 
+        "duration": null, 
+        "performance_counters": null, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/9602e8be-c0e5-463e-ba6d-7c2cb66b0eb2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": "OSError", 
+        "message": "File did not vector_read properly: [ERROR] Operation expired", 
+        "fqdn": "hortua-57404322-0-cmswn2200.fnal.gov", 
+        "hostname": "hortua-57404322-0-cmswn2200.fnal.gov"
+    }, 
+    {
+        "call_time": null, 
+        "duration": 32.715569933876395, 
+        "performance_counters": {
+            "num_requested_bytes": 12332566, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1528
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/47d2033b-e7a0-4eee-95a0-8be7f1756a9e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 36.49551649601199, 
+        "performance_counters": {
+            "num_requested_bytes": 12265564, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1459
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/bcc70984-a353-4f12-830b-ea40d71dd20e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.038721673190594, 
+        "performance_counters": {
+            "num_requested_bytes": 13329569, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1597
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/1d474b14-768e-4820-a3b1-5863cb29c995.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.383175726048648, 
+        "performance_counters": {
+            "num_requested_bytes": 13490509, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1579
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/0a63e237-25b3-4205-9cad-87d383f75ebe.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 19.099976141937077, 
+        "performance_counters": {
+            "num_requested_bytes": 12027648, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1403
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/08065f06-0058-49ce-9fe9-754cc296f6c2.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.810292433947325, 
+        "performance_counters": {
+            "num_requested_bytes": 12545419, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1477
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/ef255e82-576d-4de9-884b-e6d00a5e09f6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.943779177032411, 
+        "performance_counters": {
+            "num_requested_bytes": 12304873, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1508
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/cefeb93d-e31a-4a48-91fe-c2c171270ab5.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 30.096468796022236, 
+        "performance_counters": {
+            "num_requested_bytes": 12525032, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1483
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/81a36653-c4e5-401f-a888-6cfa925835db.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.060919925104827, 
+        "performance_counters": {
+            "num_requested_bytes": 12383258, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1480
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/4a307ee1-14d7-409d-9791-8ef028943160.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.137131338007748, 
+        "performance_counters": {
+            "num_requested_bytes": 13007518, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1502
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/3ee5765b-c609-41f3-b9cd-eec3778859ad.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.896270300960168, 
+        "performance_counters": {
+            "num_requested_bytes": 13146779, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1533
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/52d539d6-1088-46e0-bb42-3d07d9c0a121.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.4006573089864105, 
+        "performance_counters": {
+            "num_requested_bytes": 12588958, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1468
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/19d97b8d-f307-4608-b0d9-91abd8f41015.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.596506253117695, 
+        "performance_counters": {
+            "num_requested_bytes": 12476645, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1471
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/5ef0092e-eb2f-4cb6-90e0-4467bb46a23b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.402319154003635, 
+        "performance_counters": {
+            "num_requested_bytes": 11970007, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1433
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/3a695680-45ca-4d7e-846f-f0c2a5b45787.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.085596997058019, 
+        "performance_counters": {
+            "num_requested_bytes": 14355688, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1660
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/305d5fcc-23d4-4fcc-a5a7-c88b68999b7e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.77144401986152, 
+        "performance_counters": {
+            "num_requested_bytes": 13252927, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1535
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/fc9124a5-dec3-4979-88da-d3687824c3bd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.102250813040882, 
+        "performance_counters": {
+            "num_requested_bytes": 12489603, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1446
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/eb82eeaa-5a21-4d2e-8a1a-612ef9cca128.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.536738337017596, 
+        "performance_counters": {
+            "num_requested_bytes": 11862850, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1378
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/f337b996-a164-4cbe-a6ca-a59a99d962cf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.047406238038093, 
+        "performance_counters": {
+            "num_requested_bytes": 12502156, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1452
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/6141581b-82b6-431d-b2ce-a053fa622c30.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.580650973832235, 
+        "performance_counters": {
+            "num_requested_bytes": 11892342, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1402
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/6cde8856-4d34-4bfa-a05a-a752b4730ecf.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.009021251928061, 
+        "performance_counters": {
+            "num_requested_bytes": 12042907, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1502
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/f2a5971c-bcb2-4a78-856f-b03f71f87a9f.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.477977333823219, 
+        "performance_counters": {
+            "num_requested_bytes": 12635755, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1572
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/2ba053f8-d6f2-45af-83e0-324354740010.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.963149972027168, 
+        "performance_counters": {
+            "num_requested_bytes": 12214098, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1516
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/79d0c840-30c5-4968-af1f-1dc52624bdb6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.81043927790597, 
+        "performance_counters": {
+            "num_requested_bytes": 12781250, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1499
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/f6d5ecf3-2c9d-4be5-9b5f-d63d4989ad43.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 21.406447728164494, 
+        "performance_counters": {
+            "num_requested_bytes": 13108098, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1554
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/006ac4b4-0bd6-4551-933a-55b70fc155bd.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.4595830829348415, 
+        "performance_counters": {
+            "num_requested_bytes": 12091502, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1422
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/93786f54-cddc-4a68-a4dd-efa445132180.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.728518944932148, 
+        "performance_counters": {
+            "num_requested_bytes": 14362713, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1756
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/1193a719-cb76-4e67-980f-d2eb088c1f47.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.4070952229667455, 
+        "performance_counters": {
+            "num_requested_bytes": 12617557, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1507
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/65df691f-f6c8-4d33-90ac-dd1f459d9bb4.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 8.872776279924437, 
+        "performance_counters": {
+            "num_requested_bytes": 12385485, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1452
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/55fb1839-7fd2-4571-b074-36bb9ba82324.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 5.5981359970755875, 
+        "performance_counters": {
+            "num_requested_bytes": 12470649, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1453
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/f0bae0c7-9dec-4c91-8920-59ad8ff364b1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 13.80121554993093, 
+        "performance_counters": {
+            "num_requested_bytes": 12361003, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1437
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/a00fba8d-68d9-42be-82ed-d8bf07c6212b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 10.50247953296639, 
+        "performance_counters": {
+            "num_requested_bytes": 13667904, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1571
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/39b2327e-af6f-4295-9f4f-ff093c1660fa.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.24388576997444, 
+        "performance_counters": {
+            "num_requested_bytes": 12391010, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1479
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/84e0fd6b-c76b-4761-b702-22a762c714e7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.2541710450313985, 
+        "performance_counters": {
+            "num_requested_bytes": 12034115, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1400
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/42ce7898-570b-41cb-be38-d8e7ae4586aa.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.309599723201245, 
+        "performance_counters": {
+            "num_requested_bytes": 12282447, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1426
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/8e00724a-c226-417e-b401-cfb4e63f58e0.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 15.772953164065257, 
+        "performance_counters": {
+            "num_requested_bytes": 13098559, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1581
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/2790bf6a-59d0-40f4-901c-3549da72e2b7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.55463566002436, 
+        "performance_counters": {
+            "num_requested_bytes": 12545750, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1476
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/4dda8d4f-4004-4103-b2a5-37f587f6773e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.7253964729607105, 
+        "performance_counters": {
+            "num_requested_bytes": 12600450, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1467
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/1833eabd-2f15-4f9c-9748-f9c34e509930.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.639443211024627, 
+        "performance_counters": {
+            "num_requested_bytes": 12216800, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1508
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/786a616b-54d5-401b-b8f4-25ee89d473ff.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.724272568942979, 
+        "performance_counters": {
+            "num_requested_bytes": 12089856, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1500
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/70000/262f273b-7f34-400b-bc9d-e14812cc1146.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 6.063966083107516, 
+        "performance_counters": {
+            "num_requested_bytes": 13502424, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1589
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/6033023c-5555-48b8-bd8a-bd6eef432987.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.84680237993598, 
+        "performance_counters": {
+            "num_requested_bytes": 1738566, 
+            "num_requests": 4, 
+            "num_requested_chunks": 228
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/65a29db0-7755-41ab-aac2-b1d48553ae9b.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 1.9320951339323074, 
+        "performance_counters": {
+            "num_requested_bytes": 216466, 
+            "num_requests": 4, 
+            "num_requested_chunks": 61
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/2749e36d-0c4a-443f-8a92-8f91eb6efc7e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.26361530693248, 
+        "performance_counters": {
+            "num_requested_bytes": 15392458, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1803
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/e321cdfd-5de9-4462-8eb5-6ff7676552a6.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 14.328188559040427, 
+        "performance_counters": {
+            "num_requested_bytes": 12413553, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1441
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/753d7b29-1308-4474-af3a-e24b51409a7a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.1931345160119236, 
+        "performance_counters": {
+            "num_requested_bytes": 13319833, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1586
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/c52f9058-7385-4e7a-a3de-b966b2ea48d1.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 7.067593718878925, 
+        "performance_counters": {
+            "num_requested_bytes": 13116496, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1558
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/01c852e6-4373-4768-9fb5-893e0f56914a.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 9.59379354515113, 
+        "performance_counters": {
+            "num_requested_bytes": 12777345, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1543
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/f97a6c88-0410-45df-9bfd-dc513fffb1fe.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 17.100748852128163, 
+        "performance_counters": {
+            "num_requested_bytes": 14408419, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1746
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/e2282440-af1d-4874-adc6-40bb0ebbcba7.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }, 
+    {
+        "call_time": null, 
+        "duration": 16.338952379999682, 
+        "performance_counters": {
+            "num_requested_bytes": 13133220, 
+            "num_requests": 4, 
+            "num_requested_chunks": 1541
+        }, 
+        "args": [
+            "'root://cms-xrd-global.cern.ch:1094//store/mc/Run3Winter24NanoAOD/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/EGMNanoV14_133X_mcRun3_2024_realistic_v10_ext2-v2/80000/90b96678-494e-4ceb-9a23-cb4d51f44a1e.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]
