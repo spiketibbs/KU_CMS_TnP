@@ -90,7 +90,7 @@ pip install dask_awkward fsspec-xrootd
 ```bash
 voms-proxy-init -voms cms -rfc --valid 168:0
 ```
-11. Once activated, you are ready to run the framework. Modify the **--config** and **--settings** based on what numerator and denominator you plan to use. Also modify the **--output** of the histograms.
+11. Once activated, you are ready to run the framework. Modify the **--config** and **--settings** based on what numerator and denominator you plan to use. Also modify the **--output** of the histograms. If it gives you an error, follow the instructions it lists to **pip install** any more required dependencies.
     * Numerator Options: config_blp.json, config_gold_ID.json, config_ISO_ID.json, ISO_ID_PROMPT.json
     * Denominator Options: denom_raw.json, denom_blp.json, denom_gold_ID.json, denom_ISO_ID.json.
 ```bash
