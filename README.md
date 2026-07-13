@@ -74,7 +74,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
    git clone https://github.com/derekgrove/egamma_tnp_KU
    ```
 5. Enter the project
-   ``` cd egamma_tnp_KU```
+   ```cd egamma_tnp_KU```
 6. Create a new conda/mamba environment
    ```conda create -n egamma_tnp python=3.11```
 7. Now, activate the new environment
