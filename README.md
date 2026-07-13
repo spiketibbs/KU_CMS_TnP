@@ -80,8 +80,9 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 8. Now, activate the new environment
    ```conda activate egamma_tnp```
 9. With your new environment activated, you will install the egamma tnp as well as a few additional packages:
-```pip install -e .
-   pip install dask_awkward fsspec-xrootd
+```
+pip install -e .
+pip install dask_awkward fsspec-xrootd
 ```
 10. Once the install is finished, navigate to the **nanoaod_filters_custom** directory, where the code will be run.
 ```cd examples/nanoaod_filters_custom```
