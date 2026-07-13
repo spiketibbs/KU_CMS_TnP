@@ -78,7 +78,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 # Fitter
 
 To run the main application:
-* Optional: Download "ROOT File Viewer" Extension for the ability to view rootfiles within a text editor such as VSCode
+* Optional: Download "ROOT File Viewer" Extension for the ability to view the contents of a ROOT file within a text editor such as VSCode
 1. Retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
 2. Open config.json in a text editor
 3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). The actual config.json file is clean and ready to use.
