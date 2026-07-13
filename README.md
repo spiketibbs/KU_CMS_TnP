@@ -80,15 +80,15 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 8. Now, activate the new environment
    ```conda activate egamma_tnp```
 9. With your new environment activated, you will install the egamma tnp as well as a few additional packages:
-    ```pip install -e .
-       pip install dask_awkward fsspec-xrootd
-    ```
+```pip install -e .
+   pip install dask_awkward fsspec-xrootd
+```
 10. Once the install is finished, navigate to the **nanoaod_filters_custom** directory, where the code will be run.
-    ```cd examples/nanoaod_filters_custom```
+```cd examples/nanoaod_filters_custom```
 11. Now activate your grid proxy (this can be done at any point prior to running, but it must be done before running on samples from CMS DAS).
-    ```voms-proxy-init -voms cms -rfc --valid 168:0
-       # Will ask for your grid password
-    ```
+```voms-proxy-init -voms cms -rfc --valid 168:0
+   # Will ask for your grid password
+```
 12. Once activated, you are ready to run the framework. Modify the **--config** and **--settings** based on what numerator and denominator you plan to use. Also modify the **--output** of the histograms.
     * Numerator Options: config_blp.json, config_gold_ID.json, config_ISO_ID.json, ISO_ID_PROMPT.json
     * Denominator Options: denom_raw.json, denom_blp.json, denom_gold_ID.json, denom_ISO_ID.json.
