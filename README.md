@@ -78,6 +78,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 # Fitter
 
 To run the main application:
+* Optional: Download "ROOT File Viewer" Extension for the ability to view rootfiles within a text editor such as VSCode
 1. Retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
 2. Open config.json in a text editor
 3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). The actual config.json file is clean and ready to use.
@@ -145,7 +146,7 @@ python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
 ## Fit Shapes
 
 - Shapes can be found: ```Fitter/fitter_shapes.py```
-- Definitions are abreviated when called in the config file as: 'signal'_'background'
+- Definitions are abbreviated when called in the config file as: 'signal'_'background'
 
 - Signal Shapes (dcb, dv, v, cbg, g):
 
