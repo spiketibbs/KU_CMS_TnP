@@ -69,28 +69,28 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
    ```bash
    cd nobackup/
    ```
-5. Clone the repository (note: different from KU_CMS_TnP)
+4. Clone the repository (note: different from KU_CMS_TnP)
    ```bash
    git clone https://github.com/derekgrove/egamma_tnp_KU
    ```
-6. Enter the project
+5. Enter the project
    ``` cd egamma_tnp_KU```
-7. Create a new conda/mamba environment
+6. Create a new conda/mamba environment
    ```conda create -n egamma_tnp python=3.11```
-8. Now, activate the new environment
+7. Now, activate the new environment
    ```conda activate egamma_tnp```
-9. With your new environment activated, you will install the egamma tnp as well as a few additional packages:
+8. With your new environment activated, you will install the egamma tnp as well as a few additional packages:
 ```
 pip install -e .
 pip install dask_awkward fsspec-xrootd
 ```
-10. Once the install is finished, navigate to the **nanoaod_filters_custom** directory, where the code will be run.
-```cd examples/nanoaod_filters_custom```
-11. Now activate your grid proxy (this can be done at any point prior to running, but it must be done before running on samples from CMS DAS). It will ask for your grid password.
+9. Once the install is finished, navigate to the **nanoaod_filters_custom** directory, where the code will be run.
+``` cd examples/nanoaod_filters_custom```
+10. Now activate your grid proxy (this can be done at any point prior to running, but it must be done before running on samples from CMS DAS). It will ask for your grid password.
 ```bash
 voms-proxy-init -voms cms -rfc --valid 168:0
 ```
-12. Once activated, you are ready to run the framework. Modify the **--config** and **--settings** based on what numerator and denominator you plan to use. Also modify the **--output** of the histograms.
+11. Once activated, you are ready to run the framework. Modify the **--config** and **--settings** based on what numerator and denominator you plan to use. Also modify the **--output** of the histograms.
     * Numerator Options: config_blp.json, config_gold_ID.json, config_ISO_ID.json, ISO_ID_PROMPT.json
     * Denominator Options: denom_raw.json, denom_blp.json, denom_gold_ID.json, denom_ISO_ID.json.
 ```bash
