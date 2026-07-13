@@ -142,7 +142,8 @@ python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
    5. Close out of the tab on the top left and repeat for MC.
    6. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.
 6. Open file explorer and open the specified plot_dir from the config file to view 4plots and the Excel file with saved efficiency and scale factor values, along with error bars.
-* Fitter Runthrough Video: <img width="3420" height="2214" alt="6D890BF8-3791-4E38-86AA-D7E486D4A1E5_1_102_o" src="https://github.com/user-attachments/assets/b07f0b00-1890-4966-8fa4-c331bf436525" />
+* Fitter Runthrough Video: <img width="3420" height="2214" alt="6D890BF8-3791-4E38-86AA-D7E486D4A1E5_1_102_o" src="https://github.com/user-attachments/assets/d72ebed0-8dad-4101-ab6d-457fb1cc885d" />
+
 
 
 ## Fit Shapes
