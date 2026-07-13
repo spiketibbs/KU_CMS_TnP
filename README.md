@@ -129,7 +129,7 @@ To run the main application:
 
 4. Run from the repository root directory and run the fitter "run_fitter_p_bar.py" with the parameter "--config config.json"
 ``` bash
-cd ~/KU_CMS_TnP/
+cd "$(find ~ -type d -name "KU_CMS_TnP" -print -quit 2>/dev/null)"
 python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
 ```
 5. Interactive Fit:
@@ -174,7 +174,7 @@ Linearly extrapolates Efficiencies, Scale Factors, and Errors for lower pT range
 1. Fit values that you will use as baseline values for the extrapolation.
 2. Ensure you are in the main repository
 ```bash
-cd ~/KU_CMS_TnP/
+cd "$(find ~ -type d -name "KU_CMS_TnP" -print -quit 2>/dev/null)"
 ```
 3. Open either Extrapolation_ele.py (electron extrapolation) or Extrapolation_muon.py (Muon extrapolation) in a text editor
 4. Modify 'excel_path' to point to the right spreadsheet, beginning on line 16.
@@ -208,7 +208,7 @@ python3 Extraps/Extrapolation_muon.py
 # Heatmap Generators
 1. Ensure you are in the main repository
 ```bash
-cd ~/KU_CMS_TnP/
+cd "$(find ~ -type d -name "KU_CMS_TnP" -print -quit 2>/dev/null)"
 ```
 ## Efficiency Heatmap
 1. Open heatmap_eff.py in a text editor
