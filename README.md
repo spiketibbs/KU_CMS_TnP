@@ -85,7 +85,7 @@ pip install -e .
 pip install dask_awkward fsspec-xrootd
 ```
 9. Once the install is finished, navigate to the **nanoaod_filters_custom** directory, where the code will be run.
-``` cd examples/nanoaod_filters_custom```
+```cd examples/nanoaod_filters_custom```
 10. Now activate your grid proxy (this can be done at any point prior to running, but it must be done before running on samples from CMS DAS). It will ask for your grid password.
 ```bash
 voms-proxy-init -voms cms -rfc --valid 168:0
@@ -96,6 +96,8 @@ voms-proxy-init -voms cms -rfc --valid 168:0
 ```bash
 run-analysis --config config_ISO_ID.json --settings denom_gold_ID.json --fileset fileset_all_25_Z_fixed.json --binning binning.json --output 2025_files/Z_ISO_ID_25 --executor distributed 
 ```
+** Optional: If you would like the histogram generator to continue running when the terminal isn't active or when your device isn't on, follow the instructions here to generate a tmux session.
+      ** Note that each time you SSH into cmslpc, you are placed in a different node. To access a previous tmux session and view its progress in generating a histogram, note the original node and re-enter it later. This can be done by entering **ssh -Y username@cmslpcXXX.fnal.gov**. Replace username with your username, and XXX with your node number (eg ssh -Y njoshi@cmslpcXXX.fnal.gov).
 
 # Fitter
 
