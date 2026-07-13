@@ -48,6 +48,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 ## Usage & Examples
 
+- [Obtaining Histograms](#obtaining-histograms)
 - [Fitter](#fitter)
    - [Fit Shapes](#fit-shapes)
 - [Extrapolator](#extrapolator)
@@ -55,6 +56,24 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
    - [Efficiency Heatmap](#efficiency-heatmap)
       - [Electron ISO Efficiency Heatmap](#electron-iso-efficiency-heatmap)
    - [Scale Factor Heatmap](#scale-factor-heatmap)
+
+# Obtaining Histograms
+1. Acquire a FermiLab and CERN Account, configure the terminal to log into CMSLPC, and obtain a CERN User Grid Certificate
+   * (Teams - lowptelec team - General - CMS Data Analysis Info.docx)
+2. ssh/log into the lpc
+   ```bash
+   kinit [username]@FNAL.GOV
+   ssh -Y [username]@cmslpc-el9.fnal.gov
+   ```
+3. Enter the /nobackup area for maximum space
+   ```bash
+   cd nobackup/
+   ```
+5. Clone the repository (note: different from KU_CMS_TnP)
+   ```bash
+   git clone https://github.com/derekgrove/egamma_tnp_KU
+   ```
+6. Enter the project
 
 # Fitter
 
