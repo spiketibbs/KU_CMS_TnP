@@ -96,6 +96,14 @@ voms-proxy-init -voms cms -rfc --valid 168:0
 ```bash
 run-analysis --config config_ISO_ID.json --settings denom_gold_ID.json --fileset fileset_all_25_Z_fixed.json --binning binning.json --output 2025_files/Z_ISO_ID_25 --executor distributed 
 ```
+12. Navigate into the directory where the generated pkl and json files are. Replace **Z_ISO_ID_25** with whichever identification criteria numerator you used.
+```bash
+cd 2025_files/Z_ISO_ID_25/DATA_2025/get_1d_pt_eta_phi_tnp_histograms_1/
+```
+13. Run this command. Replace DATA_23_BC_histos with the beginning of the title of your ROOT files (then phi_entire, pt_barrel_1, pt_barrel_2, and pt_endcap will be added to  generate 4 ROOT files.
+```bash
+prepare-histograms --source MyCustomFilter_histos.pkl --target DATA_23_BC_histos.root --binning binning.pkl
+```
 * Optional: If you would like the histogram generator to continue running when the terminal isn't active or when your device isn't on, follow the instructions here to generate a tmux session. https://kansas-my.sharepoint.com/:b:/g/personal/d881g096_home_ku_edu/IQAcL5NsMgxdRJx5Fl58gcioAYdsSn9B8HHKrUSy1IvDTXA?e=1qoaPI
    * Note that each time you SSH into cmslpc, you are placed in a different node. To access a previous tmux session and view its progress in generating a histogram, note the original node and re-enter it later. This can be done by entering **ssh -Y username@cmslpcXXX.fnal.gov**. Replace username with your username, and XXX with your node number (eg **ssh -Y njoshi@cmslpc325.fnal.gov**).
 
