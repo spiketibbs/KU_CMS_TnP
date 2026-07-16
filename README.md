@@ -102,7 +102,16 @@ cd 2025_files/Z_ISO_ID_25/DATA_2025/get_1d_pt_eta_phi_tnp_histograms_1/
 ```
 13. Run this command. Replace DATA_23_BC_histos with the beginning of the title of your ROOT files (then phi_entire, pt_barrel_1, pt_barrel_2, and pt_endcap will be added to  generate 4 ROOT files.
 ```bash
-prepare-histograms --source MyCustomFilter_histos.pkl --target DATA_23_BC_histos.root --binning binning.pkl
+prepare-histograms --source MyCustomFilter_histos.pkl --target DATA_25_ISO_hist.root --binning binning.pkl
+```
+14. Now, leave the LPC cluster and enter the folder where you desire to import the ROOT files for fitting.
+```bash
+exit
+cd Desktop/python1/Physics/ # An example directory
+```
+15. Run this command to pull the ROOT files from the cmslpc area to your home directory. An example is provided below. Make sure to replace "username" with your Fermilab username. The period at the end tells it to pull the files into the directory you are currently located in. If you want to specify a location in a different folder, you can include a file path.
+```bash
+scp -r username@cmslpc-el9.fnal.gov:/uscms/home/username/nobackup/egamma_tnp_KU/examples/nanoaod_filters_custom/2025_files/ .
 ```
 * Optional: If you would like the histogram generator to continue running when the terminal isn't active or when your device isn't on, follow the instructions here to generate a tmux session. https://kansas-my.sharepoint.com/:b:/g/personal/d881g096_home_ku_edu/IQAcL5NsMgxdRJx5Fl58gcioAYdsSn9B8HHKrUSy1IvDTXA?e=1qoaPI
    * Note that each time you SSH into cmslpc, you are placed in a different node. To access a previous tmux session and view its progress in generating a histogram, note the original node and re-enter it later. This can be done by entering **ssh -Y username@cmslpcXXX.fnal.gov**. Replace username with your username, and XXX with your node number (eg **ssh -Y njoshi@cmslpc325.fnal.gov**).
