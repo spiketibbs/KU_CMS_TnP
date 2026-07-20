@@ -142,7 +142,7 @@ To run the main application:
 #     },
 #     "fit": {
 #       "bin_ranges": [[3,6],[6,10],[10,20],[20,45],[45,500]],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (3-6), bin1 (6-10), bin2 (10-20), bin3 (20-45), bin4 (45-500))
-#       "bin": ["bin0", "bin1, etc"],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (3-6), bin1 (6-10), bin2 (10-20), bin3 (20-45), bin4 (45-500))
+#       "bin": ["bin0", "bin1, etc"],    < ----- Specify which pT range(s) you are fitting (in example, bin0 (3-6), bin1 (6-10), bin2 (10-20), bin3 (20-45), bin4 (45-500)). For muons, start with bin1 as the first bin, bin 0 (pT 3-6), will be extrapolated.
 #       "fit_type": "dcb_cms"    < ----- Format is: (signal shape)_(background shape). Signal shapes: (dcb, g, dv, cbg), Background shapes: (lin, exp, cms, bpoly, cheb, ps)
 #       "use_cdf": false,        < ----- If a shape does not have a cdf version, defaults back to pdf
 #       "sigmoid_eff": false,    < ----- Switches to an unbounded efficiency that is transformed back between 0 and 1
