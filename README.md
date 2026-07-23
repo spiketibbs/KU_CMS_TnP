@@ -174,14 +174,14 @@ cd "$(find ~ -type d -name "KU_CMS_TnP" -print -quit 2>/dev/null)"
 python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
 ```
 5. Interactive Fit:
-   a. The first interactive plot canvas that pops up will be for DATA.
-   b. You can adjust the type of minimizer to use. Migrad() is on by default.
+   a. The first interactive plot canvas that pops up will be for DATA.  
+   b. You can adjust the type of minimizer to use. Migrad() is on by default.  
    c. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well (x<sup>2</sup>/ndof)
    
    <img width="385" height="107" alt="Screenshot 2026-07-07 at 6 47 22 PM" src="https://github.com/user-attachments/assets/d57456ae-335e-4c8d-a653-3bddca9e4715" />
 
-   d. Close out of the tab on the top left and repeat for MC.
-   e. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.
+   d. Close out of the tab on the top left and repeat for MC.  
+   e. If you listed multiple bins in the config files, more plot canvases will pop up, one DATA and one MC, for each bin with just one run.  
 6. Open file explorer and open the specified plot_dir from the config file to view 4plots and the Excel file with saved efficiency and scale factor values, along with error bars.
 * Fitter Runthrough Video: [<img width="3420" height="2214" alt="6D890BF8-3791-4E38-86AA-D7E486D4A1E5_1_102_o" src="https://github.com/user-attachments/assets/d72ebed0-8dad-4101-ab6d-457fb1cc885d" />](https://youtu.be/riU9Q1dud4I)
 
@@ -252,6 +252,7 @@ python3 Extraps/Extrapolation_muon.py
 8. Add values from extrapolation files to the results spreadsheet (sfs_ecol.xlsx or sfs_mcol.xlsx) to prepare for generating heatmaps. Since extrapolated values are in the lowest bins, you might need to rename all the bins in the Excel sheet by adding 2 to each name(bin0 now becomes bin2, etc.) to account for a new bin0 and bin1 for the two extrapolated pT ranges. View the currently present Fitter/Muons/2018/GoldID/sfs_mcol.xlsx for an example.
 # Heatmap Generators
 1. Ensure you are in the main repository
+* Windows users should run this in Git Bash, not cmd/PowerShell.
 ```bash
 cd "$(find ~ -type d -name "KU_CMS_TnP" -print -quit 2>/dev/null)"
 ```
