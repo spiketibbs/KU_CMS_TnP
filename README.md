@@ -71,7 +71,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
    ```bash
    cd nobackup/
    ```
-4. Clone the repository (note: different from KU_CMS_TnP)
+4. Clone the histogram repository (note: different from KU_CMS_TnP)
    ```bash
    git clone https://github.com/derekgrove/egamma_tnp_KU
    ```
