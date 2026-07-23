@@ -1,7 +1,0 @@
-*.root
-*.parquet
-*.pkl
-*.h5
-*.npz
-*.pyc
-__pycache__/
