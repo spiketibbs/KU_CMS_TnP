@@ -63,18 +63,18 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 1. Acquire a FermiLab and CERN Account, configure the terminal to log into CMSLPC, and obtain a CERN User Grid Certificate
    * Instructions: [CMS Data Analysis Info.pdf](https://github.com/user-attachments/files/30311801/CMS.Data.Analysis.Info.pdf)  
 2. ssh/log into the lpc
-   ```bash
-   kinit [username]@FNAL.GOV
-   ssh -Y [username]@cmslpc-el9.fnal.gov
-   ```
+```bash
+kinit [username]@FNAL.GOV
+ssh -Y [username]@cmslpc-el9.fnal.gov
+```
 3. Enter the /nobackup area for maximum space
-   ```bash
-   cd nobackup/
-   ```
+```bash
+cd nobackup/
+```
 4. Clone the histogram repository (note: different from KU_CMS_TnP)
-   ```bash
-   git clone https://github.com/derekgrove/egamma_tnp_KU
-   ```
+```bash
+git clone https://github.com/derekgrove/egamma_tnp_KU
+```
 5. Enter the project
    ```cd egamma_tnp_KU```
 6. Create a new conda/mamba environment
