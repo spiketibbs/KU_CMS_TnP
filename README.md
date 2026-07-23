@@ -175,7 +175,7 @@ To run the main application:
 cd "$(find ~ -type d -name "KU_CMS_TnP" -print -quit 2>/dev/null)"
 python3 Fitter/run_fitter_p_bar.py --config Fitter/config.json
 ```
-5. Interactive Fit:
+5. Interactive Fit:  
    a. The first interactive plot canvas that pops up will be for DATA.  
    b. You can adjust the type of minimizer to use. Migrad() is on by default.  
    c. Click Fit while repeatedly varying the bar parameters until the top left box in the 3X3 table is green and says "Valid Minimum". This means that the fit is successful. Ensure that the Chi Squared value is reasonable as well (x<sup>2</sup>/ndof).
