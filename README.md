@@ -61,7 +61,7 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 
 # Obtaining Histograms
 1. Acquire a FermiLab and CERN Account, configure the terminal to log into CMSLPC, and obtain a CERN User Grid Certificate
-   * (Teams - lowptelec team - General - CMS Data Analysis Info.docx)
+   * Instructions: [CMS Data Analysis Info.pdf](https://github.com/user-attachments/files/30311801/CMS.Data.Analysis.Info.pdf)  
 2. ssh/log into the lpc
    ```bash
    kinit [username]@FNAL.GOV
