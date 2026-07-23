@@ -51,11 +51,13 @@ pip install numpy scipy pandas matplotlib mplhep uproot iminuit numba-stats rich
 - [Obtaining Histograms](#obtaining-histograms)
 - [Fitter](#fitter)
    - [Fit Shapes](#fit-shapes)
+   - [Working with Samples](#working-with-samples)
 - [Extrapolator](#extrapolator)
 - [Heatmap Generators](#heatmap-generators)
    - [Efficiency Heatmap](#efficiency-heatmap)
       - [Electron ISO Efficiency Heatmap](#electron-iso-efficiency-heatmap)
    - [Scale Factor Heatmap](#scale-factor-heatmap)
+   - [Repository Structure](#repository-structure)
 
 # Obtaining Histograms
 1. Acquire a FermiLab and CERN Account, configure the terminal to log into CMSLPC, and obtain a CERN User Grid Certificate
