@@ -111,7 +111,7 @@ prepare-histograms --source MyCustomFilter_histos.pkl --target DATA_25_ISO_hist.
 exit
 cd Desktop/python1/Physics/ # An example directory
 ```
-15. Run this command to pull the ROOT files from the cmslpc area to your home directory. An example is provided below. Make sure to replace "username" with your Fermilab username. The period at the end tells it to pull the files into the directory you are currently located in. If you want to specify a location in a different folder, you can include a file path.
+15. Run this command to pull the ROOT files from the cmslpc area to your home directory. An example is provided below. Make sure to replace "username" with your Fermilab username. The period at the end tells it to pull the files into the directory you are currently located in. If you want to specify a destination location in a different folder, you can include a file path.
 ```bash
 scp -r username@cmslpc-el9.fnal.gov:/uscms/home/username/nobackup/egamma_tnp_KU/examples/nanoaod_filters_custom/2025_files/ .
 ```
