@@ -122,7 +122,7 @@ scp -r username@cmslpc-el9.fnal.gov:/uscms/home/username/nobackup/egamma_tnp_KU/
 
 To run the main application:
 * Optional: Download "ROOT File Viewer" Extension for the ability to view the contents of a ROOT file within a text editor such as VSCode
-1. Retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
+1. Either create the histograms, or retrieve all DATA and MC histograms from Teams - lowptelec team - EGamma Tag and Probe folder - scalefac.xlsx
 2. Open config.json in a text editor
 3. Edit accordingly. Below is an explanation of each parameter in the config file. Note: The comments are for explanation only, as a JSON file cannot handle Python-style comments (#) and explanatory arrows (< -----). The actual config.json file is clean and ready to use.
    * Look below at [Fit Shapes](#fit-shapes) for information on each kind of signal and background shape.
